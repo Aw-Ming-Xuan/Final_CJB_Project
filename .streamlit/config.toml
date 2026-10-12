@@ -1,0 +1,12 @@
+# Colours for Streamlit's own widgets (buttons, inputs, tabs, expanders, charts), matching frontend/app.py.
+# The grey page background, framed main panel and dark sidebar are styled in app.py's CSS.
+[theme]
+base = "light"
+primaryColor = "#1F4E79"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F4F6"
+textColor = "#111827"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"

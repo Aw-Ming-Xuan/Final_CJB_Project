@@ -1,0 +1,834 @@
+{
+  "generated_at_utc": "2026-10-12T11:01:56",
+  "note": "Screening output, not investment advice.",
+  "top": [
+    {
+      "ticker": "AFRM",
+      "market_cap": 27229894656.0,
+      "chatter_score": 29,
+      "social_mentions": 29,
+      "unbiased_news": 0,
+      "z_score": 2.64,
+      "z_method": "cross-section",
+      "volume_ratio": 1.16,
+      "unique_author_ratio": 0.79,
+      "pe_ratio": 16.272753,
+      "revenue_growth": 0.33,
+      "debt_to_equity": 182.77,
+      "social_sentiment": 0.289,
+      "social_voters": 23,
+      "news_sentiment": 0.273,
+      "news_articles": 9,
+      "bullish_pct": 59.0,
+      "bearish_pct": 9.0,
+      "neutral_pct": 31.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.282,
+      "confidence": 0.76,
+      "net_sentiment": 0.215,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "TD Cowen Maintains Buy on Affirm Holdings, Lowers Price Target to $110",
+          "url": "https://finnhub.io/api/news?id=0a30ab4a00e6645d27ec57a0353b0df72c8885178da824e8396b06cec9ec1414"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Antom To Offer Affirm Buy Now, Pay Later Option To US Merchants, With 96% Of Affirm Transactions From Repeat Customers",
+          "url": "https://finnhub.io/api/news?id=48576472fd504936af6f3431fbd5c54c845d28d27e9dd36051813d4f28ffe1fe"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Yahoo",
+          "title": "Affirm partners with Ant International's Antom to bring pay-over-time to US customers",
+          "url": "https://finnhub.io/api/news?id=9f16cac80cc5d79184c521a817793681799376de5c8f49c8e8560c6a0fc415a0"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 6, Affirm announced a partnership with Ant International's Antom to offer buy-now-pay-later payments to US merchants; TD Cowen maintained its Buy rating but lowered its price target the same day.",
+      "evidence_headlines": [
+        5,
+        6,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.88,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.158,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 1.0,
+      "c_catalyst": 1.0,
+      "c_attention": 1.0,
+      "c_volume": 1.0,
+      "final_score": 0.9
+    }
+  ],
+  "all_candidates": [
+    {
+      "ticker": "AFRM",
+      "market_cap": 27229894656.0,
+      "chatter_score": 29,
+      "social_mentions": 29,
+      "unbiased_news": 0,
+      "z_score": 2.64,
+      "z_method": "cross-section",
+      "volume_ratio": 1.16,
+      "unique_author_ratio": 0.79,
+      "pe_ratio": 16.272753,
+      "revenue_growth": 0.33,
+      "debt_to_equity": 182.77,
+      "social_sentiment": 0.289,
+      "social_voters": 23,
+      "news_sentiment": 0.273,
+      "news_articles": 9,
+      "bullish_pct": 59.0,
+      "bearish_pct": 9.0,
+      "neutral_pct": 31.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.282,
+      "confidence": 0.76,
+      "net_sentiment": 0.215,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "TD Cowen Maintains Buy on Affirm Holdings, Lowers Price Target to $110",
+          "url": "https://finnhub.io/api/news?id=0a30ab4a00e6645d27ec57a0353b0df72c8885178da824e8396b06cec9ec1414"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Antom To Offer Affirm Buy Now, Pay Later Option To US Merchants, With 96% Of Affirm Transactions From Repeat Customers",
+          "url": "https://finnhub.io/api/news?id=48576472fd504936af6f3431fbd5c54c845d28d27e9dd36051813d4f28ffe1fe"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Yahoo",
+          "title": "Affirm partners with Ant International's Antom to bring pay-over-time to US customers",
+          "url": "https://finnhub.io/api/news?id=9f16cac80cc5d79184c521a817793681799376de5c8f49c8e8560c6a0fc415a0"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 6, Affirm announced a partnership with Ant International's Antom to offer buy-now-pay-later payments to US merchants; TD Cowen maintained its Buy rating but lowered its price target the same day.",
+      "evidence_headlines": [
+        5,
+        6,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.88,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.158,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "TGTX",
+      "market_cap": 8475433472.0,
+      "chatter_score": 28,
+      "social_mentions": 28,
+      "unbiased_news": 0,
+      "z_score": 2.6,
+      "z_method": "cross-section",
+      "volume_ratio": 0.86,
+      "unique_author_ratio": 0.82,
+      "pe_ratio": 20.446825,
+      "revenue_growth": 0.703,
+      "debt_to_equity": 124.89,
+      "social_sentiment": 0.213,
+      "social_voters": 23,
+      "news_sentiment": 0.372,
+      "news_articles": 2,
+      "bullish_pct": 48.0,
+      "bearish_pct": 0.0,
+      "neutral_pct": 52.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.276,
+      "confidence": 0.71,
+      "net_sentiment": 0.196,
+      "sentiment_label": "Bullish",
+      "headlines_used": 2,
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "source": "Yahoo",
+          "title": "TG Therapeutics Announces Schedule of Data Presentations at MSToronto2026",
+          "url": "https://finnhub.io/api/news?id=15ff2616cef140159ee29156878535c2527c10649f3c35eb97708511972dca49"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "TG Therapeutics announced on 2026-10-08 the schedule for data presentations at MSToronto2026, including initial Phase 1 azer-cel findings, but the schedule itself is not a substantive results release.",
+      "evidence_headlines": [
+        0
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.79,
+      "catalyst_direction": "positive",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.141,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (no_clear_catalyst)"
+    },
+    {
+      "ticker": "SKHY",
+      "market_cap": 1201930895360.0,
+      "chatter_score": 30,
+      "social_mentions": 30,
+      "unbiased_news": 0,
+      "z_score": 2.67,
+      "z_method": "cross-section",
+      "volume_ratio": 0.95,
+      "unique_author_ratio": 0.87,
+      "pe_ratio": 4.902834,
+      "revenue_growth": 2.568,
+      "debt_to_equity": 8.037,
+      "social_sentiment": 0.148,
+      "social_voters": 26,
+      "news_sentiment": 0.089,
+      "news_articles": 4,
+      "bullish_pct": 47.0,
+      "bearish_pct": 23.0,
+      "neutral_pct": 30.0,
+      "sarcasm_hints": 2,
+      "raw_sentiment": 0.124,
+      "confidence": 0.75,
+      "net_sentiment": 0.093,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Benzinga",
+          "title": "'SK Hynix\u2019s Solidigm Is Said to Pick Banks for US IPO Next Year'- Bloomberg",
+          "url": "https://finnhub.io/api/news?id=24507974af48bf1112e25446e910f373228078345a51cc411c9443c0b52fb46d"
+        },
+        {
+          "date": "2026-10-08",
+          "source": "Yahoo",
+          "title": "SK Hynix's Solidigm taps banks for $10 billion U.S. IPO",
+          "url": "https://finnhub.io/api/news?id=baf5af39e31921d822b0e4f4d33406f6c94f9acfe500b09a755fa7059619e452"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "financing_or_dilution",
+      "catalyst_summary": "On October 8, 2026, reports said SK hynix's Solidigm had tapped banks for a planned $10 billion U.S. IPO next year, a potentially significant financing and partial spin-off event.",
+      "evidence_headlines": [
+        7,
+        11
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.88,
+      "catalyst_direction": "negative",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.05,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (financing_or_dilution: On October 8, 2026, reports said SK hynix's Solidigm had tap)"
+    },
+    {
+      "ticker": "NFLX",
+      "market_cap": 292724965376.0,
+      "chatter_score": 36,
+      "social_mentions": 35,
+      "unbiased_news": 1,
+      "z_score": 1.04,
+      "z_method": "history",
+      "volume_ratio": 0.98,
+      "unique_author_ratio": 0.89,
+      "pe_ratio": 18.467829,
+      "revenue_growth": 0.134,
+      "debt_to_equity": 55.236,
+      "social_sentiment": 0.116,
+      "social_voters": 31,
+      "news_sentiment": 0.03,
+      "news_articles": 30,
+      "bullish_pct": 36.0,
+      "bearish_pct": 25.0,
+      "neutral_pct": 39.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.081,
+      "confidence": 0.86,
+      "net_sentiment": 0.07,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "source": "CNBC",
+          "title": "Here are Thursday's biggest analyst calls: Nvidia, Apple, SpaceX, Palantir, Microsoft, Generac, Netflix & more",
+          "url": "https://www.cnbc.com/2026/10/08/thursday-top-wall-street-analyst-calls.html"
+        },
+        {
+          "date": "2026-10-08",
+          "source": "Benzinga",
+          "title": "Morgan Stanley Maintains Overweight on Netflix, Lowers Price Target to $80",
+          "url": "https://finnhub.io/api/news?id=3a1bf2d74bba53445d6fdcd1fb518bed8b27d1db90c1ed24d12d49a6e804c478"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "On October 8, Morgan Stanley maintained its Overweight rating on Netflix but lowered its price target to $80, while the company\u2019s Q3 earnings are scheduled for October 20.",
+      "evidence_headlines": [
+        5,
+        8
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "low",
+      "hype_signals": [
+        "pump_language",
+        "meme_or_loss_posts"
+      ],
+      "catalyst_confidence": 0.83,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.013,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (guidance_or_analyst; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "SOFI",
+      "market_cap": 20406810624.0,
+      "chatter_score": 8,
+      "social_mentions": 8,
+      "unbiased_news": 0,
+      "z_score": 1.04,
+      "z_method": "history",
+      "volume_ratio": 0.8,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 19.17499,
+      "revenue_growth": 0.426,
+      "debt_to_equity": 30.835,
+      "social_sentiment": 0.107,
+      "social_voters": 6,
+      "news_sentiment": null,
+      "news_articles": 0,
+      "bullish_pct": 17.0,
+      "bearish_pct": 0.0,
+      "neutral_pct": 83.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.107,
+      "confidence": 0.38,
+      "net_sentiment": 0.041,
+      "sentiment_label": "Neutral",
+      "headlines_used": 0,
+      "evidence": [],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 7,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "No SOFI-specific market catalyst is supported by the provided headlines or earnings calendar.",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "no_news_support",
+        "pump_language",
+        "spam"
+      ],
+      "catalyst_confidence": 0.91,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.035,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (no_clear_catalyst)"
+    },
+    {
+      "ticker": "BULL",
+      "market_cap": 3405451520.0,
+      "chatter_score": 64,
+      "social_mentions": 64,
+      "unbiased_news": 0,
+      "z_score": 3.39,
+      "z_method": "cross-section",
+      "volume_ratio": 3.42,
+      "unique_author_ratio": 0.89,
+      "pe_ratio": 20.354837,
+      "revenue_growth": 0.519,
+      "debt_to_equity": 7.544,
+      "social_sentiment": 0.021,
+      "social_voters": 57,
+      "news_sentiment": null,
+      "news_articles": 0,
+      "bullish_pct": 32.0,
+      "bearish_pct": 32.0,
+      "neutral_pct": 37.0,
+      "sarcasm_hints": 2,
+      "raw_sentiment": 0.021,
+      "confidence": 0.85,
+      "net_sentiment": 0.018,
+      "sentiment_label": "Neutral",
+      "headlines_used": 3,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Benzinga",
+          "title": "Webull Stock Falls After House Panel Calls Its China Ties a National Security Risk",
+          "url": "https://finnhub.io/api/news?id=0ecac48e155e2930646ced8a119f3ad276ae9ff85d597950fee91d4bab1314bc"
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Benzinga",
+          "title": "'Trading Platform Webull's China Ties Create National Security Risk, Congressional Panel Finds'",
+          "url": "https://finnhub.io/api/news?id=dc07e72c89ae225ea75370c42032b67ad84d4b9e5459cdec50741b3d6e70513b"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 5,
+      "status": "OK",
+      "catalyst_type": "regulatory_or_legal",
+      "catalyst_summary": "On 2026-10-07, a U.S. House panel said Webull's China ties pose a national security risk, and the stock fell.",
+      "evidence_headlines": [
+        1,
+        2
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.96,
+      "catalyst_direction": "negative",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.001,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (regulatory_or_legal: On 2026-10-07, a U.S. House panel said Webull's China ties p)"
+    },
+    {
+      "ticker": "T",
+      "market_cap": 151985913856.0,
+      "chatter_score": 28,
+      "social_mentions": 26,
+      "unbiased_news": 2,
+      "z_score": 1.15,
+      "z_method": "history",
+      "volume_ratio": 2.06,
+      "unique_author_ratio": 0.77,
+      "pe_ratio": 8.6352215,
+      "revenue_growth": 0.023,
+      "debt_to_equity": 129.054,
+      "social_sentiment": -0.024,
+      "social_voters": 20,
+      "news_sentiment": 0.018,
+      "news_articles": 25,
+      "bullish_pct": 33.0,
+      "bearish_pct": 33.0,
+      "neutral_pct": 33.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": -0.007,
+      "confidence": 0.82,
+      "net_sentiment": -0.006,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-09",
+          "source": "Yahoo",
+          "title": "Verizon, AT&T and T-Mobile Slide 6% as SpaceX Challenges US Mobile Carriers",
+          "url": "https://finnhub.io/api/news?id=c8ade11089cfcc4c4accc0667f1bc39b878a5caf83ee5efef7deb1cfcd6728fa"
+        },
+        {
+          "date": "2026-10-09",
+          "source": "Yahoo",
+          "title": "Dow Jones Futures Rise After AI Stocks Tumble On OpenAI News; SpaceX Move Slams Verizon, AT&T Late",
+          "url": "https://finnhub.io/api/news?id=d5030d0f7a70a6770c332c8f1d2243651649b0ae98673d8958422f073f5fd4c7"
+        },
+        {
+          "date": "2026-10-09",
+          "source": "MarketWatch",
+          "title": "SpaceX\u2019s Starlink Mobile plans are pressuring AT&T and Verizon shares",
+          "url": "https://www.marketwatch.com/story/spacexs-starlink-mobile-plans-are-pressuring-at-t-and-verizon-shares-7cb56764?mod=mw_rss_topstories"
+        },
+        {
+          "date": "2026-10-09",
+          "source": "Yahoo",
+          "title": "SpaceX Buys Wireless Spectrum For Starlink; Verizon, AT&T, T-Mobile Tumble",
+          "url": "https://finnhub.io/api/news?id=44d64454b3abafe22a41a18f79ec02559f9874fb6499bbc36e1f100e782a32f8"
+        },
+        {
+          "date": "2026-10-08",
+          "source": "CNBC",
+          "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
+          "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "On October 8\u20139, 2026, SpaceX's acquisition of wireless spectrum licenses and Starlink Mobile plans raised competitive concerns, pressuring AT&T shares.",
+      "evidence_headlines": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "meme_or_loss_posts"
+      ],
+      "catalyst_confidence": 0.92,
+      "catalyst_direction": "negative",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": -0.075,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (macro_or_sector: On October 8\u20139, 2026, SpaceX's acquisition of wireless spect)"
+    },
+    {
+      "ticker": "TSM",
+      "market_cap": 2351080407040.0,
+      "chatter_score": 6,
+      "social_mentions": 3,
+      "unbiased_news": 3,
+      "z_score": 1.22,
+      "z_method": "cross-section",
+      "volume_ratio": 1.01,
+      "unique_author_ratio": 1.0,
+      "pe_ratio": 20.67539,
+      "revenue_growth": 0.36,
+      "debt_to_equity": 16.504,
+      "social_sentiment": -0.198,
+      "social_voters": 3,
+      "news_sentiment": 0.026,
+      "news_articles": 38,
+      "bullish_pct": 27.0,
+      "bearish_pct": 27.0,
+      "neutral_pct": 46.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": -0.109,
+      "confidence": 0.8,
+      "net_sentiment": -0.087,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "source": "CNBC",
+          "title": "TSMC\u2019s September sales surge year-over-year as AI drives chip demand",
+          "url": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "TSMC reported a year-over-year surge in September sales driven by AI demand on October 8, ahead of its scheduled Q3 results on October 14.",
+      "evidence_headlines": [
+        1
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.91,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": -0.044,
+      "final_label": "Neutral",
+      "eligibility": "sentiment -0.044 not positive after sarcasm review"
+    }
+  ],
+  "sarcasm_corrections": {
+    "AFRM": [
+      {
+        "post_id": "st_666050566",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Implying poor performance despite optimistic earnings.",
+        "text": "$AFRM $KLAR cmon .....old gags\n\nJust wait nov and feb figures...\ud83d\ude0c\ud83e\udd2d\ud83d\ude1a"
+      },
+      {
+        "post_id": "st_666123474",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Indicating diminishing opportunity to buy.",
+        "text": "$AFRM chance to get long is fading"
+      },
+      {
+        "post_id": "st_665968583",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "No sentiment expressed, just the ticker.",
+        "text": "$AFRM"
+      }
+    ],
+    "TGTX": [
+      {
+        "post_id": "st_666087038",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocking TGTX's situation and suggesting acquisition.",
+        "text": "$TGTX Ocervus already has Black Box Label Warning: Can cause breast cancer. Now liver damage. March  2029 patent expires"
+      },
+      {
+        "post_id": "st_666097783",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Questioning Roche's interest in TGTX.",
+        "text": "$TGTX more  from  dough  on  X,  Wonder  what  Roche  is  thinking \ud83e\udd14"
+      },
+      {
+        "post_id": "st_666096715",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Indicating dissatisfaction with TGTX.",
+        "text": "$TGTX its been a long relationship. Time to find her a new home."
+      }
+    ],
+    "SKHY": [
+      {
+        "post_id": "st_665947753",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocks SKHY for falling while the broader market rose.",
+        "text": "$SKHY This didn\u2019t go up with the market this week, but it for sure went down with it \ud83d\ude02"
+      },
+      {
+        "post_id": "st_665926071",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Warns a liquidity unwind could sharply hurt SKHY and other stocks.",
+        "text": "$MU US markets do have a lot of leverage. This starts dropping too much and we could be get hit with a liquidity unwind "
+      },
+      {
+        "post_id": "st_665934391",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Discusses the memory and storage selloff without a clear SKHY-specific view.",
+        "text": "The selloff across the broader memory and storage complex still looks overdone to me... Toshiba\u2019s plan sounds aggressive"
+      }
+    ],
+    "NFLX": [
+      {
+        "post_id": "st_666113903",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocking the stock's poor performance.",
+        "text": "$NFLX \u2705\ud83d\udca8\u2197\ufe0f$73+ tmrw lmao \ud83d\ude02"
+      },
+      {
+        "post_id": "st_666104420",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Ironically suggesting a short squeeze.",
+        "text": "$NFLX it\u2019s a ladder attack after hours against shorts \ud83d\ude06"
+      },
+      {
+        "post_id": "st_666119853",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Unclear sentiment, reference to a book.",
+        "text": "$NFLX east of eden"
+      },
+      {
+        "post_id": "st_666118734",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Sarcastic celebration of poor life choices.",
+        "text": "$NFLX What wonderful day. Got out of court ordered rehab this morning and went to the bar to celebrate my newfound force"
+      }
+    ],
+    "SOFI": [
+      {
+        "post_id": "st_665925892",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Asks for help holding SOFI, suggesting trouble rather than confidence.",
+        "text": "$QNT $SOFI need help here"
+      },
+      {
+        "post_id": "st_665956896",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "\u201cMayday\u201d signals distress about SOFI.",
+        "text": "$SOFI $QNT mayday"
+      },
+      {
+        "post_id": "st_665860457",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Calls SOFI annoying, expressing frustration.",
+        "text": "$QNT $SOFI annoying"
+      },
+      {
+        "post_id": "st_666048949",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Praises AFRM as quality and stable; SOFI is mentioned without criticism.",
+        "text": "$AFRM nice and stable because it\u2019s quality $SOFI \ufffc"
+      },
+      {
+        "post_id": "st_665923639",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Explicitly identifies SOFI as a buy.",
+        "text": "$SOFI $SEZL BUY  \n$AFRM $KLAR $COF SELL \nhttps://finance.yahoo.com/markets/stocks/articles/sofi-afrm-cof-klar-sezl-06111"
+      },
+      {
+        "post_id": "st_665923913",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Explicitly says to buy SOFI.",
+        "text": "$AFRM SELL \n$SOFI BUY"
+      },
+      {
+        "post_id": "st_666098000",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Compares SOFI to a source of mental anguish, implying a painful experience.",
+        "text": "@LVTrader3 $SE gave me mental illness the way $SOFI did for him"
+      }
+    ],
+    "BULL": [
+      {
+        "post_id": "st_665964528",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocks the steep drop and stagnant trading, blaming market makers.",
+        "text": "$BULL -30% drop then 10c rangebound for over 2 hours \ud83d\ude02 gg\u2019s MMs"
+      },
+      {
+        "post_id": "st_665961425",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Insults investors who chose BULL over HOOD and says they deserved losses.",
+        "text": "$BULL lmao all you cucks who preferred this over $HOOD had it coming. \ud83d\ude02\ud83d\ude02"
+      },
+      {
+        "post_id": "st_665960012",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Ironic praise about institutions shaking out holders; suspects a costly smear ca",
+        "text": "$BULL nice, tutes shaking that tree ER must be crazy good \n\nWonder how much did yhe hatchet job cost"
+      },
+      {
+        "post_id": "st_665963564",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Enthusiastic anticipation suggests the author expects an upward move.",
+        "text": "$BULL here we gooooo"
+      },
+      {
+        "post_id": "st_665964128",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Calls the drop manipulated and sympathizes with holders lacking funds to stay in",
+        "text": "$BULL this is the most manipulated drop that I\u2019ve ever seen. Doesn\u2019t matter but feel bad for the ones without the cash t"
+      }
+    ],
+    "T": [
+      {
+        "post_id": "st_666121544",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Questioning viability of $T's services.",
+        "text": "$T $VZ starlink how does that work... in malls ....concert venues...subways.... any damn building...e911.... yadda yadda"
+      },
+      {
+        "post_id": "st_666120772",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Doubting $T's competitive edge with Starlink.",
+        "text": "$T Here are the Starlink numbers the analysts are too lazy to figure out. \n\n\u202aSo max of 188Mbps (256-QAM -14mhz) per \u201ccel"
+      },
+      {
+        "post_id": "st_666121622",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Highlighting competitive threat to $T.",
+        "text": "SpaceX Plans $8 Billion Spectrum Deal to Challenge AT&T and Verizon\n\nElon Musk\u2019s SpaceX has reportedly agreed to acquire"
+      }
+    ],
+    "TSM": [
+      {
+        "post_id": "st_665865230",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Criticism targets AMD valuation and supply; TSMC capacity is mentioned matter-of",
+        "text": "$AMD This is a sub $500 stock. The current valuation is based on futuristic hyperbole. The supply isn't going to get div"
+      },
+      {
+        "post_id": "st_665803268",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Promotional short-squeeze pitch mentions TSM without expressing a view on it.",
+        "text": "If you\u2019ve ever wanted to catch a short squeeze early instead of watching it rip after the fact, this group is built for "
+      }
+    ]
+  }
+}

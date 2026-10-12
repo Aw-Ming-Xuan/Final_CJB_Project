@@ -1,0 +1,18 @@
+# Secrets: API keys live here, never commit them
+.env
+.env*
+**/.env
+**/.env*
+.streamlit/secrets.toml
+
+# Databases and caches (rebuilt by run_pipeline.py)
+*.db
+*.sqlite
+filtering_of_data/llm_cache.json
+__pycache__/
+*.pyc
+
+# Local-only folders
+_backup_before_feedback/
+.vscode/
+.DS_Store

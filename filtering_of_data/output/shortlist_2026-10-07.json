@@ -1,0 +1,2177 @@
+{
+  "generated_at_utc": "2026-10-07T16:38:58",
+  "note": "Screening output, not investment advice.",
+  "top": [
+    {
+      "ticker": "CEG",
+      "market_cap": 104570290176.0,
+      "chatter_score": 75,
+      "social_mentions": 75,
+      "unbiased_news": 0,
+      "z_score": 3.54,
+      "z_method": "cross-section",
+      "volume_ratio": 2.27,
+      "unique_author_ratio": 0.8,
+      "pe_ratio": 22.157393,
+      "revenue_growth": 0.23,
+      "debt_to_equity": 76.419,
+      "social_sentiment": 0.205,
+      "social_voters": 60,
+      "news_sentiment": 0.245,
+      "news_articles": 19,
+      "bullish_pct": 51.0,
+      "bearish_pct": 9.0,
+      "neutral_pct": 41.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.221,
+      "confidence": 0.89,
+      "net_sentiment": 0.197,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Google and Constellation Sign a 3.6 GW Deal: The Bigger Half Isn\u2019t the Nuclear",
+          "url": "https://finnhub.io/api/news?id=93a7dccb99d34c679f2e18826a66ceabeee160c2ae76da9d513fc72e5d8fa2c0"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Google & Constellation Energy ink $1B nuclear agreement, but this deal isn't unique",
+          "url": "https://finnhub.io/api/news?id=29dbe8d231c4e2b6b275de100fdf06358b0c3193cbe45b1c5aefa07d779e4008"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "RTTNews",
+          "title": "Constellation Energy Shares Up On 3.60 GW Power Deals With Google On PJM Grid",
+          "url": "https://www.nasdaq.com/articles/constellation-energy-shares-360-gw-power-deals-google-pjm-grid"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Billionaire Philippe Laffont\u2019s $1.2 Billion Constellation Bet Gets a Google AI Boost",
+          "url": "https://finnhub.io/api/news?id=be53faeb53c013eb746a6df20816762eb22bfed201a3f0f14ca25e5f93bedd94"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Constellation Energy signed a $1 billion nuclear power deal with Google on October 6, 2026.",
+      "evidence_headlines": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.85,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.183,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 1.0,
+      "c_catalyst": 0.9583333333,
+      "c_attention": 0.75,
+      "c_volume": 0.9166666667,
+      "final_score": 0.825
+    },
+    {
+      "ticker": "PENG",
+      "market_cap": 3794034944.0,
+      "chatter_score": 47,
+      "social_mentions": 47,
+      "unbiased_news": 0,
+      "z_score": 3.09,
+      "z_method": "cross-section",
+      "volume_ratio": 5.31,
+      "unique_author_ratio": 0.74,
+      "pe_ratio": 14.860109,
+      "revenue_growth": 0.677,
+      "debt_to_equity": 157.645,
+      "social_sentiment": 0.184,
+      "social_voters": 35,
+      "news_sentiment": 0.317,
+      "news_articles": 15,
+      "bullish_pct": 46.0,
+      "bearish_pct": 6.0,
+      "neutral_pct": 48.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.237,
+      "confidence": 0.83,
+      "net_sentiment": 0.197,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "The Motley Fool",
+          "title": "Penguin Solutions (PENG) Q4 2026 Earnings Call Transcript",
+          "url": "https://www.nasdaq.com/articles/penguin-solutions-peng-q4-2026-earnings-call-transcript"
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Zacks",
+          "title": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
+          "url": "https://www.nasdaq.com/articles/peng-q4-earnings-call-signals-faster-ai-infrastructure-growth"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "ChartMill",
+          "title": "Penguin Solutions (NASDAQ:PENG) Posts Q4 Beat and Raises FY2027 Guidance Above Consensus",
+          "url": "https://finnhub.io/api/news?id=08f2b1515f33130c75987b95f9cecf11314d26071979826efa8fe883141509b8"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "Penguin Solutions reported Q4 2026 earnings on October 6, 2026, beating estimates and raising FY2027 guidance.",
+      "evidence_headlines": [
+        0,
+        2,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.85,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.158,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.8333333333,
+      "c_catalyst": 0.9583333333,
+      "c_attention": 0.3333333333,
+      "c_volume": 1.0,
+      "final_score": 0.696
+    },
+    {
+      "ticker": "AMD",
+      "market_cap": 1049616187392.0,
+      "chatter_score": 69,
+      "social_mentions": 69,
+      "unbiased_news": 0,
+      "z_score": 3.46,
+      "z_method": "cross-section",
+      "volume_ratio": 0.86,
+      "unique_author_ratio": 0.83,
+      "pe_ratio": 40.895847,
+      "revenue_growth": 0.501,
+      "debt_to_equity": 6.361,
+      "social_sentiment": 0.126,
+      "social_voters": 57,
+      "news_sentiment": 0.283,
+      "news_articles": 36,
+      "bullish_pct": 43.0,
+      "bearish_pct": 12.0,
+      "neutral_pct": 45.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.189,
+      "confidence": 0.9,
+      "net_sentiment": 0.17,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "Citi Raises AMD Price Target to $800 on Meta AI Demand",
+          "url": "https://finnhub.io/api/news?id=d6f8c3b725ed0185796d592a7f037e6142143747262264fb1b8ad7e7796ebbca"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "AMD\u2019s AI Boom Gets Bigger: Lisa Su Sees \u2018Very, Very High\u2019 Demand for Next Several Years",
+          "url": "https://finnhub.io/api/news?id=b62905f86ab8a34e6a64d36c57dd8695192992d910aa8bfdd073457c25bb6450"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Mizuho Maintains Outperform on Advanced Micro Devices, Raises Price Target to $705",
+          "url": "https://finnhub.io/api/news?id=92f2cba698682b6149d5f8b0371767285bc6b5ee8fa9824a25a6ec16a1b4ffe6"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "AMD's Lisa Su Says Demand Exceeds Supply, Will Substantially Increase Supply In 2027, Calls Taiwan Critical For AMD, Investment On Track",
+          "url": "https://finnhub.io/api/news?id=b8144e5aeead5947f7de552dc6422538e4e5ccfcfd06d0dda74dd3d4700d107b"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "Citi raised AMD's price target to $800 on October 7, 2026, citing demand for AI.",
+      "evidence_headlines": [
+        0,
+        7,
+        8,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.8,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.165,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.9166666667,
+      "c_catalyst": 0.7916666667,
+      "c_attention": 0.5833333333,
+      "c_volume": 0.2916666667,
+      "final_score": 0.619
+    },
+    {
+      "ticker": "ANET",
+      "market_cap": 268375998464.0,
+      "chatter_score": 30,
+      "social_mentions": 30,
+      "unbiased_news": 0,
+      "z_score": 2.67,
+      "z_method": "cross-section",
+      "volume_ratio": 1.02,
+      "unique_author_ratio": 0.7,
+      "pe_ratio": 40.9055,
+      "revenue_growth": 0.377,
+      "debt_to_equity": null,
+      "social_sentiment": 0.241,
+      "social_voters": 21,
+      "news_sentiment": 0.123,
+      "news_articles": 10,
+      "bullish_pct": 42.0,
+      "bearish_pct": 6.0,
+      "neutral_pct": 52.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.193,
+      "confidence": 0.76,
+      "net_sentiment": 0.147,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "Arista Announces Rack-Scale Architectures for Scale-Up and Scale-Out AI Fabrics",
+          "url": "https://finnhub.io/api/news?id=c9ad8f7b5668b48a1e883e1373721a250f8be3f78b08a3a2b385b72d3241ca94"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Zacks",
+          "title": "Wall Street Analysts See Arista Networks (ANET) as a Buy: Should You Invest?",
+          "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-arista-networks-anet-buy-should-you-invest"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "ChartMill",
+          "title": "Arista Networks (NYSE:ANET) Shows High-Growth Leadership and Strong Momentum",
+          "url": "https://finnhub.io/api/news?id=7e4602a0f7059f1b78f93e3a17e2bf78e320cd59ce58e76e1329ee91eba46f91"
+        },
+        {
+          "date": "2026-10-04",
+          "source": "Yahoo",
+          "title": "The Bull Case For Arista Networks (ANET) Could Change Following Higher AI-Driven 2026 Revenue Guidance",
+          "url": "https://finnhub.io/api/news?id=d62b0968c2776b6f5a6fcb5b0958e541f788fd424deebdbaaf77a66e817ca05b"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "product_launch",
+      "catalyst_summary": "Arista announced Rack-Scale Architectures for Scale-Up and Scale-Out AI Fabrics on October 7, 2026.",
+      "evidence_headlines": [
+        0,
+        1,
+        3,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.8,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.155,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.75,
+      "c_catalyst": 0.7916666667,
+      "c_attention": 0.2083333333,
+      "c_volume": 0.7083333333,
+      "final_score": 0.548
+    },
+    {
+      "ticker": "NVDA",
+      "market_cap": 5718781984768.0,
+      "chatter_score": 97,
+      "social_mentions": 82,
+      "unbiased_news": 15,
+      "z_score": 3.79,
+      "z_method": "cross-section",
+      "volume_ratio": 1.1,
+      "unique_author_ratio": 0.76,
+      "pe_ratio": 14.88143,
+      "revenue_growth": 1.059,
+      "debt_to_equity": 16.971,
+      "social_sentiment": 0.103,
+      "social_voters": 62,
+      "news_sentiment": 0.129,
+      "news_articles": 201,
+      "bullish_pct": 37.0,
+      "bearish_pct": 17.0,
+      "neutral_pct": 47.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.113,
+      "confidence": 0.96,
+      "net_sentiment": 0.109,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "Microsoft and Nvidia to Unveil AI-Powered Surface Laptop Ultra",
+          "url": "https://finnhub.io/api/news?id=3ccd4f17d65e3150aeb6351c53ba55261407d31a9236e73e8bca0addd2e96760"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 5,
+      "status": "OK",
+      "catalyst_type": "product_launch",
+      "catalyst_summary": "Microsoft and Nvidia are set to unveil the AI-Powered Surface Laptop Ultra on October 7, 2026.",
+      "evidence_headlines": [
+        3
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.75,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.085,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.4166666667,
+      "c_catalyst": 0.375,
+      "c_attention": 0.9166666667,
+      "c_volume": 0.8333333333,
+      "final_score": 0.467
+    }
+  ],
+  "all_candidates": [
+    {
+      "ticker": "SKHY",
+      "market_cap": 1278655987712.0,
+      "chatter_score": 30,
+      "social_mentions": 30,
+      "unbiased_news": 0,
+      "z_score": 2.67,
+      "z_method": "cross-section",
+      "volume_ratio": 0.83,
+      "unique_author_ratio": 0.87,
+      "pe_ratio": 5.2158055,
+      "revenue_growth": 2.568,
+      "debt_to_equity": 8.037,
+      "social_sentiment": 0.08,
+      "social_voters": 26,
+      "news_sentiment": 0.643,
+      "news_articles": 2,
+      "bullish_pct": 46.0,
+      "bearish_pct": 25.0,
+      "neutral_pct": 29.0,
+      "sarcasm_hints": 2,
+      "raw_sentiment": 0.305,
+      "confidence": 0.74,
+      "net_sentiment": 0.226,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "There is no specific upcoming event or earnings report that could be identified as a catalyst for SK Hynix.",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "high",
+      "hype_signals": [
+        "no_news_support",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.8,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.208,
+      "final_label": "Bullish",
+      "eligibility": "high hype risk (no_news_support, price_action_only)"
+    },
+    {
+      "ticker": "PENG",
+      "market_cap": 3794034944.0,
+      "chatter_score": 47,
+      "social_mentions": 47,
+      "unbiased_news": 0,
+      "z_score": 3.09,
+      "z_method": "cross-section",
+      "volume_ratio": 5.31,
+      "unique_author_ratio": 0.74,
+      "pe_ratio": 14.860109,
+      "revenue_growth": 0.677,
+      "debt_to_equity": 157.645,
+      "social_sentiment": 0.184,
+      "social_voters": 35,
+      "news_sentiment": 0.317,
+      "news_articles": 15,
+      "bullish_pct": 46.0,
+      "bearish_pct": 6.0,
+      "neutral_pct": 48.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.237,
+      "confidence": 0.83,
+      "net_sentiment": 0.197,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "The Motley Fool",
+          "title": "Penguin Solutions (PENG) Q4 2026 Earnings Call Transcript",
+          "url": "https://www.nasdaq.com/articles/penguin-solutions-peng-q4-2026-earnings-call-transcript"
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Zacks",
+          "title": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
+          "url": "https://www.nasdaq.com/articles/peng-q4-earnings-call-signals-faster-ai-infrastructure-growth"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "ChartMill",
+          "title": "Penguin Solutions (NASDAQ:PENG) Posts Q4 Beat and Raises FY2027 Guidance Above Consensus",
+          "url": "https://finnhub.io/api/news?id=08f2b1515f33130c75987b95f9cecf11314d26071979826efa8fe883141509b8"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "Penguin Solutions reported Q4 2026 earnings on October 6, 2026, beating estimates and raising FY2027 guidance.",
+      "evidence_headlines": [
+        0,
+        2,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.85,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.158,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "CEG",
+      "market_cap": 104570290176.0,
+      "chatter_score": 75,
+      "social_mentions": 75,
+      "unbiased_news": 0,
+      "z_score": 3.54,
+      "z_method": "cross-section",
+      "volume_ratio": 2.27,
+      "unique_author_ratio": 0.8,
+      "pe_ratio": 22.157393,
+      "revenue_growth": 0.23,
+      "debt_to_equity": 76.419,
+      "social_sentiment": 0.205,
+      "social_voters": 60,
+      "news_sentiment": 0.245,
+      "news_articles": 19,
+      "bullish_pct": 51.0,
+      "bearish_pct": 9.0,
+      "neutral_pct": 41.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.221,
+      "confidence": 0.89,
+      "net_sentiment": 0.197,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Google and Constellation Sign a 3.6 GW Deal: The Bigger Half Isn\u2019t the Nuclear",
+          "url": "https://finnhub.io/api/news?id=93a7dccb99d34c679f2e18826a66ceabeee160c2ae76da9d513fc72e5d8fa2c0"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Google & Constellation Energy ink $1B nuclear agreement, but this deal isn't unique",
+          "url": "https://finnhub.io/api/news?id=29dbe8d231c4e2b6b275de100fdf06358b0c3193cbe45b1c5aefa07d779e4008"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "RTTNews",
+          "title": "Constellation Energy Shares Up On 3.60 GW Power Deals With Google On PJM Grid",
+          "url": "https://www.nasdaq.com/articles/constellation-energy-shares-360-gw-power-deals-google-pjm-grid"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Billionaire Philippe Laffont\u2019s $1.2 Billion Constellation Bet Gets a Google AI Boost",
+          "url": "https://finnhub.io/api/news?id=be53faeb53c013eb746a6df20816762eb22bfed201a3f0f14ca25e5f93bedd94"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Constellation Energy signed a $1 billion nuclear power deal with Google on October 6, 2026.",
+      "evidence_headlines": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.85,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.183,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "AMD",
+      "market_cap": 1049616187392.0,
+      "chatter_score": 69,
+      "social_mentions": 69,
+      "unbiased_news": 0,
+      "z_score": 3.46,
+      "z_method": "cross-section",
+      "volume_ratio": 0.86,
+      "unique_author_ratio": 0.83,
+      "pe_ratio": 40.895847,
+      "revenue_growth": 0.501,
+      "debt_to_equity": 6.361,
+      "social_sentiment": 0.126,
+      "social_voters": 57,
+      "news_sentiment": 0.283,
+      "news_articles": 36,
+      "bullish_pct": 43.0,
+      "bearish_pct": 12.0,
+      "neutral_pct": 45.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.189,
+      "confidence": 0.9,
+      "net_sentiment": 0.17,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "Citi Raises AMD Price Target to $800 on Meta AI Demand",
+          "url": "https://finnhub.io/api/news?id=d6f8c3b725ed0185796d592a7f037e6142143747262264fb1b8ad7e7796ebbca"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "AMD\u2019s AI Boom Gets Bigger: Lisa Su Sees \u2018Very, Very High\u2019 Demand for Next Several Years",
+          "url": "https://finnhub.io/api/news?id=b62905f86ab8a34e6a64d36c57dd8695192992d910aa8bfdd073457c25bb6450"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Mizuho Maintains Outperform on Advanced Micro Devices, Raises Price Target to $705",
+          "url": "https://finnhub.io/api/news?id=92f2cba698682b6149d5f8b0371767285bc6b5ee8fa9824a25a6ec16a1b4ffe6"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "AMD's Lisa Su Says Demand Exceeds Supply, Will Substantially Increase Supply In 2027, Calls Taiwan Critical For AMD, Investment On Track",
+          "url": "https://finnhub.io/api/news?id=b8144e5aeead5947f7de552dc6422538e4e5ccfcfd06d0dda74dd3d4700d107b"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "Citi raised AMD's price target to $800 on October 7, 2026, citing demand for AI.",
+      "evidence_headlines": [
+        0,
+        7,
+        8,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.8,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.165,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "AVGO",
+      "market_cap": 1781399289856.0,
+      "chatter_score": 56,
+      "social_mentions": 55,
+      "unbiased_news": 1,
+      "z_score": 3.26,
+      "z_method": "cross-section",
+      "volume_ratio": 0.96,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 19.241955,
+      "revenue_growth": 0.855,
+      "debt_to_equity": 59.604,
+      "social_sentiment": 0.203,
+      "social_voters": 41,
+      "news_sentiment": 0.146,
+      "news_articles": 86,
+      "bullish_pct": 47.0,
+      "bearish_pct": 12.0,
+      "neutral_pct": 41.0,
+      "sarcasm_hints": 2,
+      "raw_sentiment": 0.18,
+      "confidence": 0.93,
+      "net_sentiment": 0.168,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "The Motley Fool",
+          "title": "Broadcom's AI Revenue Is Growing at 221%. Here's Why Custom Chips Could Be a Bigger Business Than GPUs.",
+          "url": "https://www.nasdaq.com/articles/broadcoms-ai-revenue-growing-221-heres-why-custom-chips-could-be-bigger-business-gpus"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "Broadcom's AI revenue is reportedly growing at 221%, as discussed in multiple articles on October 7, 2026.",
+      "evidence_headlines": [
+        1
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.75,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.15,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "ANET",
+      "market_cap": 268375998464.0,
+      "chatter_score": 30,
+      "social_mentions": 30,
+      "unbiased_news": 0,
+      "z_score": 2.67,
+      "z_method": "cross-section",
+      "volume_ratio": 1.02,
+      "unique_author_ratio": 0.7,
+      "pe_ratio": 40.9055,
+      "revenue_growth": 0.377,
+      "debt_to_equity": null,
+      "social_sentiment": 0.241,
+      "social_voters": 21,
+      "news_sentiment": 0.123,
+      "news_articles": 10,
+      "bullish_pct": 42.0,
+      "bearish_pct": 6.0,
+      "neutral_pct": 52.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.193,
+      "confidence": 0.76,
+      "net_sentiment": 0.147,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "Arista Announces Rack-Scale Architectures for Scale-Up and Scale-Out AI Fabrics",
+          "url": "https://finnhub.io/api/news?id=c9ad8f7b5668b48a1e883e1373721a250f8be3f78b08a3a2b385b72d3241ca94"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Zacks",
+          "title": "Wall Street Analysts See Arista Networks (ANET) as a Buy: Should You Invest?",
+          "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-arista-networks-anet-buy-should-you-invest"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "ChartMill",
+          "title": "Arista Networks (NYSE:ANET) Shows High-Growth Leadership and Strong Momentum",
+          "url": "https://finnhub.io/api/news?id=7e4602a0f7059f1b78f93e3a17e2bf78e320cd59ce58e76e1329ee91eba46f91"
+        },
+        {
+          "date": "2026-10-04",
+          "source": "Yahoo",
+          "title": "The Bull Case For Arista Networks (ANET) Could Change Following Higher AI-Driven 2026 Revenue Guidance",
+          "url": "https://finnhub.io/api/news?id=d62b0968c2776b6f5a6fcb5b0958e541f788fd424deebdbaaf77a66e817ca05b"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "product_launch",
+      "catalyst_summary": "Arista announced Rack-Scale Architectures for Scale-Up and Scale-Out AI Fabrics on October 7, 2026.",
+      "evidence_headlines": [
+        0,
+        1,
+        3,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.8,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.155,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "GOOGL",
+      "market_cap": 4226665676800.0,
+      "chatter_score": 48,
+      "social_mentions": 40,
+      "unbiased_news": 8,
+      "z_score": 3.11,
+      "z_method": "cross-section",
+      "volume_ratio": 0.83,
+      "unique_author_ratio": 0.92,
+      "pe_ratio": 22.930637,
+      "revenue_growth": 0.242,
+      "debt_to_equity": 18.859,
+      "social_sentiment": 0.114,
+      "social_voters": 37,
+      "news_sentiment": 0.196,
+      "news_articles": 138,
+      "bullish_pct": 51.0,
+      "bearish_pct": 13.0,
+      "neutral_pct": 36.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.147,
+      "confidence": 0.95,
+      "net_sentiment": 0.14,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "RTTNews",
+          "title": "Unity Software Partners With Google On AI Gaming Platform",
+          "url": "https://www.nasdaq.com/articles/unity-software-partners-google-ai-gaming-platform"
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Benzinga",
+          "title": "Roblox Stock Slips as Google, Unity Launch AI Platform for Building Games",
+          "url": "https://finnhub.io/api/news?id=1a99c2a87fef11ae009d03d8caf3b32147953e7ff5d158ec92b90655d35dc0f9"
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Benzinga",
+          "title": "Google, Unity Collaborate For New, Integrated Gaming Platform To Be Launched Later In 2026",
+          "url": "https://finnhub.io/api/news?id=a8aee4c22ba4a2bf0300401089390820facebe709f5df76adfb1c9beb743a041"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Google partnered with Unity Software on an AI gaming platform, announced on October 7, 2026.",
+      "evidence_headlines": [
+        0,
+        2,
+        5
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.75,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.147,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "WMT",
+      "market_cap": 862893703168.0,
+      "chatter_score": 30,
+      "social_mentions": 29,
+      "unbiased_news": 1,
+      "z_score": 2.67,
+      "z_method": "cross-section",
+      "volume_ratio": 0.96,
+      "unique_author_ratio": 0.79,
+      "pe_ratio": 33.62449,
+      "revenue_growth": 0.059,
+      "debt_to_equity": 71.653,
+      "social_sentiment": 0.114,
+      "social_voters": 23,
+      "news_sentiment": 0.147,
+      "news_articles": 48,
+      "bullish_pct": 41.0,
+      "bearish_pct": 10.0,
+      "neutral_pct": 49.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.127,
+      "confidence": 0.88,
+      "net_sentiment": 0.112,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "Walmart drones are flying into Denver and Seattle",
+          "url": "https://finnhub.io/api/news?id=45bcfaf4fbfc0428be8691bf3f8e6ed867e846c8e7c61d2f002033bfb6cc267c"
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "State Affairs Convenes Inaugural Customer Advisory Board of Government Affairs Leaders From Walmart, Carvana, and Other Major Enterprises",
+          "url": "https://finnhub.io/api/news?id=533a26123f8531b1258380774eb8fe75c82896d1ef3bf202c4af82b033b713b5"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "product_launch",
+      "catalyst_summary": "Walmart has launched new Express Pickup services allowing customers to get orders curbside in as little as one hour.",
+      "evidence_headlines": [
+        0,
+        1
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.7,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.09,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "NVDA",
+      "market_cap": 5718781984768.0,
+      "chatter_score": 97,
+      "social_mentions": 82,
+      "unbiased_news": 15,
+      "z_score": 3.79,
+      "z_method": "cross-section",
+      "volume_ratio": 1.1,
+      "unique_author_ratio": 0.76,
+      "pe_ratio": 14.88143,
+      "revenue_growth": 1.059,
+      "debt_to_equity": 16.971,
+      "social_sentiment": 0.103,
+      "social_voters": 62,
+      "news_sentiment": 0.129,
+      "news_articles": 201,
+      "bullish_pct": 37.0,
+      "bearish_pct": 17.0,
+      "neutral_pct": 47.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.113,
+      "confidence": 0.96,
+      "net_sentiment": 0.109,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "Microsoft and Nvidia to Unveil AI-Powered Surface Laptop Ultra",
+          "url": "https://finnhub.io/api/news?id=3ccd4f17d65e3150aeb6351c53ba55261407d31a9236e73e8bca0addd2e96760"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 5,
+      "status": "OK",
+      "catalyst_type": "product_launch",
+      "catalyst_summary": "Microsoft and Nvidia are set to unveil the AI-Powered Surface Laptop Ultra on October 7, 2026.",
+      "evidence_headlines": [
+        3
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.75,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.085,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "MU",
+      "market_cap": 1208778227712.0,
+      "chatter_score": 139,
+      "social_mentions": 130,
+      "unbiased_news": 9,
+      "z_score": 4.13,
+      "z_method": "cross-section",
+      "volume_ratio": 0.86,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 5.187212,
+      "revenue_growth": 3.793,
+      "debt_to_equity": 3.743,
+      "social_sentiment": 0.145,
+      "social_voters": 98,
+      "news_sentiment": 0.043,
+      "news_articles": 240,
+      "bullish_pct": 35.0,
+      "bearish_pct": 21.0,
+      "neutral_pct": 45.0,
+      "sarcasm_hints": 8,
+      "raw_sentiment": 0.104,
+      "confidence": 0.97,
+      "net_sentiment": 0.101,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "This Wall Street Firm Just Put a $3,000 Price Target on Micron Stock",
+          "url": "https://finnhub.io/api/news?id=b2b5b05b7061332a0cc6bd3ba5a6aadcf02da339461c5f4b2cfda0b3457146e6"
+        },
+        {
+          "date": "2026-10-07",
+          "source": "CNBC",
+          "title": "Micron to nearly triple as investors wake up to value, D.A. Davidson says: 'If you don't buy it, they will'",
+          "url": "https://www.cnbc.com/2026/10/07/micron-to-triple-as-investors-wake-up-to-value-da-davidson-says.html"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 8,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "DA Davidson raised its price target on Micron stock to $3,000 from $2,100 on October 7, 2026.",
+      "evidence_headlines": [
+        4,
+        5
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.75,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.079,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "AMZN",
+      "market_cap": 2771866877952.0,
+      "chatter_score": 90,
+      "social_mentions": 90,
+      "unbiased_news": 0,
+      "z_score": 3.71,
+      "z_method": "cross-section",
+      "volume_ratio": 1.02,
+      "unique_author_ratio": 0.78,
+      "pe_ratio": 24.552786,
+      "revenue_growth": 0.196,
+      "debt_to_equity": 45.617,
+      "social_sentiment": 0.104,
+      "social_voters": 70,
+      "news_sentiment": 0.098,
+      "news_articles": 181,
+      "bullish_pct": 36.0,
+      "bearish_pct": 17.0,
+      "neutral_pct": 47.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.102,
+      "confidence": 0.96,
+      "net_sentiment": 0.098,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Zacks",
+          "title": "Is Amazon Stock Poised to Rally on AI Services Revenue Expansion?",
+          "url": "https://www.nasdaq.com/articles/amazon-stock-poised-rally-ai-services-revenue-expansion"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "Discussion around Amazon's potential revenue expansion from AI services as noted in a Zacks article on October 7, 2026.",
+      "evidence_headlines": [
+        1
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "no_news_support"
+      ],
+      "catalyst_confidence": 0.7,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.084,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "AMAT",
+      "market_cap": 412694511616.0,
+      "chatter_score": 5,
+      "social_mentions": 5,
+      "unbiased_news": 0,
+      "z_score": 1.07,
+      "z_method": "cross-section",
+      "volume_ratio": 0.82,
+      "unique_author_ratio": 0.8,
+      "pe_ratio": 28.161793,
+      "revenue_growth": 0.248,
+      "debt_to_equity": 28.666,
+      "social_sentiment": 0.094,
+      "social_voters": 4,
+      "news_sentiment": 0.363,
+      "news_articles": 3,
+      "bullish_pct": 43.0,
+      "bearish_pct": 0.0,
+      "neutral_pct": 57.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.202,
+      "confidence": 0.41,
+      "net_sentiment": 0.083,
+      "sentiment_label": "Neutral",
+      "headlines_used": 3,
+      "evidence": [
+        {
+          "date": "2026-10-01",
+          "source": "Finnhub",
+          "title": "AI Compute Expansion and Memory Shortages Extend Applied Materials\u2019 (AMAT) Growth Runway",
+          "url": "https://finnhub.io/api/news?id=b4e1f0c3507b0b86122dbfd1d25d6a30188a3931f40b8835a672bd86ac72bac5"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "Discussion around AI semiconductor stocks and growth potential due to AI compute expansion and memory shortages.",
+      "evidence_headlines": [
+        2
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.7,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": -0.011,
+      "final_label": "Neutral",
+      "eligibility": "sentiment -0.011 not positive after sarcasm review"
+    },
+    {
+      "ticker": "MSFT",
+      "market_cap": 3916604112896.0,
+      "chatter_score": 70,
+      "social_mentions": 65,
+      "unbiased_news": 5,
+      "z_score": 3.47,
+      "z_method": "cross-section",
+      "volume_ratio": 1.01,
+      "unique_author_ratio": 0.8,
+      "pe_ratio": 22.276592,
+      "revenue_growth": 0.177,
+      "debt_to_equity": 29.118,
+      "social_sentiment": 0.015,
+      "social_voters": 52,
+      "news_sentiment": 0.176,
+      "news_articles": 163,
+      "bullish_pct": 43.0,
+      "bearish_pct": 20.0,
+      "neutral_pct": 38.0,
+      "sarcasm_hints": 2,
+      "raw_sentiment": 0.079,
+      "confidence": 0.96,
+      "net_sentiment": 0.076,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "Azure Momentum and Copilot Usage Data Drive Fundamental Strength for Microsoft (MSFT)",
+          "url": "https://finnhub.io/api/news?id=512318653b0149a5cfb83fabbf48876ddc4670e9d157d1b5ee5d92dbc57e95ac"
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "96% of Analysts Are Bullish on Microsoft. Here\u2019s the Price That Implies",
+          "url": "https://finnhub.io/api/news?id=107d50cf02cddb95b70010075a8af33eda1cd106299a323bd6894fed2c0f5f72"
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Zacks",
+          "title": "Here's Why Microsoft (MSFT) is a Strong Growth Stock",
+          "url": "https://www.nasdaq.com/articles/heres-why-microsoft-msft-strong-growth-stock-0"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "Analysts are bullish on Microsoft due to strong Azure momentum and Copilot usage data as of October 7, 2026.",
+      "evidence_headlines": [
+        1,
+        2,
+        5
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.75,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.082,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "INTC",
+      "market_cap": 600871534592.0,
+      "chatter_score": 14,
+      "social_mentions": 9,
+      "unbiased_news": 5,
+      "z_score": 1.96,
+      "z_method": "cross-section",
+      "volume_ratio": 0.83,
+      "unique_author_ratio": 0.89,
+      "pe_ratio": 54.57898,
+      "revenue_growth": 0.254,
+      "debt_to_equity": 48.997,
+      "social_sentiment": 0.08,
+      "social_voters": 8,
+      "news_sentiment": 0.011,
+      "news_articles": 41,
+      "bullish_pct": 37.0,
+      "bearish_pct": 29.0,
+      "neutral_pct": 35.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.052,
+      "confidence": 0.83,
+      "net_sentiment": 0.043,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "Intel to Remain Involved in Musk\u2019s Terafab Chip Project, Bloomberg Reports",
+          "url": "https://finnhub.io/api/news?id=c1db8eb360870477bbd387d4f5c428da9651604ac14f38e33d9ece9f9936d54b"
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "Intel Stock Rebounds as Musk Explains Terafab AI Chip Project and TSMC\u2019s Role",
+          "url": "https://finnhub.io/api/news?id=af1ed8cfc39a82560e70c48a06ee915613c82c0b4dd6a137af744d37cc16bb19"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Intel's involvement in Elon Musk's Terafab chip project as reported on October 7, 2026.",
+      "evidence_headlines": [
+        3,
+        4
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.75,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.003,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "MRK",
+      "market_cap": 354384510976.0,
+      "chatter_score": 5,
+      "social_mentions": 5,
+      "unbiased_news": 0,
+      "z_score": 1.07,
+      "z_method": "cross-section",
+      "volume_ratio": 0.94,
+      "unique_author_ratio": 1.0,
+      "pe_ratio": 15.168923,
+      "revenue_growth": 0.051,
+      "debt_to_equity": 128.408,
+      "social_sentiment": 0.119,
+      "social_voters": 5,
+      "news_sentiment": null,
+      "news_articles": 0,
+      "bullish_pct": 20.0,
+      "bearish_pct": 0.0,
+      "neutral_pct": 80.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.119,
+      "confidence": 0.33,
+      "net_sentiment": 0.039,
+      "sentiment_label": "Neutral",
+      "headlines_used": 0,
+      "evidence": [],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 0,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "There are no clear catalysts or recent news events driving the discussion around MRK.",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "no_news_support"
+      ],
+      "catalyst_confidence": 0.7,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.039,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (no_clear_catalyst)"
+    },
+    {
+      "ticker": "STZ",
+      "market_cap": 19907641344.0,
+      "chatter_score": 25,
+      "social_mentions": 25,
+      "unbiased_news": 0,
+      "z_score": 2.5,
+      "z_method": "cross-section",
+      "volume_ratio": 1.52,
+      "unique_author_ratio": 0.88,
+      "pe_ratio": 9.503235,
+      "revenue_growth": 0.061,
+      "debt_to_equity": 116.176,
+      "social_sentiment": 0.044,
+      "social_voters": 22,
+      "news_sentiment": -0.036,
+      "news_articles": 28,
+      "bullish_pct": 30.0,
+      "bearish_pct": 32.0,
+      "neutral_pct": 38.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.012,
+      "confidence": 0.83,
+      "net_sentiment": 0.01,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "Constellation Brands beats estimates as beer gains offset softer demand",
+          "url": "https://finnhub.io/api/news?id=a5294cad3c813da26d97844c2c94cc7c9452f49a2a01bbd33ddf0fe8765de9c1"
+        },
+        {
+          "date": "2026-10-07",
+          "source": "Benzinga",
+          "title": "Dow Tumbles 350 Points; Constellation Brands Earnings Top Views",
+          "url": "https://finnhub.io/api/news?id=4bb1aed1bde9a70d13372d2b902cd65c2ac1b0cd2da427e3ab98c18ee0fde51f"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "RTTNews",
+          "title": "Constellation Acquires SpikeAde For $75 Mln; Shares Down",
+          "url": "https://www.nasdaq.com/articles/constellation-acquires-spikeade-75-mln-shares-down"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 6,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "Constellation Brands reported better-than-expected Q2 earnings on October 6, 2026.",
+      "evidence_headlines": [
+        1,
+        6,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.8,
+      "catalyst_direction": "mixed",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": -0.121,
+      "final_label": "Neutral",
+      "eligibility": "sentiment -0.121 not positive after sarcasm review"
+    },
+    {
+      "ticker": "NFLX",
+      "market_cap": 286039310336.0,
+      "chatter_score": 8,
+      "social_mentions": 8,
+      "unbiased_news": 0,
+      "z_score": 1.46,
+      "z_method": "cross-section",
+      "volume_ratio": 1.05,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 18.043617,
+      "revenue_growth": 0.134,
+      "debt_to_equity": 55.236,
+      "social_sentiment": 0.019,
+      "social_voters": 6,
+      "news_sentiment": -0.146,
+      "news_articles": 5,
+      "bullish_pct": 27.0,
+      "bearish_pct": 27.0,
+      "neutral_pct": 45.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": -0.047,
+      "confidence": 0.52,
+      "net_sentiment": -0.024,
+      "sentiment_label": "Neutral",
+      "headlines_used": 5,
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "source": "Yahoo",
+          "title": "Are Rising Live Sports Costs a Margin Threat to Netflix Stockholders?",
+          "url": "https://finnhub.io/api/news?id=e58c209b725dd586f0f1a2835f933f971653532237c3d81b6734e4032a3b40e5"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "Concerns about rising live sports costs potentially threatening Netflix's margins, as discussed in a recent article.",
+      "evidence_headlines": [
+        0
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.7,
+      "catalyst_direction": "negative",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": -0.034,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (macro_or_sector: Concerns about rising live sports costs potentially threaten)"
+    },
+    {
+      "ticker": "TSM",
+      "market_cap": 2450997903360.0,
+      "chatter_score": 6,
+      "social_mentions": 4,
+      "unbiased_news": 2,
+      "z_score": 1.22,
+      "z_method": "cross-section",
+      "volume_ratio": 0.97,
+      "unique_author_ratio": 1.0,
+      "pe_ratio": 21.554064,
+      "revenue_growth": 0.36,
+      "debt_to_equity": 16.504,
+      "social_sentiment": -0.064,
+      "social_voters": 4,
+      "news_sentiment": 0.018,
+      "news_articles": 41,
+      "bullish_pct": 31.0,
+      "bearish_pct": 24.0,
+      "neutral_pct": 44.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": -0.031,
+      "confidence": 0.82,
+      "net_sentiment": -0.025,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "source": "Yahoo",
+          "title": "Elon Musk rules out TSMC operational role in Terafab chipmaking",
+          "url": "https://finnhub.io/api/news?id=794a216715e923927da1de18ecb6e87866c1d6c0516b5e77d5c79da46b2148e0"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "CNBC",
+          "title": "Wall Street says Elon Musk's Terafab talks with TSMC could spell bad news for Intel",
+          "url": "https://www.cnbc.com/2026/10/06/wall-street-says-elon-musks-terafab-talks-with-tsmc-could-be-bad-news-for-intel.html"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "SpaceX reportedly in talks with TSMC for Terafab semiconductor foundry",
+          "url": "https://finnhub.io/api/news?id=4a2ea63d2a9015912322546132bc60b9bf6d0b974ca0db516aa529f29d01c7d0"
+        },
+        {
+          "date": "2026-10-05",
+          "source": "Benzinga",
+          "title": "Why TSMC\u2019s Talks with Elon Musk Are a Direct Threat to Intel\u2019s Chip Ambitions",
+          "url": "https://finnhub.io/api/news?id=f5eda18d30eac56f75089fecae2cf820ff559e37a8ccad2cdcb0bb37bf13464d"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 0,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "Discussions around TSMC's potential involvement with SpaceX and its implications for the semiconductor market, particularly in relation to Intel, are trending.",
+      "evidence_headlines": [
+        1,
+        3,
+        6,
+        9
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "no_news_support"
+      ],
+      "catalyst_confidence": 0.7,
+      "catalyst_direction": "mixed",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": -0.025,
+      "final_label": "Neutral",
+      "eligibility": "sentiment -0.025 not positive after sarcasm review"
+    },
+    {
+      "ticker": "OWL",
+      "market_cap": 14080900096.0,
+      "chatter_score": 21,
+      "social_mentions": 21,
+      "unbiased_news": 0,
+      "z_score": 2.33,
+      "z_method": "cross-section",
+      "volume_ratio": 1.29,
+      "unique_author_ratio": 0.86,
+      "pe_ratio": 9.125718,
+      "revenue_growth": 0.071,
+      "debt_to_equity": 77.391,
+      "social_sentiment": -0.073,
+      "social_voters": 18,
+      "news_sentiment": -0.008,
+      "news_articles": 3,
+      "bullish_pct": 19.0,
+      "bearish_pct": 24.0,
+      "neutral_pct": 57.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": -0.047,
+      "confidence": 0.68,
+      "net_sentiment": -0.032,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-04",
+          "source": "Finnhub",
+          "title": "Blue Owl Stock at Risk as Private Credit Giant Caps Withdrawals Amid Surging Outflows",
+          "url": "https://finnhub.io/api/news?id=ca06c8327e4cc5351d05975f7683685eab77f583b23f24beb483f7cb72880201"
+        },
+        {
+          "date": "2026-10-02",
+          "source": "Finnhub",
+          "title": "Blue Owl Investors Seek to Pull 39% From $5B Tech Credit Fund",
+          "url": "https://finnhub.io/api/news?id=ed66e5ea0f8cfcb9e6763ee123300d5bb6197fce8a870f9d8783c6b6f24c7b26"
+        },
+        {
+          "date": "2026-10-02",
+          "source": "Finnhub",
+          "title": "'Blue Owl Again Caps Two BDCs After 39%, 17% Withdrawal Requests' - Bloomberg",
+          "url": "https://finnhub.io/api/news?id=3165acd5dee273329bd9025215b0a299c600a9f6b332a89c1a9156926d349580"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "Concerns over withdrawal requests from Blue Owl's funds amid rising outflows, particularly highlighted on October 2, 2026.",
+      "evidence_headlines": [
+        2,
+        5,
+        6
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.75,
+      "catalyst_direction": "negative",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": -0.014,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (macro_or_sector: Concerns over withdrawal requests from Blue Owl's funds amid)"
+    },
+    {
+      "ticker": "WDC",
+      "market_cap": 152042618880.0,
+      "chatter_score": 34,
+      "social_mentions": 33,
+      "unbiased_news": 1,
+      "z_score": 2.79,
+      "z_method": "cross-section",
+      "volume_ratio": 2.46,
+      "unique_author_ratio": 0.7,
+      "pe_ratio": 12.761859,
+      "revenue_growth": 0.438,
+      "debt_to_equity": 13.436,
+      "social_sentiment": 0.036,
+      "social_voters": 23,
+      "news_sentiment": -0.201,
+      "news_articles": 21,
+      "bullish_pct": 23.0,
+      "bearish_pct": 34.0,
+      "neutral_pct": 43.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": -0.058,
+      "confidence": 0.81,
+      "net_sentiment": -0.047,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "source": "Yahoo",
+          "title": "Western Digital Sinks 6% as Toshiba\u2019s Drive Expansion Hits the Group; Seagate Drops 8%, Micron Holds Flat",
+          "url": "https://finnhub.io/api/news?id=11074b2fd5407e2ce70b7bff5652619813f1de40dd70c8785403a1e2e28b9b79"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Seagate, Western Digital stocks slip as Toshiba's AI storage push rattles sector",
+          "url": "https://finnhub.io/api/news?id=548c326d6d6e6d6fd1a00cc1e0f6818be9583b854019af427c245c5396bf7a84"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Seagate and Western Digital Drop. The Hot Tech Stocks Have a Big Toshiba Problem.",
+          "url": "https://finnhub.io/api/news?id=eb2571c995229ec3d6b9c62a277a3ac1fdf5765e9c67b16d3c52d90c126c2620"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "Western Digital's stock is affected by competitive pressures from Toshiba's AI storage expansion as reported on October 6, 2026.",
+      "evidence_headlines": [
+        0,
+        1,
+        2
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.75,
+      "catalyst_direction": "negative",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": -0.061,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (macro_or_sector: Western Digital's stock is affected by competitive pressures)"
+    },
+    {
+      "ticker": "ALAB",
+      "market_cap": 64709943296.0,
+      "chatter_score": 49,
+      "social_mentions": 49,
+      "unbiased_news": 0,
+      "z_score": 3.13,
+      "z_method": "cross-section",
+      "volume_ratio": 1.11,
+      "unique_author_ratio": 0.71,
+      "pe_ratio": 58.340687,
+      "revenue_growth": 1.045,
+      "debt_to_equity": 2.574,
+      "social_sentiment": 0.185,
+      "social_voters": 35,
+      "news_sentiment": -0.569,
+      "news_articles": 1,
+      "bullish_pct": 47.0,
+      "bearish_pct": 14.0,
+      "neutral_pct": 39.0,
+      "sarcasm_hints": 2,
+      "raw_sentiment": -0.117,
+      "confidence": 0.78,
+      "net_sentiment": -0.091,
+      "sentiment_label": "Neutral",
+      "headlines_used": 5,
+      "evidence": [],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 5,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "There are no clear catalysts driving the discussion around ALAB.",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "high",
+      "hype_signals": [
+        "no_news_support",
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.85,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": -0.153,
+      "final_label": "Bearish",
+      "eligibility": "high hype risk (no_news_support, pump_language)"
+    },
+    {
+      "ticker": "STX",
+      "market_cap": 182739845120.0,
+      "chatter_score": 10,
+      "social_mentions": 10,
+      "unbiased_news": 0,
+      "z_score": 1.66,
+      "z_method": "cross-section",
+      "volume_ratio": 2.34,
+      "unique_author_ratio": 0.7,
+      "pe_ratio": 14.51345,
+      "revenue_growth": 0.485,
+      "debt_to_equity": 179.88,
+      "social_sentiment": -0.164,
+      "social_voters": 7,
+      "news_sentiment": -0.237,
+      "news_articles": 8,
+      "bullish_pct": 7.0,
+      "bearish_pct": 47.0,
+      "neutral_pct": 47.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": -0.193,
+      "confidence": 0.6,
+      "net_sentiment": -0.116,
+      "sentiment_label": "Neutral",
+      "headlines_used": 8,
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "source": "Yahoo",
+          "title": "Western Digital Sinks 6% as Toshiba\u2019s Drive Expansion Hits the Group; Seagate Drops 8%, Micron Holds Flat",
+          "url": "https://finnhub.io/api/news?id=11074b2fd5407e2ce70b7bff5652619813f1de40dd70c8785403a1e2e28b9b79"
+        },
+        {
+          "date": "2026-10-05",
+          "source": "Finnhub",
+          "title": "Toshiba Is Doubling Hard Drive Output. Seagate (STX) and Western Digital (WDC) Fell 10% Each",
+          "url": "https://finnhub.io/api/news?id=9e2c6fb0c4fc419544e541ff7d6e76eca3929c2a175c71faa4c0102388c75fe7"
+        },
+        {
+          "date": "2026-10-02",
+          "source": "Finnhub",
+          "title": "Seagate, Western Digital fall as Toshiba plans AI storage expansion",
+          "url": "https://finnhub.io/api/news?id=bc617c00f67e8aa8c98cd52ef47eee4bd514471260f818a8176c241778bc75b0"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 0,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "Toshiba's announcement to double hard drive output has negatively impacted Seagate's stock price.",
+      "evidence_headlines": [
+        0,
+        5,
+        6
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.8,
+      "catalyst_direction": "negative",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": -0.116,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (macro_or_sector: Toshiba's announcement to double hard drive output has negat)"
+    }
+  ],
+  "sarcasm_corrections": {
+    "SKHY": [
+      {
+        "post_id": "st_665947753",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocking SKHY's poor performance despite market trends.",
+        "text": "$SKHY This didn\u2019t go up with the market this week, but it for sure went down with it \ud83d\ude02"
+      }
+    ],
+    "PENG": [
+      {
+        "post_id": "st_665962715",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Implying $CRDO will perform poorly like $PENG.",
+        "text": "$CRDO going to pull a $PENG after next earnings, none of you mofos are ready for what is to come"
+      },
+      {
+        "post_id": "st_665950126",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocking $PENG's performance compared to $GRRR.",
+        "text": "$PENG penguins stronger than gorillas today $GRRR funny how it works"
+      },
+      {
+        "post_id": "st_665951516",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Cautioning against manipulation despite profits.",
+        "text": "$PENG $LITE take advantage of the manipulation when it's making you profits! Ride the wave with caution, remember, green"
+      }
+    ],
+    "CEG": [
+      {
+        "post_id": "st_665841939",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Implying negative outlook on stock performance.",
+        "text": "$CEG \n\nReady to be rugged again \ud83e\udd23"
+      },
+      {
+        "post_id": "st_665851161",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Expressing disbelief at rapid price drop.",
+        "text": "$CEG Hard to believe this was at $250 less than a week ago.  $SPY"
+      }
+    ],
+    "AMD": [
+      {
+        "post_id": "st_665865623",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocking shorts losing money on AMD.",
+        "text": "$AMD SHORTS IS REKT"
+      },
+      {
+        "post_id": "st_665866157",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Uncertainty about closing position on AMD.",
+        "text": "$AMD chat should I close for a loss or wait? Still got 1.5months til exp"
+      }
+    ],
+    "AVGO": [
+      {
+        "post_id": "st_665848994",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocking the algo logic change's effectiveness.",
+        "text": "$AVGO 1% algo logic  changed\ud83d\ude02\ud83d\ude02\ud83d\ude02"
+      },
+      {
+        "post_id": "st_665859739",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Ambiguous statement, lacks clear sentiment.",
+        "text": "$AVGO You are now in my contacts . I will text you."
+      },
+      {
+        "post_id": "st_665860127",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Implying past mistakes will repeat.",
+        "text": "$AVGO made same mistake before, not this time"
+      }
+    ],
+    "ANET": [
+      {
+        "post_id": "st_665811737",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Suggesting undervaluation and buying opportunity.",
+        "text": "$ANET  Buying under $215 is a STEAL!"
+      }
+    ],
+    "GOOGL": [
+      {
+        "post_id": "st_665741064",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Questioning operational issues, not directly about GOOGL.",
+        "text": "$FRVO  \n \nThe 30% water loss / leakage rate at the Project Red facility is NOT a problem. \n \n \nMy Q to Gemini 3 : \n \nIs "
+      }
+    ],
+    "WMT": [
+      {
+        "post_id": "st_665935244",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Implying $AMZN is better than $WMT",
+        "text": "$AMZN At this rate I'll be dead before this thing ever takes off. Conversely if I had stayed in in $WMT since 20FEB-24 a"
+      },
+      {
+        "post_id": "st_665907282",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Uncertain about $WMT's direction",
+        "text": "$WMT hello hello still the bottom is spinning"
+      }
+    ],
+    "NVDA": [
+      {
+        "post_id": "st_665818966",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Criticism of analysts suggests lack of confidence.",
+        "text": "$MSFT Anyone who actually listens to Wall Street analysts is a certified fucking dummy who totally deserves to lose thei"
+      },
+      {
+        "post_id": "st_665960170",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Winning trades indicate positive sentiment.",
+        "text": "$NVDA $SPCX \n\nEasy money, trading room winning today"
+      },
+      {
+        "post_id": "st_665823711",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Unrelated to NVDA sentiment.",
+        "text": "$INFQ Asked GPT this.  \n\"For today\u2019s Cisco Quantum event, research the latest developments from all the companies/speake"
+      },
+      {
+        "post_id": "st_665959072",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocking old hardware implies skepticism about NVDA's future.",
+        "text": "$NVDA hahhaha. My pc still runs all year long video card Nvidia GeForce 9500 GT bought at Fry\u2019s electronics. Wow.  Yearl"
+      },
+      {
+        "post_id": "st_665863629",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "General market news, not specific to NVDA.",
+        "text": "The S&P 500\n rose to a fresh all-time intraday high on Tuesday, boosted by gains in key technology names as well as decl"
+      }
+    ],
+    "MU": [
+      {
+        "post_id": "st_665958067",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocking bears while expressing doubt about performance.",
+        "text": "$MU $SNDK did we fuck the \ud83d\udc3b bears hard enough. \ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude02"
+      },
+      {
+        "post_id": "st_665960137",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Unloading margined positions indicates lack of confidence.",
+        "text": "$MU lol! Made a quick buck , time to unload my margined positions! \ud83e\udd11\ud83e\udd11\ud83e\udd23\ud83d\ude01"
+      },
+      {
+        "post_id": "st_665960270",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Joking about poor performance despite false optimism.",
+        "text": "@Hzbt man they all playing games today!!! The whole O-Line is not blocking for $MU  \ud83d\ude02 \ud83d\ude02 but I\u2019m still confident that $11"
+      },
+      {
+        "post_id": "st_665842736",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Thanking hype stocks suggests skepticism about $MU.",
+        "text": "$MU \n\nThank you $DELL $ALAB and my hype stocks \ud83d\ude02"
+      },
+      {
+        "post_id": "st_665926071",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Warning about potential liquidity issues affecting $MU.",
+        "text": "$MU US markets do have a lot of leverage. This starts dropping too much and we could be get hit with a liquidity unwind "
+      },
+      {
+        "post_id": "st_665851914",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Laughter indicates disbelief in $MU's performance.",
+        "text": "$MU \ud83d\ude02\ud83d\ude02"
+      },
+      {
+        "post_id": "st_665850330",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Emojis suggest frustration with $MU's situation.",
+        "text": "$MU \ud83e\udd26\u200d\u2642\ufe0f\ud83e\udd21"
+      },
+      {
+        "post_id": "st_665852140",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Frustration indicates doubt about $MU's future.",
+        "text": "$MU I was frustrated but then I saw this. \n\nBottom soon."
+      }
+    ],
+    "AMZN": [
+      {
+        "post_id": "st_665818966",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Criticism of analysts suggests distrust in market.",
+        "text": "$MSFT Anyone who actually listens to Wall Street analysts is a certified fucking dummy who totally deserves to lose thei"
+      },
+      {
+        "post_id": "st_665959071",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Implying frustration with price movement.",
+        "text": "$AMZN come on ... let it go .."
+      }
+    ],
+    "AMAT": [
+      {
+        "post_id": "st_665851732",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Trimming positions indicates lack of confidence.",
+        "text": "$SMH Some leaders that led semis bounce seems sluggish $MU $AMAT $LRCX $ASML Took some coins off and trimmed some today "
+      },
+      {
+        "post_id": "st_665846287",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Frustration over underperformance in the sector.",
+        "text": "$AMAT $LRCX $KLAC everything in the semi supply chain is up except for the companies that make the machines that make th"
+      }
+    ],
+    "MSFT": [
+      {
+        "post_id": "st_665818966",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Defending MSFT against analysts' downgrades.",
+        "text": "$MSFT Anyone who actually listens to Wall Street analysts is a certified fucking dummy who totally deserves to lose thei"
+      }
+    ],
+    "INTC": [
+      {
+        "post_id": "st_665959838",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocking past competition with AMD suggests negative view.",
+        "text": "$AMD Ms Lisa, I still have your AMD phenom II x4 965 black version. Hahahah. That time we fought to survive from intel w"
+      }
+    ],
+    "STZ": [
+      {
+        "post_id": "st_665941656",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Implying trading is too easy due to losses.",
+        "text": "$STZ easiest trade ever.."
+      },
+      {
+        "post_id": "st_665937015",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Doubtful about stock turning green soon.",
+        "text": "$STZ green soon"
+      },
+      {
+        "post_id": "st_665928751",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Suggesting a long position ironically.",
+        "text": "$STZ long 110.50"
+      },
+      {
+        "post_id": "st_665939652",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocking the idea of a bull play.",
+        "text": "$STZ could be a good bull play today"
+      },
+      {
+        "post_id": "st_665941836",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Skeptical about stock being up today.",
+        "text": "$STZ LIKE I SAID. IT WILL BE UP TODAY."
+      },
+      {
+        "post_id": "st_665945230",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Using 'boing' mockingly for volatility.",
+        "text": "$STZ boing"
+      }
+    ],
+    "NFLX": [
+      {
+        "post_id": "st_665708435",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "No clear sentiment expressed about NFLX.",
+        "text": "Clues for Stock market directions--    \n                                                                                "
+      }
+    ],
+    "OWL": [
+      {
+        "post_id": "st_665564494",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Confident in future gains despite current price.",
+        "text": "$OWL this is now my largest position concentration ever.  Price makes no sense.  Big gains to come for patient intellige"
+      }
+    ],
+    "WDC": [
+      {
+        "post_id": "st_665847958",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Expresses confusion about market focus.",
+        "text": "$WDC all im seeing is toshiba this toshiba that, anything else?"
+      },
+      {
+        "post_id": "st_665843336",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Expresses confusion about stock's situation.",
+        "text": "$WDC what the heck going on with this stock?"
+      }
+    ],
+    "ALAB": [
+      {
+        "post_id": "st_665843580",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocks shorts while expressing disdain for the stock.",
+        "text": "$ALAB This  is just too GD easy and the shorts are just too freaking stupid. But that\u2019s human nature and I\u2019ll take advan"
+      },
+      {
+        "post_id": "st_665842736",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Hype stocks mentioned sarcastically, implying doubt.",
+        "text": "$MU \n\nThank you $DELL $ALAB and my hype stocks \ud83d\ude02"
+      },
+      {
+        "post_id": "st_665863398",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Considers shorting due to high valuation.",
+        "text": "$ALAB very expensive name but there are others that have a fraction of their growth and trade at much higher multiples w"
+      },
+      {
+        "post_id": "st_665860079",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Cautions about selling after earnings, implying skepticism.",
+        "text": "$ALAB look back and study previous earnings.. stock ran up to 360 (Aug 7th Earning report) and pulled it back to 250 lev"
+      },
+      {
+        "post_id": "st_665845260",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Exaggerates positivity with 'sooooo good' sarcastically.",
+        "text": "$ALAB looking sooooo good \ud83d\udc4d\ud83c\udffc \ud83d\udcc8"
+      }
+    ]
+  }
+}

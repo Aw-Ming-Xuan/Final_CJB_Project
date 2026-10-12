@@ -1,0 +1,1759 @@
+{
+  "generated_at_utc": "2026-10-06T16:08:21",
+  "note": "Screening output, not investment advice.",
+  "top": [
+    {
+      "ticker": "CEG",
+      "market_cap": 107532296192.0,
+      "chatter_score": 75,
+      "social_mentions": 75,
+      "unbiased_news": 0,
+      "z_score": 6.05,
+      "z_method": "cross-section",
+      "volume_ratio": 1.28,
+      "unique_author_ratio": 0.8,
+      "pe_ratio": 22.785011,
+      "revenue_growth": 0.23,
+      "debt_to_equity": 76.419,
+      "social_sentiment": 0.189,
+      "social_voters": 60,
+      "news_sentiment": 0.251,
+      "news_articles": 18,
+      "bullish_pct": 47.0,
+      "bearish_pct": 8.0,
+      "neutral_pct": 45.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.214,
+      "confidence": 0.89,
+      "net_sentiment": 0.19,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Google and Constellation Sign a 3.6 GW Deal: The Bigger Half Isn\u2019t the Nuclear",
+          "url": "https://finnhub.io/api/news?id=93a7dccb99d34c679f2e18826a66ceabeee160c2ae76da9d513fc72e5d8fa2c0"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Google & Constellation Energy ink $1B nuclear agreement, but this deal isn't unique",
+          "url": "https://finnhub.io/api/news?id=29dbe8d231c4e2b6b275de100fdf06358b0c3193cbe45b1c5aefa07d779e4008"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "RTTNews",
+          "title": "Constellation Energy Shares Up On 3.60 GW Power Deals With Google On PJM Grid",
+          "url": "https://www.nasdaq.com/articles/constellation-energy-shares-360-gw-power-deals-google-pjm-grid"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Billionaire Philippe Laffont\u2019s $1.2 Billion Constellation Bet Gets a Google AI Boost",
+          "url": "https://finnhub.io/api/news?id=be53faeb53c013eb746a6df20816762eb22bfed201a3f0f14ca25e5f93bedd94"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Oklo Stock Rises as Google's 20-Year Constellation Deal Lifts Nuclear Stocks",
+          "url": "https://finnhub.io/api/news?id=a123ce8a37af15767f87d50f73b76bb573a16ca75068ed02c7a93632a79ae38c"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Bernstein Reiterates Outperform on Constellation Energy, Maintains $296 Price Target",
+          "url": "https://finnhub.io/api/news?id=9d53ad3a1a72de23f72b22b99c34377b13102488427a4282cc498b664797a164"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 0,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Google and Constellation Energy announced a multi\u2011year ~$1\u202fbillion nuclear power deal (approx. 3.6\u202fGW) on 2026\u201110\u201106",
+      "evidence_headlines": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.9,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.19,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 1.0,
+      "c_catalyst": 0.7857142857,
+      "c_attention": 1.0,
+      "c_volume": 1.0,
+      "final_score": 0.836
+    },
+    {
+      "ticker": "GOOGL",
+      "market_cap": 4229539561472.0,
+      "chatter_score": 36,
+      "social_mentions": 29,
+      "unbiased_news": 7,
+      "z_score": 4.85,
+      "z_method": "cross-section",
+      "volume_ratio": 1.03,
+      "unique_author_ratio": 0.93,
+      "pe_ratio": 22.946228,
+      "revenue_growth": 0.242,
+      "debt_to_equity": 18.859,
+      "social_sentiment": 0.083,
+      "social_voters": 27,
+      "news_sentiment": 0.216,
+      "news_articles": 98,
+      "bullish_pct": 50.0,
+      "bearish_pct": 13.0,
+      "neutral_pct": 37.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.136,
+      "confidence": 0.93,
+      "net_sentiment": 0.127,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "source": "CNBC",
+          "title": "Google squeezes more power from existing nuclear plants in Constellation deal. These stocks benefit",
+          "url": "https://www.cnbc.com/2026/10/06/google-constellation-energy-ceg-nuclear-power-data-center.html"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Google and Constellation Sign a 3.6 GW Deal: The Bigger Half Isn\u2019t the Nuclear",
+          "url": "https://finnhub.io/api/news?id=93a7dccb99d34c679f2e18826a66ceabeee160c2ae76da9d513fc72e5d8fa2c0"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Google & Constellation Energy ink $1B nuclear agreement, but this deal isn't unique",
+          "url": "https://finnhub.io/api/news?id=29dbe8d231c4e2b6b275de100fdf06358b0c3193cbe45b1c5aefa07d779e4008"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "MarketWatch",
+          "title": "Google makes a fresh bet on nuclear power as the AI energy crunch intensifies",
+          "url": "https://www.marketwatch.com/story/google-makes-a-fresh-bet-on-nuclear-power-as-the-ai-energy-crunch-intensifies-a757c296?mod=mw_rss_topstories"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "RTTNews",
+          "title": "Constellation Energy Shares Up On 3.60 GW Power Deals With Google On PJM Grid",
+          "url": "https://www.nasdaq.com/articles/constellation-energy-shares-360-gw-power-deals-google-pjm-grid"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Billionaire Philippe Laffont\u2019s $1.2 Billion Constellation Bet Gets a Google AI Boost",
+          "url": "https://finnhub.io/api/news?id=be53faeb53c013eb746a6df20816762eb22bfed201a3f0f14ca25e5f93bedd94"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Oklo Stock Rises as Google's 20-Year Constellation Deal Lifts Nuclear Stocks",
+          "url": "https://finnhub.io/api/news?id=a123ce8a37af15767f87d50f73b76bb573a16ca75068ed02c7a93632a79ae38c"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Google (Alphabet) signs a multi-year nuclear power purchase agreement with Constellation Energy worth about $1\u202fbillion, announced Oct\u202f6\u202f2026",
+      "evidence_headlines": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.9,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.163,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.8571428571,
+      "c_catalyst": 0.7857142857,
+      "c_attention": 0.5714285714,
+      "c_volume": 0.6428571429,
+      "final_score": 0.646
+    },
+    {
+      "ticker": "MU",
+      "market_cap": 1204859174912.0,
+      "chatter_score": 55,
+      "social_mentions": 48,
+      "unbiased_news": 7,
+      "z_score": 5.54,
+      "z_method": "cross-section",
+      "volume_ratio": 1.22,
+      "unique_author_ratio": 0.71,
+      "pe_ratio": 5.150892,
+      "revenue_growth": 3.793,
+      "debt_to_equity": 3.743,
+      "social_sentiment": 0.079,
+      "social_voters": 34,
+      "news_sentiment": 0.053,
+      "news_articles": 196,
+      "bullish_pct": 30.0,
+      "bearish_pct": 20.0,
+      "neutral_pct": 50.0,
+      "sarcasm_hints": 3,
+      "raw_sentiment": 0.068,
+      "confidence": 0.96,
+      "net_sentiment": 0.066,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-01",
+          "source": "CNBC",
+          "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+          "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "Q3 2026 earnings beat and strong guidance announced on 2026-09-30 (reported 2026-10-01)",
+      "evidence_headlines": [
+        7
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only",
+        "no_news_support"
+      ],
+      "catalyst_confidence": 0.93,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.058,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.2857142857,
+      "c_catalyst": 1.0,
+      "c_attention": 0.8571428571,
+      "c_volume": 0.8571428571,
+      "final_score": 0.6
+    },
+    {
+      "ticker": "MSFT",
+      "market_cap": 3957333164032.0,
+      "chatter_score": 40,
+      "social_mentions": 35,
+      "unbiased_news": 5,
+      "z_score": 5.02,
+      "z_method": "cross-section",
+      "volume_ratio": 1.0,
+      "unique_author_ratio": 0.86,
+      "pe_ratio": 22.508247,
+      "revenue_growth": 0.177,
+      "debt_to_equity": 29.118,
+      "social_sentiment": -0.003,
+      "social_voters": 30,
+      "news_sentiment": 0.154,
+      "news_articles": 111,
+      "bullish_pct": 39.0,
+      "bearish_pct": 18.0,
+      "neutral_pct": 43.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.06,
+      "confidence": 0.93,
+      "net_sentiment": 0.056,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-02",
+          "source": "Benzinga",
+          "title": "Connection Announces Partnership With Microsoft, Qualcomm, And OEM Partners To Launch Copilot+ PCs, A New Generation Of Windows-Based Devices For AI Workloads",
+          "url": "https://finnhub.io/api/news?id=c085ce041287e2a5527a41b81085293c6acf02879a4a6f97b08300245dfb70f7"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Microsoft partners with Connection to launch Copilot+ PCs for AI workloads (announced Oct 2, 2026)",
+      "evidence_headlines": [
+        8
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.78,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.099,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.5714285714,
+      "c_catalyst": 0.3571428571,
+      "c_attention": 0.7142857143,
+      "c_volume": 0.4285714286,
+      "final_score": 0.514
+    },
+    {
+      "ticker": "AMZN",
+      "market_cap": 2729422618624.0,
+      "chatter_score": 33,
+      "social_mentions": 33,
+      "unbiased_news": 0,
+      "z_score": 4.71,
+      "z_method": "cross-section",
+      "volume_ratio": 1.03,
+      "unique_author_ratio": 0.91,
+      "pe_ratio": 24.155403,
+      "revenue_growth": 0.196,
+      "debt_to_equity": 45.617,
+      "social_sentiment": 0.006,
+      "social_voters": 30,
+      "news_sentiment": 0.066,
+      "news_articles": 130,
+      "bullish_pct": 31.0,
+      "bearish_pct": 18.0,
+      "neutral_pct": 51.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.03,
+      "confidence": 0.94,
+      "net_sentiment": 0.028,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-01",
+          "source": "RTTNews",
+          "title": "Constellation, Amazon Ink 20-year Power Purchase Deal",
+          "url": "https://www.nasdaq.com/articles/constellation-amazon-ink-20-year-power-purchase-deal"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Amazon inks 20\u2011year power purchase agreement with Constellation, announced 2026\u201110\u201101",
+      "evidence_headlines": [
+        4
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.78,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.04,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.1428571429,
+      "c_catalyst": 0.3571428571,
+      "c_attention": 0.4285714286,
+      "c_volume": 0.6428571429,
+      "final_score": 0.339
+    }
+  ],
+  "all_candidates": [
+    {
+      "ticker": "CEG",
+      "market_cap": 107532296192.0,
+      "chatter_score": 75,
+      "social_mentions": 75,
+      "unbiased_news": 0,
+      "z_score": 6.05,
+      "z_method": "cross-section",
+      "volume_ratio": 1.28,
+      "unique_author_ratio": 0.8,
+      "pe_ratio": 22.785011,
+      "revenue_growth": 0.23,
+      "debt_to_equity": 76.419,
+      "social_sentiment": 0.189,
+      "social_voters": 60,
+      "news_sentiment": 0.251,
+      "news_articles": 18,
+      "bullish_pct": 47.0,
+      "bearish_pct": 8.0,
+      "neutral_pct": 45.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.214,
+      "confidence": 0.89,
+      "net_sentiment": 0.19,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Google and Constellation Sign a 3.6 GW Deal: The Bigger Half Isn\u2019t the Nuclear",
+          "url": "https://finnhub.io/api/news?id=93a7dccb99d34c679f2e18826a66ceabeee160c2ae76da9d513fc72e5d8fa2c0"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Google & Constellation Energy ink $1B nuclear agreement, but this deal isn't unique",
+          "url": "https://finnhub.io/api/news?id=29dbe8d231c4e2b6b275de100fdf06358b0c3193cbe45b1c5aefa07d779e4008"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "RTTNews",
+          "title": "Constellation Energy Shares Up On 3.60 GW Power Deals With Google On PJM Grid",
+          "url": "https://www.nasdaq.com/articles/constellation-energy-shares-360-gw-power-deals-google-pjm-grid"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Billionaire Philippe Laffont\u2019s $1.2 Billion Constellation Bet Gets a Google AI Boost",
+          "url": "https://finnhub.io/api/news?id=be53faeb53c013eb746a6df20816762eb22bfed201a3f0f14ca25e5f93bedd94"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Oklo Stock Rises as Google's 20-Year Constellation Deal Lifts Nuclear Stocks",
+          "url": "https://finnhub.io/api/news?id=a123ce8a37af15767f87d50f73b76bb573a16ca75068ed02c7a93632a79ae38c"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Bernstein Reiterates Outperform on Constellation Energy, Maintains $296 Price Target",
+          "url": "https://finnhub.io/api/news?id=9d53ad3a1a72de23f72b22b99c34377b13102488427a4282cc498b664797a164"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 0,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Google and Constellation Energy announced a multi\u2011year ~$1\u202fbillion nuclear power deal (approx. 3.6\u202fGW) on 2026\u201110\u201106",
+      "evidence_headlines": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.9,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.19,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "AVGO",
+      "market_cap": 1798321864704.0,
+      "chatter_score": 54,
+      "social_mentions": 53,
+      "unbiased_news": 1,
+      "z_score": 5.51,
+      "z_method": "cross-section",
+      "volume_ratio": 0.86,
+      "unique_author_ratio": 0.74,
+      "pe_ratio": 19.424746,
+      "revenue_growth": 0.855,
+      "debt_to_equity": 59.604,
+      "social_sentiment": 0.189,
+      "social_voters": 39,
+      "news_sentiment": 0.15,
+      "news_articles": 89,
+      "bullish_pct": 45.0,
+      "bearish_pct": 12.0,
+      "neutral_pct": 44.0,
+      "sarcasm_hints": 2,
+      "raw_sentiment": 0.173,
+      "confidence": 0.93,
+      "net_sentiment": 0.161,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "No specific corporate event identified",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "high",
+      "hype_signals": [
+        "coordinated_promotion",
+        "pump_language",
+        "meme_or_loss_posts",
+        "price_action_only",
+        "no_news_support"
+      ],
+      "catalyst_confidence": 0.78,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.172,
+      "final_label": "Bullish",
+      "eligibility": "high hype risk (coordinated_promotion, pump_language, meme_or_loss_posts, price_action_only, no_news_support)"
+    },
+    {
+      "ticker": "ANET",
+      "market_cap": 270103887872.0,
+      "chatter_score": 30,
+      "social_mentions": 30,
+      "unbiased_news": 0,
+      "z_score": 4.56,
+      "z_method": "cross-section",
+      "volume_ratio": 0.82,
+      "unique_author_ratio": 0.7,
+      "pe_ratio": 41.16886,
+      "revenue_growth": 0.377,
+      "debt_to_equity": null,
+      "social_sentiment": 0.235,
+      "social_voters": 21,
+      "news_sentiment": 0.112,
+      "news_articles": 13,
+      "bullish_pct": 38.0,
+      "bearish_pct": 9.0,
+      "neutral_pct": 53.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.186,
+      "confidence": 0.77,
+      "net_sentiment": 0.143,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-01",
+          "source": "Fintel",
+          "title": "Bernstein Initiates Coverage of Arista Networks at Outperform",
+          "url": "https://www.nasdaq.com/articles/bernstein-initiates-coverage-arista-networks-outperform"
+        },
+        {
+          "date": "2026-09-30",
+          "source": "Benzinga",
+          "title": "Bernstein Initiates Coverage On Arista Networks with Outperform Rating, Announces Price Target of $250",
+          "url": "https://finnhub.io/api/news?id=26a4726fb63216003bdf0ff75fcad0374be33c1a1d168d595ded22a0823260d5"
+        },
+        {
+          "date": "2026-10-04",
+          "source": "Yahoo",
+          "title": "The Bull Case For Arista Networks (ANET) Could Change Following Higher AI-Driven 2026 Revenue Guidance",
+          "url": "https://finnhub.io/api/news?id=d62b0968c2776b6f5a6fcb5b0958e541f788fd424deebdbaaf77a66e817ca05b"
+        },
+        {
+          "date": "2026-10-02",
+          "source": "Yahoo",
+          "title": "Outsized Earnings and Guidance Send Arista Networks Shares Upward",
+          "url": "https://finnhub.io/api/news?id=b4711e4dd524af9b3ffa97ffb9b9eb213d6b813b3eb2506e4e971a1588cf008a"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "Bernstein initiates coverage with an Outperform rating and a $250 price target, and AI\u2011driven 2026 revenue guidance is being raised (early October 2026)",
+      "evidence_headlines": [
+        7,
+        8,
+        10,
+        11
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only",
+        "no_news_support",
+        "spam"
+      ],
+      "catalyst_confidence": 0.78,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.107,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "GOOGL",
+      "market_cap": 4229539561472.0,
+      "chatter_score": 36,
+      "social_mentions": 29,
+      "unbiased_news": 7,
+      "z_score": 4.85,
+      "z_method": "cross-section",
+      "volume_ratio": 1.03,
+      "unique_author_ratio": 0.93,
+      "pe_ratio": 22.946228,
+      "revenue_growth": 0.242,
+      "debt_to_equity": 18.859,
+      "social_sentiment": 0.083,
+      "social_voters": 27,
+      "news_sentiment": 0.216,
+      "news_articles": 98,
+      "bullish_pct": 50.0,
+      "bearish_pct": 13.0,
+      "neutral_pct": 37.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.136,
+      "confidence": 0.93,
+      "net_sentiment": 0.127,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "source": "CNBC",
+          "title": "Google squeezes more power from existing nuclear plants in Constellation deal. These stocks benefit",
+          "url": "https://www.cnbc.com/2026/10/06/google-constellation-energy-ceg-nuclear-power-data-center.html"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Google and Constellation Sign a 3.6 GW Deal: The Bigger Half Isn\u2019t the Nuclear",
+          "url": "https://finnhub.io/api/news?id=93a7dccb99d34c679f2e18826a66ceabeee160c2ae76da9d513fc72e5d8fa2c0"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Finnhub",
+          "title": "Google & Constellation Energy ink $1B nuclear agreement, but this deal isn't unique",
+          "url": "https://finnhub.io/api/news?id=29dbe8d231c4e2b6b275de100fdf06358b0c3193cbe45b1c5aefa07d779e4008"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "MarketWatch",
+          "title": "Google makes a fresh bet on nuclear power as the AI energy crunch intensifies",
+          "url": "https://www.marketwatch.com/story/google-makes-a-fresh-bet-on-nuclear-power-as-the-ai-energy-crunch-intensifies-a757c296?mod=mw_rss_topstories"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "RTTNews",
+          "title": "Constellation Energy Shares Up On 3.60 GW Power Deals With Google On PJM Grid",
+          "url": "https://www.nasdaq.com/articles/constellation-energy-shares-360-gw-power-deals-google-pjm-grid"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Billionaire Philippe Laffont\u2019s $1.2 Billion Constellation Bet Gets a Google AI Boost",
+          "url": "https://finnhub.io/api/news?id=be53faeb53c013eb746a6df20816762eb22bfed201a3f0f14ca25e5f93bedd94"
+        },
+        {
+          "date": "2026-10-06",
+          "source": "Benzinga",
+          "title": "Oklo Stock Rises as Google's 20-Year Constellation Deal Lifts Nuclear Stocks",
+          "url": "https://finnhub.io/api/news?id=a123ce8a37af15767f87d50f73b76bb573a16ca75068ed02c7a93632a79ae38c"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Google (Alphabet) signs a multi-year nuclear power purchase agreement with Constellation Energy worth about $1\u202fbillion, announced Oct\u202f6\u202f2026",
+      "evidence_headlines": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [],
+      "catalyst_confidence": 0.9,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.163,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "INTC",
+      "market_cap": 601404932096.0,
+      "chatter_score": 7,
+      "social_mentions": 4,
+      "unbiased_news": 3,
+      "z_score": 2.31,
+      "z_method": "cross-section",
+      "volume_ratio": 0.85,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 54.627426,
+      "revenue_growth": 0.254,
+      "debt_to_equity": 48.997,
+      "social_sentiment": 0.207,
+      "social_voters": 3,
+      "news_sentiment": 0.084,
+      "news_articles": 31,
+      "bullish_pct": 50.0,
+      "bearish_pct": 21.0,
+      "neutral_pct": 29.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.158,
+      "confidence": 0.77,
+      "net_sentiment": 0.122,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "No specific corporate event identified; recent discussion centers on speculative partnership rumors and competitive dynamics",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "no_news_support",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.78,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": -0.074,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (no_clear_catalyst)"
+    },
+    {
+      "ticker": "AAOI",
+      "market_cap": 10789042176.0,
+      "chatter_score": 58,
+      "social_mentions": 58,
+      "unbiased_news": 0,
+      "z_score": 5.63,
+      "z_method": "cross-section",
+      "volume_ratio": 1.53,
+      "unique_author_ratio": 0.78,
+      "pe_ratio": 27.611906,
+      "revenue_growth": 0.864,
+      "debt_to_equity": 17.994,
+      "social_sentiment": 0.151,
+      "social_voters": 45,
+      "news_sentiment": 0.118,
+      "news_articles": 4,
+      "bullish_pct": 41.0,
+      "bearish_pct": 8.0,
+      "neutral_pct": 51.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.138,
+      "confidence": 0.83,
+      "net_sentiment": 0.114,
+      "sentiment_label": "Neutral",
+      "headlines_used": 8,
+      "evidence": [
+        {
+          "date": "2026-10-05",
+          "source": "Finnhub",
+          "title": "Applied Optoelectronics Announces Completion of Previously Announced At the Market Offering",
+          "url": "https://finnhub.io/api/news?id=fb90a0ab5c32675c1aca3c7bab27e8f6036290388c9f536860bdda93abd88eaa"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "financing_or_dilution",
+      "catalyst_summary": "Completion of an at\u2011the\u2011market equity offering announced on 2026\u201110\u201105",
+      "evidence_headlines": [
+        1
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "meme_or_loss_posts",
+        "spam"
+      ],
+      "catalyst_confidence": 0.9,
+      "catalyst_direction": "negative",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.112,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (financing_or_dilution: Completion of an at\u2011the\u2011market equity offering announced on )"
+    },
+    {
+      "ticker": "NVDA",
+      "market_cap": 5845213511680.0,
+      "chatter_score": 52,
+      "social_mentions": 38,
+      "unbiased_news": 14,
+      "z_score": 5.45,
+      "z_method": "cross-section",
+      "volume_ratio": 1.06,
+      "unique_author_ratio": 0.79,
+      "pe_ratio": 15.321501,
+      "revenue_growth": 1.059,
+      "debt_to_equity": 16.971,
+      "social_sentiment": 0.11,
+      "social_voters": 30,
+      "news_sentiment": 0.132,
+      "news_articles": 169,
+      "bullish_pct": 40.0,
+      "bearish_pct": 16.0,
+      "neutral_pct": 44.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.119,
+      "confidence": 0.95,
+      "net_sentiment": 0.113,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-05",
+          "source": "CNBC",
+          "title": "Nvidia's $20 billion Groq deal faces lawsuit alleging startup's stockholders were shortchanged",
+          "url": "https://www.cnbc.com/2026/10/05/nvidia-groq-deal-stockholder-lawsuit.html"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 6,
+      "status": "OK",
+      "catalyst_type": "regulatory_or_legal",
+      "catalyst_summary": "Lawsuit over Nvidia's $20\u202fbillion Groq acquisition, reported 2026-10-05",
+      "evidence_headlines": [
+        9
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.85,
+      "catalyst_direction": "negative",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.1,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (regulatory_or_legal: Lawsuit over Nvidia's $20\u202fbillion Groq acquisition, reported)"
+    },
+    {
+      "ticker": "AAPL",
+      "market_cap": 4861905600512.0,
+      "chatter_score": 11,
+      "social_mentions": 7,
+      "unbiased_news": 4,
+      "z_score": 2.98,
+      "z_method": "cross-section",
+      "volume_ratio": 0.82,
+      "unique_author_ratio": 0.86,
+      "pe_ratio": 34.764187,
+      "revenue_growth": 0.164,
+      "debt_to_equity": 78.445,
+      "social_sentiment": 0.21,
+      "social_voters": 6,
+      "news_sentiment": -0.019,
+      "news_articles": 31,
+      "bullish_pct": 22.0,
+      "bearish_pct": 16.0,
+      "neutral_pct": 62.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.119,
+      "confidence": 0.79,
+      "net_sentiment": 0.094,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-05",
+          "source": "Finnhub",
+          "title": "3 US Tech Stocks Investors Are Repricing As Treasury Yields Pressure Growth",
+          "url": "https://finnhub.io/api/news?id=83cf16ce3b0f8b4d4fe9d48407e4607ddb2834990f26fb5207dc671d5fd814d0"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "Investors reprice Apple amid Treasury yields pressure on growth (Oct 5 2026)",
+      "evidence_headlines": [
+        0
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only",
+        "no_news_support"
+      ],
+      "catalyst_confidence": 0.78,
+      "catalyst_direction": "negative",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.014,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (macro_or_sector: Investors reprice Apple amid Treasury yields pressure on gro)"
+    },
+    {
+      "ticker": "AMAT",
+      "market_cap": 421484920832.0,
+      "chatter_score": 5,
+      "social_mentions": 4,
+      "unbiased_news": 1,
+      "z_score": 1.83,
+      "z_method": "cross-section",
+      "volume_ratio": 0.88,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 28.76164,
+      "revenue_growth": 0.248,
+      "debt_to_equity": 28.666,
+      "social_sentiment": 0.14,
+      "social_voters": 3,
+      "news_sentiment": 0.358,
+      "news_articles": 4,
+      "bullish_pct": 71.0,
+      "bearish_pct": 0.0,
+      "neutral_pct": 29.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.227,
+      "confidence": 0.41,
+      "net_sentiment": 0.093,
+      "sentiment_label": "Neutral",
+      "headlines_used": 4,
+      "evidence": [],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "No specific corporate event identified in the recent news or filings",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "no_news_support",
+        "price_action_only",
+        "stale_news"
+      ],
+      "catalyst_confidence": 0.85,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.042,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (no_clear_catalyst)"
+    },
+    {
+      "ticker": "SNDK",
+      "market_cap": 245199126528.0,
+      "chatter_score": 6,
+      "social_mentions": 6,
+      "unbiased_news": 0,
+      "z_score": 2.08,
+      "z_method": "cross-section",
+      "volume_ratio": 0.84,
+      "unique_author_ratio": 1.0,
+      "pe_ratio": 6.355719,
+      "revenue_growth": 3.716,
+      "debt_to_equity": 1.277,
+      "social_sentiment": 0.102,
+      "social_voters": 6,
+      "news_sentiment": 0.144,
+      "news_articles": 17,
+      "bullish_pct": 39.0,
+      "bearish_pct": 17.0,
+      "neutral_pct": 43.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.118,
+      "confidence": 0.7,
+      "net_sentiment": 0.083,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-03",
+          "source": "Finnhub",
+          "title": "Sandisk (SNDK) Profits Are Surging\u2014Can the AI Storage Boom Sustain Them?",
+          "url": "https://finnhub.io/api/news?id=2c381db65dbd7f2cea8d5a972ada9fdf5c7ea9ed15ac58166a88447a855fa45b"
+        },
+        {
+          "date": "2026-10-02",
+          "source": "Finnhub",
+          "title": "Sandisk: Great Long-Term Deal Coverage Balanced By Richer Valuations (Upgrade)",
+          "url": "https://finnhub.io/api/news?id=e5a691cb3366d8e147b14462718a7de6fd523d477dbb75761ed8d8d67d89fb1c"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "Analyst upgrade coverage noted in recent Finnhub commentary (e.g., headline 8)",
+      "evidence_headlines": [
+        4,
+        8
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "meme_or_loss_posts",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.71,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": -0.003,
+      "final_label": "Neutral",
+      "eligibility": "sentiment -0.003 not positive after sarcasm review"
+    },
+    {
+      "ticker": "TTWO",
+      "market_cap": 38164578304.0,
+      "chatter_score": 28,
+      "social_mentions": 28,
+      "unbiased_news": 0,
+      "z_score": 4.45,
+      "z_method": "cross-section",
+      "volume_ratio": 0.86,
+      "unique_author_ratio": 0.86,
+      "pe_ratio": 19.831581,
+      "revenue_growth": 0.02,
+      "debt_to_equity": 81.607,
+      "social_sentiment": 0.021,
+      "social_voters": 24,
+      "news_sentiment": 0.209,
+      "news_articles": 5,
+      "bullish_pct": 17.0,
+      "bearish_pct": 3.0,
+      "neutral_pct": 79.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.097,
+      "confidence": 0.74,
+      "net_sentiment": 0.072,
+      "sentiment_label": "Neutral",
+      "headlines_used": 11,
+      "evidence": [
+        {
+          "date": "2026-10-04",
+          "source": "Finnhub",
+          "title": "Can Take Two Interactive Software (TTWO) Still Look Undervalued On Its New Xbox Deal?",
+          "url": "https://finnhub.io/api/news?id=a8671645628c8f1c8ba7f5eedb0a70ed6a465618da8a0a3f7550ee6123a7b0d8"
+        },
+        {
+          "date": "2026-09-30",
+          "source": "Finnhub",
+          "title": "Take-Two Interactive Says It Entered New Long-Term Xbox Publisher License Agreement With Microsoft, Replacing Existing Agreements; Terms Not Disclosed",
+          "url": "https://finnhub.io/api/news?id=020df431d521e2084db963c61542b7caf6806b32867969c9fba431695f9e1b2d"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 5,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Entered new long-term Xbox publisher license agreement with Microsoft (announced 2026-09-30)",
+      "evidence_headlines": [
+        1,
+        6
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only",
+        "no_news_support",
+        "meme_or_loss_posts"
+      ],
+      "catalyst_confidence": 0.78,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.076,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "MU",
+      "market_cap": 1204859174912.0,
+      "chatter_score": 55,
+      "social_mentions": 48,
+      "unbiased_news": 7,
+      "z_score": 5.54,
+      "z_method": "cross-section",
+      "volume_ratio": 1.22,
+      "unique_author_ratio": 0.71,
+      "pe_ratio": 5.150892,
+      "revenue_growth": 3.793,
+      "debt_to_equity": 3.743,
+      "social_sentiment": 0.079,
+      "social_voters": 34,
+      "news_sentiment": 0.053,
+      "news_articles": 196,
+      "bullish_pct": 30.0,
+      "bearish_pct": 20.0,
+      "neutral_pct": 50.0,
+      "sarcasm_hints": 3,
+      "raw_sentiment": 0.068,
+      "confidence": 0.96,
+      "net_sentiment": 0.066,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-01",
+          "source": "CNBC",
+          "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+          "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "Q3 2026 earnings beat and strong guidance announced on 2026-09-30 (reported 2026-10-01)",
+      "evidence_headlines": [
+        7
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only",
+        "no_news_support"
+      ],
+      "catalyst_confidence": 0.93,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.058,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "JPM",
+      "market_cap": 882331746304.0,
+      "chatter_score": 5,
+      "social_mentions": 0,
+      "unbiased_news": 5,
+      "z_score": 1.83,
+      "z_method": "cross-section",
+      "volume_ratio": 0.82,
+      "unique_author_ratio": null,
+      "pe_ratio": 13.261536,
+      "revenue_growth": 0.304,
+      "debt_to_equity": null,
+      "social_sentiment": null,
+      "social_voters": 0,
+      "news_sentiment": 0.121,
+      "news_articles": 11,
+      "bullish_pct": 36.0,
+      "bearish_pct": 27.0,
+      "neutral_pct": 36.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.121,
+      "confidence": 0.52,
+      "net_sentiment": 0.063,
+      "sentiment_label": "Neutral",
+      "headlines_used": 11,
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "source": "Investing.com",
+          "title": "JPMorgan hires veteran dealmaker Rob Sweeney amid investment banking expansion",
+          "url": "https://www.investing.com/news/stock-market-news/jpmorgan-hires-veteran-dealmaker-rob-sweeney-amid-investment-banking-expansion-4934935"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 0,
+      "status": "OK",
+      "catalyst_type": "management_or_insider",
+      "catalyst_summary": "JPMorgan hired veteran dealmaker Rob Sweeney to expand its investment banking division on 2026-10-06",
+      "evidence_headlines": [
+        0
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.9,
+      "catalyst_direction": "positive",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.063,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (management_or_insider; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "MSFT",
+      "market_cap": 3957333164032.0,
+      "chatter_score": 40,
+      "social_mentions": 35,
+      "unbiased_news": 5,
+      "z_score": 5.02,
+      "z_method": "cross-section",
+      "volume_ratio": 1.0,
+      "unique_author_ratio": 0.86,
+      "pe_ratio": 22.508247,
+      "revenue_growth": 0.177,
+      "debt_to_equity": 29.118,
+      "social_sentiment": -0.003,
+      "social_voters": 30,
+      "news_sentiment": 0.154,
+      "news_articles": 111,
+      "bullish_pct": 39.0,
+      "bearish_pct": 18.0,
+      "neutral_pct": 43.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.06,
+      "confidence": 0.93,
+      "net_sentiment": 0.056,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-02",
+          "source": "Benzinga",
+          "title": "Connection Announces Partnership With Microsoft, Qualcomm, And OEM Partners To Launch Copilot+ PCs, A New Generation Of Windows-Based Devices For AI Workloads",
+          "url": "https://finnhub.io/api/news?id=c085ce041287e2a5527a41b81085293c6acf02879a4a6f97b08300245dfb70f7"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Microsoft partners with Connection to launch Copilot+ PCs for AI workloads (announced Oct 2, 2026)",
+      "evidence_headlines": [
+        8
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.78,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.099,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "AMZN",
+      "market_cap": 2729422618624.0,
+      "chatter_score": 33,
+      "social_mentions": 33,
+      "unbiased_news": 0,
+      "z_score": 4.71,
+      "z_method": "cross-section",
+      "volume_ratio": 1.03,
+      "unique_author_ratio": 0.91,
+      "pe_ratio": 24.155403,
+      "revenue_growth": 0.196,
+      "debt_to_equity": 45.617,
+      "social_sentiment": 0.006,
+      "social_voters": 30,
+      "news_sentiment": 0.066,
+      "news_articles": 130,
+      "bullish_pct": 31.0,
+      "bearish_pct": 18.0,
+      "neutral_pct": 51.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.03,
+      "confidence": 0.94,
+      "net_sentiment": 0.028,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-01",
+          "source": "RTTNews",
+          "title": "Constellation, Amazon Ink 20-year Power Purchase Deal",
+          "url": "https://www.nasdaq.com/articles/constellation-amazon-ink-20-year-power-purchase-deal"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Amazon inks 20\u2011year power purchase agreement with Constellation, announced 2026\u201110\u201101",
+      "evidence_headlines": [
+        4
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.78,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.04,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "MRK",
+      "market_cap": 346600603648.0,
+      "chatter_score": 5,
+      "social_mentions": 5,
+      "unbiased_news": 0,
+      "z_score": 1.83,
+      "z_method": "cross-section",
+      "volume_ratio": 0.92,
+      "unique_author_ratio": 1.0,
+      "pe_ratio": 14.835744,
+      "revenue_growth": 0.051,
+      "debt_to_equity": 128.408,
+      "social_sentiment": 0.039,
+      "social_voters": 5,
+      "news_sentiment": 0.009,
+      "news_articles": 1,
+      "bullish_pct": 17.0,
+      "bearish_pct": 0.0,
+      "neutral_pct": 83.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.027,
+      "confidence": 0.38,
+      "net_sentiment": 0.01,
+      "sentiment_label": "Neutral",
+      "headlines_used": 1,
+      "evidence": [],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 0,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "No specific catalyst identified in recent news or posts",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "low",
+      "hype_signals": [
+        "no_news_support"
+      ],
+      "catalyst_confidence": 0.85,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.01,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (no_clear_catalyst)"
+    },
+    {
+      "ticker": "OWL",
+      "market_cap": 14245452800.0,
+      "chatter_score": 22,
+      "social_mentions": 22,
+      "unbiased_news": 0,
+      "z_score": 4.06,
+      "z_method": "cross-section",
+      "volume_ratio": 1.37,
+      "unique_author_ratio": 0.82,
+      "pe_ratio": 9.232364,
+      "revenue_growth": 0.071,
+      "debt_to_equity": 77.391,
+      "social_sentiment": -0.039,
+      "social_voters": 18,
+      "news_sentiment": -0.014,
+      "news_articles": 3,
+      "bullish_pct": 19.0,
+      "bearish_pct": 19.0,
+      "neutral_pct": 62.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": -0.029,
+      "confidence": 0.68,
+      "net_sentiment": -0.02,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-01",
+          "source": "Finnhub",
+          "title": "Blue Owl Technology Finance Corp. Schedules Earnings Release and Quarterly Earnings Call to Discuss its Third Quarter Ended September 30, 2026 Financial Results",
+          "url": "https://finnhub.io/api/news?id=2928dec48e823790f5eb91841e1bd4a72ba4ffbb951c4a0be4021b0a78ce09a0"
+        },
+        {
+          "date": "2026-10-01",
+          "source": "Finnhub",
+          "title": "Blue Owl Capital Inc. to Announce Third Quarter 2026 Results",
+          "url": "https://finnhub.io/api/news?id=d02b608c7605ac1da1596ff11ed2581324088faabd7d3a51ae4ad78892e7ce88"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "Blue Owl Capital scheduled its Q3 2026 earnings release and call (early October 2026)",
+      "evidence_headlines": [
+        8,
+        11
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only",
+        "no_news_support",
+        "spam"
+      ],
+      "catalyst_confidence": 0.78,
+      "catalyst_direction": "mixed",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": -0.02,
+      "final_label": "Neutral",
+      "eligibility": "sentiment -0.020 not positive after sarcasm review"
+    }
+  ],
+  "sarcasm_corrections": {
+    "AVGO": [
+      {
+        "post_id": "st_665848994",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "laughs at trivial 1% move",
+        "text": "$AVGO 1% algo logic  changed\ud83d\ude02\ud83d\ude02\ud83d\ude02"
+      },
+      {
+        "post_id": "st_665859739",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "no clear stance on stock",
+        "text": "$AVGO You are now in my contacts . I will text you."
+      },
+      {
+        "post_id": "st_665849973",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "brags short squeeze success",
+        "text": "$AVGO AVGO look at my post i deserve a god damn follow. Told you. Bears and shorts got COOKED!!!! TSLA is next. 400 by t"
+      }
+    ],
+    "ANET": [
+      {
+        "post_id": "st_665788593",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Just lists tickers, no clear stance",
+        "text": "$NOW $PEP $INTU $C $ANET .. ..."
+      },
+      {
+        "post_id": "st_665706163",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Sarcastic tone questioning hype, likely bearish",
+        "text": "Tightening up while huckleberry riding.  $ANET if da truth.   \ud83e\udde0\ud83d\udc40"
+      }
+    ],
+    "GOOGL": [
+      {
+        "post_id": "st_665819315",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Provides neutral factual comparison, no clear sentiment.",
+        "text": "$ANTHZZX.P valuation comparison of Anthropic IPO versus when Google went public\u2026Google revenue $2.7B, Anthropic revenue "
+      },
+      {
+        "post_id": "st_665859066",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "No Google mention, sentiment neutral.",
+        "text": "$MRVL: Marvell is surging after raising its FY28 revenue outlook to $20 bln as AI-driven optics and switching demand acc"
+      },
+      {
+        "post_id": "st_665741064",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "No Google mention, sentiment neutral.",
+        "text": "$FRVO  \n \nThe 30% water loss / leakage rate at the Project Red facility is NOT a problem. \n \n \nMy Q to Gemini 3 : \n \nIs "
+      },
+      {
+        "post_id": "st_665805346",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Mocks bears, supports Google, bullish stance.",
+        "text": "$AMZN $GOOGL All the bears here seem like they are trying to spook people to get some money together. payday loans must "
+      }
+    ],
+    "INTC": [
+      {
+        "post_id": "st_665864099",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Just shares article, no opinion on Intel.",
+        "text": "AMD Rallies On Bullish Takes For AI Hardware Sales https://www.investors.com/news/technology/amd-stock-rallies-bullish-t"
+      },
+      {
+        "post_id": "st_665719472",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocks info, suggests doubt about Intel's prospects.",
+        "text": "$AMFN $VRT $ANET $AMZN $INTC that's some good info there. Does it work?"
+      }
+    ],
+    "AAOI": [
+      {
+        "post_id": "st_665843268",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Insulting user, not ticker",
+        "text": "@VadimTudorPresedinte $QBTS $AAOI this guy is a retard, careful who you follow, 99% of the morons on this dumb ass app h"
+      }
+    ],
+    "NVDA": [
+      {
+        "post_id": "st_665865481",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Suggests profit taking from NVDA; bearish view",
+        "text": "$NVDA everyone took profits and bought these\n\n$MRVL $AMD $NBIS $AVGO"
+      },
+      {
+        "post_id": "st_665862317",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "NVDA not discussed; neutral",
+        "text": "$NBIS Why Nebius? Rapid growth as a specialized AI cloud provider that leases high-end Nvidia GPUs to meet the soaring, "
+      },
+      {
+        "post_id": "st_665812331",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "NVDA absent; neutral",
+        "text": "$QQQ ~ Zitron: Microsoft Has 80 Billion Of AI Chips It Can't Plug In going into 2027. Unfortunately macro bear\u2019s and Nas"
+      },
+      {
+        "post_id": "st_665865230",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "NVDA absent; neutral",
+        "text": "$AMD This is a sub $500 stock. The current valuation is based on futuristic hyperbole. The supply isn't going to get div"
+      },
+      {
+        "post_id": "st_665863629",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "NVDA not mentioned; neutral",
+        "text": "The S&P 500\n rose to a fresh all-time intraday high on Tuesday, boosted by gains in key technology names as well as decl"
+      },
+      {
+        "post_id": "st_665817658",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "NVDA not mentioned; neutral",
+        "text": "Jim Cramer said major AI stocks are masking significant pressure from surging Treasury yields, creating an unusual disco"
+      }
+    ],
+    "AAPL": [
+      {
+        "post_id": "st_665814247",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Predicts Apple will be overtaken by Microsoft",
+        "text": "$MSFT Prediction: By the End of 2027, Microsoft Will Be More Valuable Than Apple. \n \nhttps://www.theglobeandmail.com/inv"
+      }
+    ],
+    "AMAT": [
+      {
+        "post_id": "st_665846287",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Machines lag, author disappointed",
+        "text": "$AMAT $LRCX $KLAC everything in the semi supply chain is up except for the companies that make the machines that make th"
+      }
+    ],
+    "SNDK": [
+      {
+        "post_id": "st_665849220",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Exaggerated hype, likely mocking, bearish intent",
+        "text": "$MRVL $NBIS $MU $SNDK \n\"The next trillion dollar company, ladies and gentlemen.\""
+      },
+      {
+        "post_id": "st_665850819",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Uses 'TOTAL COLLAPSE' indicating strong bearish sentiment",
+        "text": "$SNDK $WDC TOTAL COLLAPSE"
+      }
+    ],
+    "TTWO": [
+      {
+        "post_id": "st_665741768",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Celebrates huge put gains, expects upside",
+        "text": "$TTWO I literally timed the same put move twice and it both times printed 200-300%\u2026first in January of 2026 (Dec 2025) a"
+      },
+      {
+        "post_id": "st_665756115",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Excited about opening price, bullish",
+        "text": "$TTWO sick open \ud83d\udd25"
+      },
+      {
+        "post_id": "st_665738449",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Anticipates run\u2011up before release, bullish",
+        "text": "$TTWO \n\nAround 6-7 weeks till release \n\nRun up should start sooner or later\n\nMaybe November onwards"
+      },
+      {
+        "post_id": "st_665735947",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Derogatory remark, dislikes game, bearish",
+        "text": "$TTWO no one wants to play cuck simulator"
+      },
+      {
+        "post_id": "st_665752541",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Claims stock always down, bearish outlook",
+        "text": "$TTWO can always count on this being red"
+      }
+    ],
+    "MU": [
+      {
+        "post_id": "st_665842736",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Laughing at hype, actually mocking MU.",
+        "text": "$MU \n\nThank you $DELL $ALAB and my hype stocks \ud83d\ude02"
+      },
+      {
+        "post_id": "st_665850330",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Facepalm and clown emojis indicate disappointment, bearish.",
+        "text": "$MU \ud83e\udd26\u200d\u2642\ufe0f\ud83e\udd21"
+      },
+      {
+        "post_id": "st_665851914",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Laugh emojis mock MU, author negative.",
+        "text": "$MU \ud83d\ude02\ud83d\ude02"
+      }
+    ],
+    "MSFT": [
+      {
+        "post_id": "st_665818966",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Believes MSFT outperformed analysts, positive outlook",
+        "text": "$MSFT Anyone who actually listens to Wall Street analysts is a certified fucking dummy who totally deserves to lose thei"
+      },
+      {
+        "post_id": "st_665819315",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Discusses Anthropic, no stance on MSFT",
+        "text": "$ANTHZZX.P valuation comparison of Anthropic IPO versus when Google went public\u2026Google revenue $2.7B, Anthropic revenue "
+      },
+      {
+        "post_id": "st_665819742",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Predicts sizable upside from June bottom, optimistic",
+        "text": "$MSFT \"Microsoft's stock could be about 40% into a 100% move off of its roughly $353 bottom hit in June,\" Reitzes said i"
+      }
+    ],
+    "AMZN": [
+      {
+        "post_id": "st_665828344",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "No clear AMZN view, neutral",
+        "text": "$HPE $SNOW $AMZN  \nAsos clothing company got hacked \n\nand HPE Air-gapped will me must have in 2027 \n\nHPE Private cloud P"
+      },
+      {
+        "post_id": "st_665805346",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Defends AMZN against bearish rumors",
+        "text": "$AMZN $GOOGL All the bears here seem like they are trying to spook people to get some money together. payday loans must "
+      },
+      {
+        "post_id": "st_665839930",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "No direct AMZN stance, neutral",
+        "text": "Zscaler CEO Pushes Back On AI Disruption Fears \u2014 Says Talks Of \u2018SaaSpocalypse\u2019 Overblown\n\n$ZS $CRWD $PANW $CIBR $AMZN\n\nh"
+      }
+    ],
+    "OWL": [
+      {
+        "post_id": "st_665809776",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "No opinion on OWL expressed",
+        "text": "$SPY ~ Private Credit Investors Want Their Money Back... And It's Getting Worse In Oct 2026 but the Nasdaq could not car"
+      },
+      {
+        "post_id": "st_665819288",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Irrelevant to OWL, no stance",
+        "text": "$QQQ ~ The bottom line from Wall Street in Oct 2026 is the bond market is flashing extreme red and the equity market (SP"
+      },
+      {
+        "post_id": "st_665725337",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Calls rally reversal nasty, bearish view",
+        "text": "$KKR $OWL nasty total reversal of the rally, not good price action."
+      }
+    ]
+  }
+}
