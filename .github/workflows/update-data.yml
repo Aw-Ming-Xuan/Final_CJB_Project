@@ -31,17 +31,29 @@ jobs:
     timeout-minutes: 90
     env:
       MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event.schedule == '0 22 * * 1-5' && 'screen' || 'collect') }}
-      FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-      ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
-      LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
-      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-      LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
-      LLM_MODEL: ${{ secrets.LLM_MODEL }}
       PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0   # full history, so the publish step can rebase onto new commits
+
+      # Secrets pasted into GitHub often carry a trailing newline, which breaks HTTP
+      # headers (Finnhub rejects the key). Strip whitespace and pass them on cleaned.
+      - name: Load the API keys
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+          LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+        run: |
+          for name in FINNHUB_API_KEY ALPHAVANTAGE_API_KEY LLM_PROVIDER LLM_API_KEY LLM_BASE_URL LLM_MODEL; do
+            value=$(printf '%s' "${!name}" | tr -d '[:space:]')
+            [ -n "$value" ] || continue
+            echo "::add-mask::$value"
+            echo "$name=$value" >> "$GITHUB_ENV"
+          done
 
       - uses: actions/setup-python@v5
         with:
