@@ -1,0 +1,173 @@
+{
+  "generated_at_utc": "2026-10-15T11:30:41",
+  "note": "Screening output, not investment advice.",
+  "top": [],
+  "all_candidates": [
+    {
+      "ticker": "KLAR",
+      "market_cap": 4989746176.0,
+      "chatter_score": 19,
+      "social_mentions": 19,
+      "unbiased_news": 0,
+      "z_score": 2.24,
+      "z_method": "cross-section",
+      "volume_ratio": 0.82,
+      "unique_author_ratio": 0.74,
+      "pe_ratio": 16.483791,
+      "revenue_growth": 0.266,
+      "debt_to_equity": 65.716,
+      "social_sentiment": 0.342,
+      "social_voters": 14,
+      "news_sentiment": null,
+      "news_articles": 0,
+      "bullish_pct": 71.0,
+      "bearish_pct": 7.0,
+      "neutral_pct": 21.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.342,
+      "confidence": 0.58,
+      "net_sentiment": 0.199,
+      "sentiment_label": "Bullish",
+      "headlines_used": 1,
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "source": "The Motley Fool",
+          "title": "Klarna's 2026 Outlook: Business Expansion Targets Sustainable Profitability",
+          "url": "https://www.nasdaq.com/articles/klarnas-2026-outlook-business-expansion-targets-sustainable-profitability"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "A Motley Fool article dated 2026-10-08 discusses Klarna's 2026 expansion targets and goal of sustainable profitability, but provides no specific guidance change.",
+      "evidence_headlines": [
+        0
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.77,
+      "catalyst_direction": "positive",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.254,
+      "final_label": "Bullish",
+      "eligibility": "no genuine catalyst (guidance_or_analyst; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "AFRM",
+      "market_cap": 23791572992.0,
+      "chatter_score": 13,
+      "social_mentions": 13,
+      "unbiased_news": 0,
+      "z_score": 1.89,
+      "z_method": "cross-section",
+      "volume_ratio": 1.15,
+      "unique_author_ratio": 0.85,
+      "pe_ratio": 14.057382,
+      "revenue_growth": 0.33,
+      "debt_to_equity": 182.77,
+      "social_sentiment": 0.316,
+      "social_voters": 11,
+      "news_sentiment": -0.014,
+      "news_articles": 1,
+      "bullish_pct": 42.0,
+      "bearish_pct": 0.0,
+      "neutral_pct": 58.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.184,
+      "confidence": 0.55,
+      "net_sentiment": 0.101,
+      "sentiment_label": "Neutral",
+      "headlines_used": 4,
+      "evidence": [],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 5,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "No AFRM-specific material event is reported; the headlines are general market commentary, a stock-performance article, or discussion of other fintech companies.",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "no_news_support",
+        "price_action_only",
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.89,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.115,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (no_clear_catalyst)"
+    }
+  ],
+  "sarcasm_corrections": {
+    "KLAR": [
+      {
+        "post_id": "st_666050566",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Anticipates upcoming figures, with playful optimism.",
+        "text": "$AFRM $KLAR cmon .....old gags\n\nJust wait nov and feb figures...\ud83d\ude0c\ud83e\udd2d\ud83d\ude1a"
+      },
+      {
+        "post_id": "st_666036676",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Views a move up from the February-March $12 level positively.",
+        "text": "$KLAR off the $12 level from back in Feb-March looks great"
+      }
+    ],
+    "AFRM": [
+      {
+        "post_id": "st_666050566",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Calls the bullish setup an old gag and hints at disappointing upcoming figures.",
+        "text": "$AFRM $KLAR cmon .....old gags\n\nJust wait nov and feb figures...\ud83d\ude0c\ud83e\udd2d\ud83d\ude1a"
+      },
+      {
+        "post_id": "st_666086632",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Ticker mention only; no opinion is expressed.",
+        "text": "$AFRM"
+      },
+      {
+        "post_id": "st_666048949",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Calls AFRM stable and a quality company.",
+        "text": "$AFRM nice and stable because it\u2019s quality $SOFI \ufffc"
+      },
+      {
+        "post_id": "st_666083742",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Notes AFRM has been moving upward.",
+        "text": "$AFRM has been on the move"
+      },
+      {
+        "post_id": "st_666123852",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": true,
+        "reason": "Despite calling AFRM a deadbeat, notes it is recovering.",
+        "text": "$AFRM Even dead beat Afrm trying to take a turn. Recovering earnings AVWAP"
+      }
+    ]
+  }
+}
