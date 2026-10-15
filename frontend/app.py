@@ -324,6 +324,13 @@ ASK_SYSTEM = (
     "more stocks than there are picks (e.g. 'top 5' in a week with 1 pick, or 'another 4'), or for other "
     "recommendations, first say how many passed every check, then put the next runner-ups in order in "
     "\"runner_ups\" (as many as asked, default enough to make 5) and say plainly they did not pass every check. "
+    "\"outside_screen\" holds data fetched live just now from Yahoo Finance (and Finnhub news) for stocks "
+    "the user named that are not final picks. When the user asks about such a stock, first say in plain words "
+    "why the screen did not pick it (from \"dropped\", or that it had no chatter this week; the screen looks "
+    "for an unusual burst of chatter backed by real news, not for good companies), then describe it from "
+    "outside_screen: what the company does, recent price moves and what the latest headlines are about. Say "
+    "clearly this comes from outside the weekly screen and is not a pick, and list those tickers in "
+    "\"looked_up\". Never call a stock good or bad, or say whether to buy it. "
     "Facts about the data: every screen covers the full data_window (the last 7 days of posts and news). "
     "reliability.days_of_history is NOT the amount of data screened; it is how many earlier daily runs "
     "are saved as a baseline for judging whether chatter is unusual for each stock (3 are needed, until "
@@ -341,7 +348,7 @@ ASK_SYSTEM = (
     "You answer questions about a weekly screen of US-listed stocks (including ADRs of foreign "
     "companies such as TSMC or Alibaba) built from social-media and news "
     "chatter. Use ONLY the JSON data given. If the question is about something the data does not "
-    "cover (other countries, a stock not in the data, price targets, whether to buy), say so plainly "
+    "cover (other countries, a stock in neither the data nor outside_screen, price targets, whether to buy), say so plainly "
     "and say what the data does cover. Be brief and neat. The app shows a card for every pick you "
     "list in \"tickers\" (in the order you give) with its name, catalyst and risk flags, so do NOT "
     "repeat catalysts, risk flags or rank numbers in your text, and never write 'Rank 1', 'Rank 2'. "
@@ -351,7 +358,8 @@ ASK_SYSTEM = (
     "{\"answer\": \"1-2 plain sentences, at most 45 words\", \"bullets\": [short strings, at most 5], "
     "\"tickers\": [final picks the answer is about, in rank order], "
     "\"runner_ups\": [runner-up tickers to show, in order, or empty], "
-    "\"earlier_run_id\": run_id of the earlier screen used, or null, \"earlier_tickers\": [its picks to show]}"
+    "\"earlier_run_id\": run_id of the earlier screen used, or null, \"earlier_tickers\": [its picks to show], "
+    "\"looked_up\": [outside_screen tickers the answer is about]}"
 )
 
 
@@ -391,7 +399,8 @@ def _ask_llm(question: str, context_json: str, history_json: str = "[]"):
                     "tickers": list(data.get("tickers") or []),
                     "runner_ups": list(data.get("runner_ups") or []),
                     "earlier_run_id": data.get("earlier_run_id"),
-                    "earlier_tickers": list(data.get("earlier_tickers") or [])}
+                    "earlier_tickers": list(data.get("earlier_tickers") or []),
+                    "looked_up": list(data.get("looked_up") or [])}
         except Exception as err:
             text = str(err).lower()
             # Drop an option the provider rejects. Some relays mask the option name ("***.format"),
@@ -486,6 +495,137 @@ def runner_card(d) -> str:
             f'{d.get("stocktwits_posts") or 0} posts, {d.get("news_articles") or 0} articles</span></div></div>')
 
 
+# Live lookup for stocks the user asks about that are not picks (e.g. META in a week nobody discussed it).
+# Free sources only: Yahoo Finance via yfinance, plus Finnhub company news when FINNHUB_API_KEY is set.
+# Always shown as outside the weekly screen, never as a pick.
+US_EXCHANGES = {"NMS", "NGM", "NCM", "NYQ", "ASE", "PCX", "BTS", "NAS", "NYS"}
+NOT_TICKERS = {"AI", "CEO", "CFO", "ETF", "IPO", "EPS", "USA", "USD", "SEC", "FED", "GDP", "OK", "PE", "YTD",
+               "ATH", "EV", "IMO", "LOL", "TLDR", "FAQ", "API", "LLM"}
+QUESTION_WORDS = {"ABOUT", "TELL", "THINK", "SHOULD", "PRICE", "NEWS", "DOING", "TODAY", "HAPPENED", "GOING",
+                  "SHARES", "LATEST", "WASN'T", "PICKED", "RECOMMEND", "RECOMMENDED", "COMPARE", "VERSUS",
+                  "WITH", "FROM", "THAT", "DOES", "HAVE", "BEEN", "MORE", "INFO", "UPDATE", "GOOD", "RISKY",
+                  "SAFE", "MONTH", "YEAR", "OUTLOOK", "INCLUDE", "INCLUDED", "WHEN", "WHERE", "THERE",
+                  "THEIR", "THEY", "WOULD", "COULD", "ABOUT", "LIKE", "ALSO", "SIMILAR", "OTHER", "OTHERS",
+                  "WHY", "ISN'T", "AREN'T", "DOESN'T", "SHOW", "GIVE", "LIST", "BEST", "WORST", "SCREEN"}
+
+
+@st.cache_data(ttl=86400, show_spinner=False)
+def search_ticker(word: str):
+    """US stock ticker for a company name ("netflix" -> NFLX), only if the name really contains the word."""
+    try:
+        import yfinance as yf
+        quotes = yf.Search(word, max_results=5, news_count=0).quotes
+    except Exception:
+        return None
+    for q in quotes or []:
+        name = (q.get("longname") or q.get("shortname") or "").lower()
+        if (q.get("quoteType") == "EQUITY" and q.get("exchange") in US_EXCHANGES
+                and (word.lower() in name or str(q.get("symbol", "")).upper() == word.upper())):
+            return q["symbol"]
+    return None
+
+
+def tickers_in_question(question: str, result: dict) -> list:
+    """Up to 3 stocks the user names that are not picks: $TSLA or TSLA, a name the screen knows, or one
+    Yahoo can resolve ("netflix")."""
+    picks = {p["ticker"] for p in result.get("picks", [])}
+    found = [d["ticker"] for d in find_dropped([question], result.get("dropped", []))]
+    found += [w.lstrip("$") for w in re.findall(r"\$?\b[A-Z]{1,5}\b", question)
+              if (w.startswith("$") or len(w) >= 2) and w.lstrip("$") not in STOP_WORDS | NOT_TICKERS]
+    if not found:
+        words = [w for w in re.findall(r"[A-Za-z][A-Za-z'&-]{3,}", question)
+                 if w.upper() not in STOP_WORDS | QUESTION_WORDS]
+        for w in words[:3]:
+            t = search_ticker(w)
+            if t:
+                found.append(t)
+                break
+    out = []
+    for t in found:
+        if t not in picks and t not in out:
+            out.append(t)
+    return out[:3]
+
+
+def _change(close, sessions):
+    return round(float(close.iloc[-1] / close.iloc[-1 - sessions] - 1), 4) if len(close) > sessions else None
+
+
+@st.cache_data(ttl=1800, show_spinner=False)
+def live_lookup(ticker: str):
+    """Company facts, recent price moves and latest headlines, fetched now. None if Yahoo has no such stock."""
+    try:
+        import yfinance as yf
+        tk = yf.Ticker(ticker)
+        info = tk.info or {}
+    except Exception:
+        return None
+    name = info.get("longName") or info.get("shortName")
+    if not name or info.get("quoteType", "EQUITY") != "EQUITY":
+        return None
+    out = {"ticker": ticker, "name": name, "sector": info.get("sector"), "industry": info.get("industry"),
+           "about": (info.get("longBusinessSummary") or "")[:400],
+           "price": info.get("currentPrice") or info.get("regularMarketPrice"),
+           "market_cap": money(info.get("marketCap")) if info.get("marketCap") else None,
+           "pe_ratio": info.get("trailingPE"), "revenue_growth": info.get("revenueGrowth"),
+           "week52_low": info.get("fiftyTwoWeekLow"), "week52_high": info.get("fiftyTwoWeekHigh"),
+           "change_1w": None, "change_1m": None, "change_3m": None, "headlines": [],
+           "fetched_at": datetime.now().strftime("%Y-%m-%d %H:%M")}
+    try:
+        close = tk.history(period="6mo")["Close"].dropna()
+        out.update(change_1w=_change(close, 5), change_1m=_change(close, 21), change_3m=_change(close, 63))
+        out["price"] = out["price"] or round(float(close.iloc[-1]), 2)
+    except Exception:
+        pass
+    news, seen = [], set()
+    try:
+        for n in (tk.news or [])[:10]:
+            c = n.get("content") or n
+            title = c.get("title")
+            when = c.get("pubDate") or c.get("displayTime") or c.get("providerPublishTime")
+            date = (str(when)[:10] if isinstance(when, str)
+                    else datetime.utcfromtimestamp(when).strftime("%Y-%m-%d") if when else "?")
+            url = ((c.get("canonicalUrl") or {}).get("url") or (c.get("clickThroughUrl") or {}).get("url")
+                   or c.get("link") or "")
+            source = (c.get("provider") or {}).get("displayName") or c.get("publisher") or "Yahoo Finance"
+            if title and title.lower() not in seen:
+                seen.add(title.lower())
+                news.append({"date": date, "source": source, "title": title[:200], "url": url})
+    except Exception:
+        pass
+    key = (secret("FINNHUB_API_KEY") or "").strip()
+    if key and len(news) < 6:
+        try:
+            import requests
+            today = datetime.now().date()
+            res = requests.get("https://finnhub.io/api/v1/company-news", timeout=8,
+                               params={"symbol": ticker, "from": str(today - pd.Timedelta(days=7)), "to": str(today)},
+                               headers={"X-Finnhub-Token": key})
+            for a in (res.json() if res.ok else [])[:10]:
+                title = a.get("headline")
+                if title and title.lower() not in seen:
+                    seen.add(title.lower())
+                    news.append({"date": datetime.utcfromtimestamp(a.get("datetime") or 0).strftime("%Y-%m-%d"),
+                                 "source": a.get("source") or "Finnhub", "title": title[:200],
+                                 "url": a.get("url") or ""})
+        except Exception:
+            pass
+    out["headlines"] = sorted(news, key=lambda e: e["date"], reverse=True)[:6]
+    return out
+
+
+def lookup_card(x) -> str:
+    moves = " · ".join(f"{label} {pct(x[k])}" for label, k in (("1 week", "change_1w"), ("1 month", "change_1m"),
+                                                                 ("3 months", "change_3m")) if x.get(k) is not None)
+    facts = " · ".join(v for v in (x.get("sector"), x.get("market_cap") and f"market cap {x['market_cap']}",
+                                   x.get("price") and f"price ${x['price']:,.2f}") if v)
+    return (f'<div class="mini">{logo(x["ticker"], "#6B7280", "2rem")}<div class="body">'
+            f'<div class="head">{esc(x["ticker"])}<span>{esc(x["name"])}</span></div>'
+            f'{esc(facts)}{"<br>" + esc(moves) if moves else ""}<br>'
+            f'<span class="flag warn">Not in this week\'s screen · live data from Yahoo Finance, '
+            f'{esc(x["fetched_at"])}</span></div></div>')
+
+
 def answer_question(question: str, result: dict, history=None) -> dict:
     picks = result.get("picks", [])
     context = {
@@ -509,12 +649,16 @@ def answer_question(question: str, result: dict, history=None) -> dict:
         "funnel": result.get("funnel"), "reliability": result.get("reliability"),
         "limitations": result.get("limitations"),
     }
+    live = [x for x in (live_lookup(t) for t in tickers_in_question(question, result)) if x]
+    if live:
+        context["outside_screen"] = live
     turns = [{"role": "user", "content": m["content"]} if m["role"] == "user" else
              {"role": "assistant", "content": json.dumps({"answer": m.get("answer"), "bullets": m.get("bullets"),
                                                           "tickers": m.get("tickers"),
                                                           "runner_ups": m.get("runner_ups"),
                                                           "earlier_run_id": m.get("earlier_run_id"),
-                                                          "earlier_tickers": m.get("earlier_tickers")})}
+                                                          "earlier_tickers": m.get("earlier_tickers"),
+                                                          "looked_up": m.get("looked_up")})}
              for m in history or []]
     out = ask_llm(question, json.dumps(context), json.dumps(turns))
     if not out or not out["answer"]:
@@ -535,6 +679,14 @@ def answer_question(question: str, result: dict, history=None) -> dict:
             if k not in seen and len(sources) < 6:
                 seen.add(k)
                 sources.append({"ticker": t, **e})
+    by_live = {x["ticker"]: x for x in live}
+    out["looked_up"] = [t for t in out.get("looked_up") or [] if t in by_live] or (
+        list(by_live) if out.get("fallback") else [])
+    out["live"] = [by_live[t] for t in out["looked_up"]]
+    for x in out["live"]:
+        for e in x["headlines"][:3]:
+            if len(sources) < 9:
+                sources.append({"ticker": x["ticker"], **e})
     out["sources"] = sources
     return out
 
@@ -763,11 +915,16 @@ with tab_ask:
                     html(f'<p class="secnote" style="margin:.6rem 0 0">Picks from the screen of '
                          f'{esc(nice_date(old_res.get("screened_at_utc")))} (data {esc(nice_date(w.get("from")))} '
                          f'to {esc(nice_date(w.get("to")))})</p>' + old_cards)
+            if msg.get("live"):
+                html('<p class="secnote" style="margin:.6rem 0 0">Outside this week\'s screen</p>'
+                     + "".join(lookup_card(x) for x in msg["live"]))
             if msg.get("sources"):
                 with st.expander(f"Sources ({len(msg['sources'])} headlines)"):
                     html(f'<ul class="ev">{evidence_list(msg["sources"])}</ul>')
             note = " Simple answer, because the AI model could not be reached." if msg.get("fallback") else ""
-            st.caption(f"From the screen finished {result.get('screened_at_local')}.{note} Not financial advice.")
+            live_note = " Live market data from Yahoo Finance." if msg.get("live") else ""
+            st.caption(f"From the screen finished {result.get('screened_at_local')}.{live_note}{note} "
+                       "Not financial advice.")
 
     # Question box stays under the conversation, so the user can keep asking
     pending = None
