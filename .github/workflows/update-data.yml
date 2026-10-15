@@ -1,0 +1,96 @@
+# Keeps the screen up to date with no one running anything.
+# - "collect": gathers new StockTwits and news chatter three times a day and
+#   adds a Phase 1 snapshot (the history the chatter z-score needs).
+# - "screen": after each US trading day, runs the full pipeline (Phases 1-5)
+#   and commits the new results to main, which redeploys the Streamlit site.
+# The database lives on the "data" branch (see scripts/data_branch.sh).
+name: Update stock data
+
+on:
+  schedule:
+    - cron: "0 4,10,16 * * *"   # collect: 12pm, 6pm and 12am Singapore time
+    - cron: "0 22 * * 1-5"      # screen: 6am Singapore time, after the US close
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "screen = full run that updates the website, collect = gather data only"
+        type: choice
+        options: [screen, collect]
+        default: screen
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event.schedule == '0 22 * * 1-5' && 'screen' || 'collect') }}
+      FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+      ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+      LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+      LLM_MODEL: ${{ secrets.LLM_MODEL }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history, so the publish step can rebase onto new commits
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-pipeline.txt
+
+      - name: Install packages
+        run: |
+          pip install -r requirements-pipeline.txt
+          python -m spacy download en_core_web_sm
+          if [ "$MODE" = screen ]; then
+            pip install torch --index-url https://download.pytorch.org/whl/cpu
+            pip install "transformers>=4.40"
+          fi
+
+      - name: Cache the FinBERT model
+        if: env.MODE == 'screen'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: huggingface-finbert-v1
+
+      - name: Download the database
+        run: scripts/data_branch.sh restore
+
+      - name: Run the pipeline (${{ env.MODE }})
+        run: |
+          if [ "$MODE" = screen ]; then
+            python run_pipeline.py
+          else
+            python run_pipeline.py --daily
+          fi
+
+      - name: Upload the database
+        # Also after a failed screen, so the chatter collected before the failure is kept.
+        if: success() || failure()
+        run: scripts/data_branch.sh save
+
+      - name: Publish the new screen to the website
+        if: env.MODE == 'screen'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add filtering_of_data/output filtering_of_data/learned_slang.csv
+          if git diff --cached --quiet; then
+            echo "Nothing new to publish"
+            exit 0
+          fi
+          git commit -m "Update screen $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push origin HEAD:main

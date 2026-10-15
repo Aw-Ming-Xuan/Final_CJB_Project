@@ -1,0 +1,12 @@
+# Packages the data pipeline needs (used by the GitHub Actions updater).
+# torch and transformers (FinBERT) are installed separately in the workflow,
+# from the CPU-only index, and only for the full screen.
+pandas>=2
+numpy
+sqlalchemy>=1.4
+requests
+python-dotenv
+yfinance>=0.2.40
+feedparser
+openai>=1.0
+spacy>=3.7

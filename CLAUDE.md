@@ -23,6 +23,8 @@ python filtering_of_data/phaseN_filter.py   # run one phase standalone (each run
 python filtering_of_data/phase5_filter.py   # uses saved Phase 4 output; --fresh reruns 1-4
 ```
 
+Automatic updates: `.github/workflows/update-data.yml` runs `--daily` three times a day and the full pipeline after each US trading day, then commits the new `filtering_of_data/output/` files to main (which redeploys the Streamlit site). It reads the same keys from GitHub Actions secrets. The database and `llm_cache.json` are kept on the `data` branch by `scripts/data_branch.sh` (`seed` once from a local copy, `restore` to download the cloud copy). Run `git pull` before pushing, since the workflow commits to main.
+
 There is no test suite or linter config. Phase files can be run individually to debug one stage at a time.
 
 ## Architecture
