@@ -1,57 +1,75 @@
 {
-  "run_id": 13,
+  "run_id": 14,
   "question_answered": "Top US-listed stocks (including ADRs) discussed this week that pass quality and risk checks",
   "market": "US-listed common stocks, REITs and ADRs (foreign companies traded in the US) on NYSE American, Nasdaq, NYSE",
-  "screened_at_utc": "2026-10-15T11:30:41",
-  "screened_at_local": "2026-10-15 19:30 Singapore time (UTC+8)",
-  "started_at_utc": "2026-10-15T11:27:53",
+  "screened_at_utc": "2026-10-15T11:52:42",
+  "screened_at_local": "2026-10-15 19:52 Singapore time (UTC+8)",
+  "started_at_utc": "2026-10-15T11:49:37",
   "data_window": {
-    "from": "2026-10-08T11:30:47",
-    "to": "2026-10-15T11:27:59",
+    "from": "2026-10-08T11:53:00",
+    "to": "2026-10-15T11:49:24",
     "lookback_days": 7
   },
   "sources": [
     {
       "name": "StockTwits",
       "type": "social posts",
-      "items": 1227,
+      "items": 1603,
       "used_for": "what retail traders are discussing, their own Bullish/Bearish tags"
     },
     {
       "name": "Yahoo",
       "type": "news publisher",
-      "items": 169,
+      "items": 1113,
       "used_for": "headlines (via Finnhub API)"
     },
     {
       "name": "CNBC",
       "type": "news publisher",
-      "items": 124,
+      "items": 169,
       "used_for": "headlines (via Finnhub API, RSS)"
+    },
+    {
+      "name": "Benzinga",
+      "type": "news publisher",
+      "items": 162,
+      "used_for": "headlines (via Finnhub API)"
     },
     {
       "name": "The Motley Fool",
       "type": "news publisher",
-      "items": 93,
-      "used_for": "headlines (via Nasdaq.com RSS)"
-    },
-    {
-      "name": "Zacks",
-      "type": "news publisher",
-      "items": 58,
+      "items": 103,
       "used_for": "headlines (via Nasdaq.com RSS)"
     },
     {
       "name": "Reuters",
       "type": "news publisher",
-      "items": 24,
+      "items": 100,
       "used_for": "headlines (via Finnhub API)"
+    },
+    {
+      "name": "SeekingAlpha",
+      "type": "news publisher",
+      "items": 98,
+      "used_for": "headlines (via Finnhub API)"
+    },
+    {
+      "name": "Zacks",
+      "type": "news publisher",
+      "items": 64,
+      "used_for": "headlines (via Nasdaq.com RSS)"
     },
     {
       "name": "Investing.com",
       "type": "news publisher",
-      "items": 20,
+      "items": 28,
       "used_for": "headlines (via RSS)"
+    },
+    {
+      "name": "ChartMill",
+      "type": "news publisher",
+      "items": 26,
+      "used_for": "headlines (via Finnhub API)"
     },
     {
       "name": "MarketWatch",
@@ -62,37 +80,19 @@
     {
       "name": "Barchart",
       "type": "news publisher",
-      "items": 14,
+      "items": 16,
       "used_for": "headlines (via Nasdaq.com RSS)"
     },
     {
       "name": "BNK Invest",
       "type": "news publisher",
-      "items": 13,
+      "items": 15,
       "used_for": "headlines (via Nasdaq.com RSS)"
     },
     {
-      "name": "ChartMill",
+      "name": "5 other publishers",
       "type": "news publisher",
-      "items": 7,
-      "used_for": "headlines (via Finnhub API)"
-    },
-    {
-      "name": "MarketBeat",
-      "type": "news publisher",
-      "items": 5,
-      "used_for": "headlines (via Nasdaq.com RSS)"
-    },
-    {
-      "name": "NASDAQ.com",
-      "type": "news publisher",
-      "items": 5,
-      "used_for": "headlines (via Nasdaq.com RSS)"
-    },
-    {
-      "name": "2 other publishers",
-      "type": "news publisher",
-      "items": 8,
+      "items": 20,
       "used_for": "headlines"
     },
     {
@@ -119,23 +119,23 @@
   "funnel": [
     {
       "stage": "StockTwits posts collected (last 7 days)",
-      "count": 1227
+      "count": 1603
     },
     {
       "stage": "StockTwits posts kept after removing bots and spam",
-      "count": 1133
+      "count": 1484
     },
     {
       "stage": "News articles collected (last 7 days)",
-      "count": 558
+      "count": 1931
     },
     {
       "stage": "US stocks mentioned",
-      "count": 158
+      "count": 224
     },
     {
       "stage": "Passed market, volume, distinct-user and fundamentals filters",
-      "count": 2
+      "count": 3
     },
     {
       "stage": "Passed AI catalyst, hype and sarcasm review",
@@ -211,8 +211,8 @@
   ],
   "reliability": {
     "sentiment_check": {
-      "balanced_accuracy": 0.6835,
-      "bearish_hit_rate": 0.6721,
+      "balanced_accuracy": 0.6673,
+      "bearish_hit_rate": 0.6579,
       "finbert_used": true
     },
     "unusual_chatter_mode": "cross-section",
@@ -221,12 +221,12 @@
       "provider": "openai",
       "model": "gpt-4o-mini",
       "calls": 4,
-      "cached": 0,
+      "cached": 2,
       "errors": 0,
       "budget": {
-        "used_usd": 0.0711,
+        "used_usd": 0.0728,
         "limit_usd": 1.0,
-        "share_used": 0.071,
+        "share_used": 0.073,
         "status": "ok"
       }
     },
@@ -243,6 +243,10 @@
       "reason": "no genuine catalyst (guidance_or_analyst; downgraded: real event but low materiality)"
     },
     {
+      "ticker": "AUPH",
+      "reason": "no genuine catalyst (no_clear_catalyst)"
+    },
+    {
       "ticker": "AFRM",
       "reason": "no genuine catalyst (no_clear_catalyst)"
     }
@@ -252,37 +256,97 @@
       "ticker": "NBIS",
       "name": "NEBIUS GROUP NV",
       "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score 0.07 < 1.0 (history)",
-      "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 62,
-      "distinct_users": 52,
+      "stage": "Phase 2: market, volume and fundamentals",
+      "reason": "unprofitable (P/E -52.3)",
+      "why": "The company is currently losing money (negative earnings), so it fails the profitability check.",
+      "stocktwits_posts": 82,
+      "distinct_users": 70,
       "news_articles": 0,
-      "chatter_score": 62
+      "chatter_score": 82
     },
     {
-      "ticker": "WMT",
-      "name": "WALMART INC",
+      "ticker": "CRWV",
+      "name": "COREWEAVE INC-CL A",
       "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score 0.86 < 1.0 (history)",
-      "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 58,
-      "distinct_users": 36,
-      "news_articles": 2,
-      "chatter_score": 60
+      "stage": "Phase 2: market, volume and fundamentals",
+      "reason": "unprofitable (P/E -35.9)",
+      "why": "The company is currently losing money (negative earnings), so it fails the profitability check.",
+      "stocktwits_posts": 74,
+      "distinct_users": 59,
+      "news_articles": 5,
+      "chatter_score": 79
     },
     {
       "ticker": "ASTS",
       "name": "AST SPACEMOBILE INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score -0.8 < 1.0 (history)",
+      "reason": "z-score 0.37 < 1.0 (history)",
       "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 59,
-      "distinct_users": 45,
+      "stocktwits_posts": 78,
+      "distinct_users": 61,
       "news_articles": 0,
-      "chatter_score": 59
+      "chatter_score": 78
+    },
+    {
+      "ticker": "MU",
+      "name": "MICRON TECHNOLOGY INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score -0.94 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 74,
+      "distinct_users": 53,
+      "news_articles": 3,
+      "chatter_score": 77
+    },
+    {
+      "ticker": "DJT",
+      "name": "TRUMP MEDIA & TECHNOLOGY GRO",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "unique authors 46% < 70% (32 accounts / 69 posts)",
+      "why": "Most posts came from the same few accounts (only 46% were different people; 70% is needed), which looks more like a few users promoting it than broad interest.",
+      "stocktwits_posts": 69,
+      "distinct_users": 32,
+      "news_articles": 0,
+      "chatter_score": 69
+    },
+    {
+      "ticker": "WMT",
+      "name": "WALMART INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "unique authors 61% < 70% (38 accounts / 62 posts)",
+      "why": "Most posts came from the same few accounts (only 61% were different people; 70% is needed), which looks more like a few users promoting it than broad interest.",
+      "stocktwits_posts": 62,
+      "distinct_users": 38,
+      "news_articles": 3,
+      "chatter_score": 65
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score -1.28 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 48,
+      "distinct_users": 41,
+      "news_articles": 9,
+      "chatter_score": 57
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN LTD",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score 0.15 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 56,
+      "distinct_users": 47,
+      "news_articles": 0,
+      "chatter_score": 56
     },
     {
       "ticker": "AAOI",
@@ -297,100 +361,136 @@
       "chatter_score": 55
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA CORP",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score -1.42 < 1.0 (history)",
-      "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 43,
-      "distinct_users": 38,
-      "news_articles": 10,
-      "chatter_score": 53
-    },
-    {
-      "ticker": "DJT",
-      "name": "TRUMP MEDIA & TECHNOLOGY GRO",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "unique authors 47% < 70% (24 accounts / 51 posts)",
-      "why": "Most posts came from the same few accounts (only 47% were different people; 70% is needed), which looks more like a few users promoting it than broad interest.",
-      "stocktwits_posts": 51,
-      "distinct_users": 24,
-      "news_articles": 0,
-      "chatter_score": 51
-    },
-    {
-      "ticker": "CRWV",
-      "name": "COREWEAVE INC-CL A",
-      "phase": 2,
-      "stage": "Phase 2: market, volume and fundamentals",
-      "reason": "unprofitable (P/E -35.9)",
-      "why": "The company is currently losing money (negative earnings), so it fails the profitability check.",
-      "stocktwits_posts": 43,
-      "distinct_users": 32,
-      "news_articles": 4,
-      "chatter_score": 47
-    },
-    {
-      "ticker": "MU",
-      "name": "MICRON TECHNOLOGY INC",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score -1.7 < 1.0 (history)",
-      "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 44,
-      "distinct_users": 35,
-      "news_articles": 3,
-      "chatter_score": 47
-    },
-    {
-      "ticker": "SPCX",
-      "name": "SPACE EXPLORATION TECHN-CL A",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score -2.96 < 1.0 (history)",
-      "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 40,
-      "distinct_users": 34,
-      "news_articles": 0,
-      "chatter_score": 40
-    },
-    {
-      "ticker": "IREN",
-      "name": "IREN LTD",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score -0.44 < 1.0 (history)",
-      "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 38,
-      "distinct_users": 33,
-      "news_articles": 0,
-      "chatter_score": 38
-    },
-    {
       "ticker": "RKLB",
       "name": "ROCKET LAB CORP",
       "phase": 2,
       "stage": "Phase 2: market, volume and fundamentals",
-      "reason": "chatter spike (z=13.44) but trading volume only 0.83x normal: likely synthetic social push",
+      "reason": "chatter spike (z=20.51) but trading volume only 0.83x normal: likely synthetic social push",
       "why": "Talk about it suddenly spiked but real trading stayed normal, which suggests the chatter was artificially pushed rather than reflecting real investor interest.",
-      "stocktwits_posts": 33,
-      "distinct_users": 31,
+      "stocktwits_posts": 48,
+      "distinct_users": 43,
       "news_articles": 0,
-      "chatter_score": 33
+      "chatter_score": 48
+    },
+    {
+      "ticker": "APLD",
+      "name": "APPLIED DIGITAL CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score -1.3 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 46,
+      "distinct_users": 37,
+      "news_articles": 0,
+      "chatter_score": 46
+    },
+    {
+      "ticker": "IBRX",
+      "name": "IMMUNITYBIO INC",
+      "phase": 2,
+      "stage": "Phase 2: market, volume and fundamentals",
+      "reason": "unprofitable (P/E -61.9)",
+      "why": "The company is currently losing money (negative earnings), so it fails the profitability check.",
+      "stocktwits_posts": 46,
+      "distinct_users": 35,
+      "news_articles": 0,
+      "chatter_score": 46
     },
     {
       "ticker": "AAPL",
       "name": "APPLE INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score 0.07 < 1.0 (history)",
+      "reason": "z-score 0.82 < 1.0 (history)",
       "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 27,
-      "distinct_users": 20,
+      "stocktwits_posts": 37,
+      "distinct_users": 30,
       "news_articles": 5,
-      "chatter_score": 32
+      "chatter_score": 42
+    },
+    {
+      "ticker": "ONDS",
+      "name": "ONDAS INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "unique authors 64% < 70% (27 accounts / 42 posts)",
+      "why": "Most posts came from the same few accounts (only 64% were different people; 70% is needed), which looks more like a few users promoting it than broad interest.",
+      "stocktwits_posts": 42,
+      "distinct_users": 27,
+      "news_articles": 0,
+      "chatter_score": 42
+    },
+    {
+      "ticker": "SPCX",
+      "name": "SPACE EXPLORATION TECHN-CL A",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score -2.91 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 41,
+      "distinct_users": 35,
+      "news_articles": 0,
+      "chatter_score": 41
+    },
+    {
+      "ticker": "TSM",
+      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+      "phase": 2,
+      "stage": "Phase 2: market, volume and fundamentals",
+      "reason": "chatter spike (z=12.58) but trading volume only 1.08x normal: likely synthetic social push",
+      "why": "Talk about it suddenly spiked but real trading stayed normal, which suggests the chatter was artificially pushed rather than reflecting real investor interest.",
+      "stocktwits_posts": 36,
+      "distinct_users": 31,
+      "news_articles": 2,
+      "chatter_score": 38
+    },
+    {
+      "ticker": "CIFR",
+      "name": "CIPHER DIGITAL INC",
+      "phase": 2,
+      "stage": "Phase 2: market, volume and fundamentals",
+      "reason": "quarterly revenue growth -43.0% < +0%",
+      "why": "Its sales shrank compared with a year ago (-43.0% quarterly revenue growth).",
+      "stocktwits_posts": 37,
+      "distinct_users": 31,
+      "news_articles": 0,
+      "chatter_score": 37
+    },
+    {
+      "ticker": "GRRR",
+      "name": "GORILLA TECHNOLOGY GROUP INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score -1.12 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 35,
+      "distinct_users": 17,
+      "news_articles": 0,
+      "chatter_score": 35
+    },
+    {
+      "ticker": "INTC",
+      "name": "INTEL CORP",
+      "phase": 2,
+      "stage": "Phase 2: market, volume and fundamentals",
+      "reason": "chatter spike (z=6.06) but trading volume only 0.81x normal: likely synthetic social push",
+      "why": "Talk about it suddenly spiked but real trading stayed normal, which suggests the chatter was artificially pushed rather than reflecting real investor interest.",
+      "stocktwits_posts": 33,
+      "distinct_users": 25,
+      "news_articles": 0,
+      "chatter_score": 33
+    },
+    {
+      "ticker": "SKHY",
+      "name": "SK HYNIX INC-ADR",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score 0.55 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 33,
+      "distinct_users": 19,
+      "news_articles": 0,
+      "chatter_score": 33
     },
     {
       "ticker": "NFLX",
@@ -405,40 +505,16 @@
       "chatter_score": 32
     },
     {
-      "ticker": "IBRX",
-      "name": "IMMUNITYBIO INC",
-      "phase": 2,
-      "stage": "Phase 2: market, volume and fundamentals",
-      "reason": "unprofitable (P/E -61.9)",
-      "why": "The company is currently losing money (negative earnings), so it fails the profitability check.",
-      "stocktwits_posts": 31,
-      "distinct_users": 23,
-      "news_articles": 0,
-      "chatter_score": 31
-    },
-    {
-      "ticker": "TSM",
-      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
-      "phase": 2,
-      "stage": "Phase 2: market, volume and fundamentals",
-      "reason": "chatter spike (z=9.8) but trading volume only 1.08x normal: likely synthetic social push",
-      "why": "Talk about it suddenly spiked but real trading stayed normal, which suggests the chatter was artificially pushed rather than reflecting real investor interest.",
-      "stocktwits_posts": 29,
-      "distinct_users": 25,
-      "news_articles": 2,
-      "chatter_score": 31
-    },
-    {
-      "ticker": "APLD",
-      "name": "APPLIED DIGITAL CORP",
+      "ticker": "SNDK",
+      "name": "SANDISK CORP",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score -1.83 < 1.0 (history)",
+      "reason": "z-score -0.07 < 1.0 (history)",
       "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 30,
-      "distinct_users": 25,
+      "stocktwits_posts": 31,
+      "distinct_users": 27,
       "news_articles": 0,
-      "chatter_score": 30
+      "chatter_score": 31
     },
     {
       "ticker": "FLY",
@@ -453,26 +529,26 @@
       "chatter_score": 30
     },
     {
-      "ticker": "GRRR",
-      "name": "GORILLA TECHNOLOGY GROUP INC",
+      "ticker": "HOOD",
+      "name": "ROBINHOOD MARKETS INC - A",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score -1.39 < 1.0 (history)",
+      "reason": "z-score 0.45 < 1.0 (history)",
       "why": "The amount of chatter about it was not unusual compared with other stocks.",
       "stocktwits_posts": 30,
-      "distinct_users": 17,
+      "distinct_users": 19,
       "news_articles": 0,
       "chatter_score": 30
     },
     {
-      "ticker": "SKHY",
-      "name": "SK HYNIX INC-ADR",
+      "ticker": "RDW",
+      "name": "REDWIRE CORP",
       "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score 0.0 < 1.0 (history)",
-      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stage": "Phase 2: market, volume and fundamentals",
+      "reason": "trading volume 0.74x normal, below 0.8x",
+      "why": "People were talking about it, but actual trading was below its usual level (0.74x normal), so the chatter was not backed by real buying or selling.",
       "stocktwits_posts": 30,
-      "distinct_users": 18,
+      "distinct_users": 26,
       "news_articles": 0,
       "chatter_score": 30
     },
@@ -489,14 +565,14 @@
       "chatter_score": 30
     },
     {
-      "ticker": "CIFR",
-      "name": "CIPHER DIGITAL INC",
+      "ticker": "FLO",
+      "name": "FLOWERS FOODS INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score 0.64 < 1.0 (history)",
-      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "reason": "unique authors 24% < 70% (7 accounts / 29 posts)",
+      "why": "Most posts came from the same few accounts (only 24% were different people; 70% is needed), which looks more like a few users promoting it than broad interest.",
       "stocktwits_posts": 29,
-      "distinct_users": 25,
+      "distinct_users": 7,
       "news_articles": 0,
       "chatter_score": 29
     },
@@ -537,6 +613,18 @@
       "chatter_score": 29
     },
     {
+      "ticker": "WULF",
+      "name": "TERAWULF INC",
+      "phase": 2,
+      "stage": "Phase 2: market, volume and fundamentals",
+      "reason": "unprofitable (P/E -17.3)",
+      "why": "The company is currently losing money (negative earnings), so it fails the profitability check.",
+      "stocktwits_posts": 29,
+      "distinct_users": 21,
+      "news_articles": 0,
+      "chatter_score": 29
+    },
+    {
       "ticker": "POET",
       "name": "POET TECHNOLOGIES INC",
       "phase": 2,
@@ -545,18 +633,6 @@
       "why": "The amount of chatter about it was not unusual compared with other stocks.",
       "stocktwits_posts": 28,
       "distinct_users": 23,
-      "news_articles": 0,
-      "chatter_score": 28
-    },
-    {
-      "ticker": "RDW",
-      "name": "REDWIRE CORP",
-      "phase": 2,
-      "stage": "Phase 2: market, volume and fundamentals",
-      "reason": "trading volume 0.74x normal, below 0.8x",
-      "why": "People were talking about it, but actual trading was below its usual level (0.74x normal), so the chatter was not backed by real buying or selling.",
-      "stocktwits_posts": 28,
-      "distinct_users": 24,
       "news_articles": 0,
       "chatter_score": 28
     },
@@ -573,6 +649,18 @@
       "chatter_score": 28
     },
     {
+      "ticker": "VG",
+      "name": "VENTURE GLOBAL INC-CL A",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score -0.19 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 28,
+      "distinct_users": 16,
+      "news_articles": 0,
+      "chatter_score": 28
+    },
+    {
       "ticker": "ZETA",
       "name": "ZETA GLOBAL HOLDINGS CORP-A",
       "phase": 2,
@@ -583,30 +671,6 @@
       "distinct_users": 10,
       "news_articles": 0,
       "chatter_score": 28
-    },
-    {
-      "ticker": "HOOD",
-      "name": "ROBINHOOD MARKETS INC - A",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score 0.25 < 1.0 (history)",
-      "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 27,
-      "distinct_users": 17,
-      "news_articles": 0,
-      "chatter_score": 27
-    },
-    {
-      "ticker": "ONDS",
-      "name": "ONDAS INC",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "unique authors 67% < 70% (18 accounts / 27 posts)",
-      "why": "Most posts came from the same few accounts (only 67% were different people; 70% is needed), which looks more like a few users promoting it than broad interest.",
-      "stocktwits_posts": 27,
-      "distinct_users": 18,
-      "news_articles": 0,
-      "chatter_score": 27
     },
     {
       "ticker": "BB",
@@ -621,14 +685,14 @@
       "chatter_score": 26
     },
     {
-      "ticker": "VG",
-      "name": "VENTURE GLOBAL INC-CL A",
+      "ticker": "QBTS",
+      "name": "D-WAVE QUANTUM INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score -0.56 < 1.0 (history)",
-      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "reason": "unique authors 65% < 70% (17 accounts / 26 posts)",
+      "why": "Most posts came from the same few accounts (only 65% were different people; 70% is needed), which looks more like a few users promoting it than broad interest.",
       "stocktwits_posts": 26,
-      "distinct_users": 15,
+      "distinct_users": 17,
       "news_articles": 0,
       "chatter_score": 26
     },
@@ -669,6 +733,18 @@
       "chatter_score": 24
     },
     {
+      "ticker": "ABCL",
+      "name": "ABCELLERA BIOLOGICS INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "unique authors 29% < 70% (6 accounts / 21 posts)",
+      "why": "Most posts came from the same few accounts (only 29% were different people; 70% is needed), which looks more like a few users promoting it than broad interest.",
+      "stocktwits_posts": 21,
+      "distinct_users": 6,
+      "news_articles": 0,
+      "chatter_score": 21
+    },
+    {
       "ticker": "KLAR",
       "name": "KLARNA GROUP PLC",
       "phase": 4,
@@ -681,18 +757,6 @@
       "chatter_score": 19
     },
     {
-      "ticker": "AUPH",
-      "name": "AURINIA PHARMACEUTICALS INC",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "unique authors 67% < 70% (12 accounts / 18 posts)",
-      "why": "Most posts came from the same few accounts (only 67% were different people; 70% is needed), which looks more like a few users promoting it than broad interest.",
-      "stocktwits_posts": 18,
-      "distinct_users": 12,
-      "news_articles": 0,
-      "chatter_score": 18
-    },
-    {
       "ticker": "PGY",
       "name": "PAGAYA TECHNOLOGIES LTD -A",
       "phase": 2,
@@ -703,6 +767,18 @@
       "distinct_users": 10,
       "news_articles": 0,
       "chatter_score": 18
+    },
+    {
+      "ticker": "AUPH",
+      "name": "AURINIA PHARMACEUTICALS INC",
+      "phase": 4,
+      "stage": "Phase 4: AI catalyst and hype review",
+      "reason": "no genuine catalyst (no_clear_catalyst)",
+      "why": "No real news event (earnings, deal, product, approval) explains why people are talking about it.",
+      "stocktwits_posts": 17,
+      "distinct_users": 12,
+      "news_articles": 0,
+      "chatter_score": 17
     },
     {
       "ticker": "CMG",
@@ -721,12 +797,24 @@
       "name": "SEA LTD-ADR",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
-      "reason": "unique authors 50% < 70% (8 accounts / 16 posts)",
-      "why": "Most posts came from the same few accounts (only 50% were different people; 70% is needed), which looks more like a few users promoting it than broad interest.",
-      "stocktwits_posts": 16,
+      "reason": "unique authors 53% < 70% (8 accounts / 15 posts)",
+      "why": "Most posts came from the same few accounts (only 53% were different people; 70% is needed), which looks more like a few users promoting it than broad interest.",
+      "stocktwits_posts": 15,
       "distinct_users": 8,
       "news_articles": 0,
-      "chatter_score": 16
+      "chatter_score": 15
+    },
+    {
+      "ticker": "TSLA",
+      "name": "TESLA INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score -2.7 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 15,
+      "distinct_users": 13,
+      "news_articles": 0,
+      "chatter_score": 15
     },
     {
       "ticker": "AFRM",
@@ -741,28 +829,16 @@
       "chatter_score": 13
     },
     {
-      "ticker": "TSLA",
-      "name": "TESLA INC",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score -2.88 < 1.0 (history)",
-      "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 12,
-      "distinct_users": 11,
-      "news_articles": 0,
-      "chatter_score": 12
-    },
-    {
       "ticker": "AMD",
       "name": "ADVANCED MICRO DEVICES",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score -3.74 < 1.0 (history)",
+      "reason": "z-score -3.67 < 1.0 (history)",
       "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 11,
+      "stocktwits_posts": 12,
       "distinct_users": 8,
       "news_articles": 0,
-      "chatter_score": 11
+      "chatter_score": 12
     },
     {
       "ticker": "JPM",
@@ -789,18 +865,6 @@
       "chatter_score": 10
     },
     {
-      "ticker": "SNDK",
-      "name": "SANDISK CORP",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score -1.38 < 1.0 (history)",
-      "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 8,
-      "distinct_users": 7,
-      "news_articles": 0,
-      "chatter_score": 8
-    },
-    {
       "ticker": "TMUS",
       "name": "T-MOBILE US INC",
       "phase": 2,
@@ -822,6 +886,30 @@
       "stocktwits_posts": 7,
       "distinct_users": 3,
       "news_articles": 0,
+      "chatter_score": 7
+    },
+    {
+      "ticker": "DELL",
+      "name": "DELL TECHNOLOGIES -C",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score -1.33 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 5,
+      "distinct_users": 2,
+      "news_articles": 2,
+      "chatter_score": 7
+    },
+    {
+      "ticker": "ORCL",
+      "name": "ORACLE CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score 0.3 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 6,
+      "distinct_users": 6,
+      "news_articles": 1,
       "chatter_score": 7
     },
     {
@@ -849,15 +937,39 @@
       "chatter_score": 6
     },
     {
-      "ticker": "MSFT",
-      "name": "MICROSOFT CORP",
+      "ticker": "GOOGL",
+      "name": "ALPHABET INC-CL A",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
-      "reason": "z-score -3.58 < 1.0 (history)",
+      "reason": "z-score -5.92 < 1.0 (history)",
       "why": "The amount of chatter about it was not unusual compared with other stocks.",
-      "stocktwits_posts": 2,
-      "distinct_users": 2,
-      "news_articles": 3,
+      "stocktwits_posts": 5,
+      "distinct_users": 5,
+      "news_articles": 0,
+      "chatter_score": 5
+    },
+    {
+      "ticker": "INFQ",
+      "name": "INFLEQTION INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score -4.87 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 5,
+      "distinct_users": 4,
+      "news_articles": 0,
+      "chatter_score": 5
+    },
+    {
+      "ticker": "RGTI",
+      "name": "RIGETTI COMPUTING INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "z-score 0.5 < 1.0 (history)",
+      "why": "The amount of chatter about it was not unusual compared with other stocks.",
+      "stocktwits_posts": 5,
+      "distinct_users": 4,
+      "news_articles": 0,
       "chatter_score": 5
     },
     {
@@ -873,6 +985,18 @@
       "chatter_score": 5
     },
     {
+      "ticker": "BAC",
+      "name": "BANK OF AMERICA CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 4 < 5 mentions",
+      "why": "Only 4 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 4,
+      "chatter_score": 4
+    },
+    {
       "ticker": "BE",
       "name": "BLOOM ENERGY CORP- A",
       "phase": 2,
@@ -885,39 +1009,39 @@
       "chatter_score": 4
     },
     {
-      "ticker": "DELL",
-      "name": "DELL TECHNOLOGIES -C",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "chatter 4 < 5 mentions",
-      "why": "Only 4 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
-      "stocktwits_posts": 2,
-      "distinct_users": 1,
-      "news_articles": 2,
-      "chatter_score": 4
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "ALPHABET INC-CL A",
+      "ticker": "IONQ",
+      "name": "IONQ INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 4 < 5 mentions",
       "why": "Only 4 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
       "stocktwits_posts": 4,
-      "distinct_users": 4,
+      "distinct_users": 3,
       "news_articles": 0,
       "chatter_score": 4
     },
     {
-      "ticker": "ORCL",
-      "name": "ORACLE CORP",
+      "ticker": "MSFT",
+      "name": "MICROSOFT CORP",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 4 < 5 mentions",
       "why": "Only 4 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
-      "stocktwits_posts": 3,
+      "stocktwits_posts": 2,
+      "distinct_users": 2,
+      "news_articles": 2,
+      "chatter_score": 4
+    },
+    {
+      "ticker": "SLS",
+      "name": "SELLAS LIFE SCIENCES GROUP I",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 4 < 5 mentions",
+      "why": "Only 4 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 4,
       "distinct_users": 3,
-      "news_articles": 1,
+      "news_articles": 0,
       "chatter_score": 4
     },
     {
@@ -929,18 +1053,6 @@
       "why": "Only 4 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
       "stocktwits_posts": 4,
       "distinct_users": 3,
-      "news_articles": 0,
-      "chatter_score": 4
-    },
-    {
-      "ticker": "WULF",
-      "name": "TERAWULF INC",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "chatter 4 < 5 mentions",
-      "why": "Only 4 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
-      "stocktwits_posts": 4,
-      "distinct_users": 4,
       "news_articles": 0,
       "chatter_score": 4
     },
@@ -957,18 +1069,6 @@
       "chatter_score": 3
     },
     {
-      "ticker": "BAC",
-      "name": "BANK OF AMERICA CORP",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "chatter 3 < 5 mentions",
-      "why": "Only 3 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
-      "stocktwits_posts": 0,
-      "distinct_users": 0,
-      "news_articles": 3,
-      "chatter_score": 3
-    },
-    {
       "ticker": "GS",
       "name": "GOLDMAN SACHS GROUP INC",
       "phase": 2,
@@ -978,18 +1078,6 @@
       "stocktwits_posts": 0,
       "distinct_users": 0,
       "news_articles": 3,
-      "chatter_score": 3
-    },
-    {
-      "ticker": "INTC",
-      "name": "INTEL CORP",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "chatter 3 < 5 mentions",
-      "why": "Only 3 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
-      "stocktwits_posts": 3,
-      "distinct_users": 3,
-      "news_articles": 0,
       "chatter_score": 3
     },
     {
@@ -1005,6 +1093,30 @@
       "chatter_score": 3
     },
     {
+      "ticker": "MRVL",
+      "name": "MARVELL TECHNOLOGY INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 3 < 5 mentions",
+      "why": "Only 3 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 3,
+      "distinct_users": 3,
+      "news_articles": 0,
+      "chatter_score": 3
+    },
+    {
+      "ticker": "MS",
+      "name": "MORGAN STANLEY",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 3 < 5 mentions",
+      "why": "Only 3 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 3,
+      "chatter_score": 3
+    },
+    {
       "ticker": "NNE",
       "name": "NANO NUCLEAR ENERGY INC",
       "phase": 2,
@@ -1013,6 +1125,18 @@
       "why": "Only 3 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
       "stocktwits_posts": 3,
       "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 3
+    },
+    {
+      "ticker": "QNT",
+      "name": "QUANTINUUM INC-A",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 3 < 5 mentions",
+      "why": "Only 3 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 3,
+      "distinct_users": 2,
       "news_articles": 0,
       "chatter_score": 3
     },
@@ -1125,27 +1249,15 @@
       "chatter_score": 2
     },
     {
-      "ticker": "MRVL",
-      "name": "MARVELL TECHNOLOGY INC",
+      "ticker": "PDSB",
+      "name": "PDS BIOTECHNOLOGY CORP",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 2 < 5 mentions",
       "why": "Only 2 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
       "stocktwits_posts": 2,
-      "distinct_users": 2,
+      "distinct_users": 1,
       "news_articles": 0,
-      "chatter_score": 2
-    },
-    {
-      "ticker": "MS",
-      "name": "MORGAN STANLEY",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "chatter 2 < 5 mentions",
-      "why": "Only 2 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
-      "stocktwits_posts": 0,
-      "distinct_users": 0,
-      "news_articles": 2,
       "chatter_score": 2
     },
     {
@@ -1183,6 +1295,18 @@
       "distinct_users": 1,
       "news_articles": 0,
       "chatter_score": 2
+    },
+    {
+      "ticker": "ABVX",
+      "name": "ABIVAX SA-ADR",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
     },
     {
       "ticker": "ADBE",
@@ -1259,6 +1383,30 @@
     {
       "ticker": "BBAI",
       "name": "BIGBEAR.AI HOLDINGS INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
+      "ticker": "BCTX",
+      "name": "BRIACELL THERAPEUTICS CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
+      "ticker": "BEEM",
+      "name": "BEAM GLOBAL",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 1 < 5 mentions",
@@ -1425,6 +1573,18 @@
       "chatter_score": 1
     },
     {
+      "ticker": "CRUS",
+      "name": "CIRRUS LOGIC INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 1,
+      "chatter_score": 1
+    },
+    {
       "ticker": "DIS",
       "name": "WALT DISNEY CO/THE",
       "phase": 2,
@@ -1461,8 +1621,44 @@
       "chatter_score": 1
     },
     {
+      "ticker": "ERIC",
+      "name": "ERICSSON (LM) TEL-SP ADR",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
+      "ticker": "ES",
+      "name": "EVERSOURCE ENERGY",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
       "ticker": "FRMI",
       "name": "FERMI INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
+      "ticker": "GIS",
+      "name": "GENERAL MILLS INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 1 < 5 mentions",
@@ -1485,8 +1681,32 @@
       "chatter_score": 1
     },
     {
+      "ticker": "HPE",
+      "name": "HEWLETT PACKARD ENTERPRISE",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
       "ticker": "HUM",
       "name": "HUMANA INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
+      "ticker": "IBM",
+      "name": "INTL BUSINESS MACHINES CORP",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 1 < 5 mentions",
@@ -1509,8 +1729,20 @@
       "chatter_score": 1
     },
     {
-      "ticker": "INFQ",
-      "name": "INFLEQTION INC",
+      "ticker": "KMB",
+      "name": "KIMBERLY-CLARK CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 1,
+      "chatter_score": 1
+    },
+    {
+      "ticker": "LAES",
+      "name": "SEALSQ CORP",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 1 < 5 mentions",
@@ -1535,6 +1767,18 @@
     {
       "ticker": "LMND",
       "name": "LEMONADE INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
+      "ticker": "LPCN",
+      "name": "LIPOCINE INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 1 < 5 mentions",
@@ -1581,6 +1825,18 @@
       "chatter_score": 1
     },
     {
+      "ticker": "NCPL",
+      "name": "NETCAPITAL INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
       "ticker": "NDAQ",
       "name": "NASDAQ INC",
       "phase": 2,
@@ -1617,6 +1873,18 @@
       "chatter_score": 1
     },
     {
+      "ticker": "NVTS",
+      "name": "NAVITAS SEMICONDUCTOR CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
       "ticker": "PAG",
       "name": "PENSKE AUTOMOTIVE GROUP INC",
       "phase": 2,
@@ -1626,18 +1894,6 @@
       "stocktwits_posts": 0,
       "distinct_users": 0,
       "news_articles": 1,
-      "chatter_score": 1
-    },
-    {
-      "ticker": "PDSB",
-      "name": "PDS BIOTECHNOLOGY CORP",
-      "phase": 2,
-      "stage": "Phase 2: chatter and distinct users",
-      "reason": "chatter 1 < 5 mentions",
-      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
-      "stocktwits_posts": 1,
-      "distinct_users": 1,
-      "news_articles": 0,
       "chatter_score": 1
     },
     {
@@ -1665,8 +1921,44 @@
       "chatter_score": 1
     },
     {
+      "ticker": "PUSA",
+      "name": "POWERUS CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
       "ticker": "PYPL",
       "name": "PAYPAL HOLDINGS INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
+      "ticker": "QUBT",
+      "name": "QUANTUM COMPUTING INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
+      "ticker": "RUM",
+      "name": "RUM GROUP INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 1 < 5 mentions",
@@ -1701,8 +1993,8 @@
       "chatter_score": 1
     },
     {
-      "ticker": "SLS",
-      "name": "SELLAS LIFE SCIENCES GROUP I",
+      "ticker": "SKYD",
+      "name": "SKYDANCE CORP",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 1 < 5 mentions",
@@ -1749,6 +2041,18 @@
       "chatter_score": 1
     },
     {
+      "ticker": "SPRC",
+      "name": "SCISPARC LTD",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
       "ticker": "STX",
       "name": "SEAGATE TECHNOLOGY HOLDINGS",
       "phase": 2,
@@ -1773,6 +2077,18 @@
       "chatter_score": 1
     },
     {
+      "ticker": "UAL",
+      "name": "UNITED AIRLINES HOLDINGS INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 1,
+      "chatter_score": 1
+    },
+    {
       "ticker": "UNH",
       "name": "UNITEDHEALTH GROUP INC",
       "phase": 2,
@@ -1787,6 +2103,30 @@
     {
       "ticker": "V",
       "name": "VISA INC-CLASS A SHARES",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
+      "ticker": "WHR",
+      "name": "WHIRLPOOL CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 1 < 5 mentions",
+      "why": "Only 1 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 1,
+      "distinct_users": 1,
+      "news_articles": 0,
+      "chatter_score": 1
+    },
+    {
+      "ticker": "XNDU",
+      "name": "XANADU QUANTUM TECHNOLO-CL B",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 1 < 5 mentions",
@@ -1845,8 +2185,164 @@
       "chatter_score": 0
     },
     {
+      "ticker": "ACMR",
+      "name": "ACM RESEARCH INC-CLASS A",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
       "ticker": "AIXI",
       "name": "XIAO I CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "AMAT",
+      "name": "APPLIED MATERIALS INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "AP",
+      "name": "AMPCO-PITTSBURGH CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "ARHS",
+      "name": "ARHAUS INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "ARM",
+      "name": "ARM HOLDINGS PLC-ADR",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "AXP",
+      "name": "AMERICAN EXPRESS CO",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "AZN",
+      "name": "ASTRAZENECA PLC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "BA",
+      "name": "BOEING CO/THE",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "BCG",
+      "name": "BINAH CAPITAL GROUP INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "C",
+      "name": "CITIGROUP INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "CIEN",
+      "name": "CIENA CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "CORZ",
+      "name": "CORE SCIENTIFIC INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CROWDSTRIKE HOLDINGS INC - A",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 0 < 5 mentions",
@@ -1869,8 +2365,32 @@
       "chatter_score": 0
     },
     {
+      "ticker": "FORM",
+      "name": "FORMFACTOR INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
       "ticker": "GEV",
       "name": "GE VERNOVA INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "GFS",
+      "name": "GLOBALFOUNDRIES INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 0 < 5 mentions",
@@ -1893,8 +2413,8 @@
       "chatter_score": 0
     },
     {
-      "ticker": "HPE",
-      "name": "HEWLETT PACKARD ENTERPRISE",
+      "ticker": "HBM",
+      "name": "HUDBAY MINERALS INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 0 < 5 mentions",
@@ -1905,8 +2425,8 @@
       "chatter_score": 0
     },
     {
-      "ticker": "IBM",
-      "name": "INTL BUSINESS MACHINES CORP",
+      "ticker": "IRDM",
+      "name": "IRIDIUM COMMUNICATIONS INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 0 < 5 mentions",
@@ -1917,8 +2437,92 @@
       "chatter_score": 0
     },
     {
-      "ticker": "IONQ",
-      "name": "IONQ INC",
+      "ticker": "JKHY",
+      "name": "JACK HENRY & ASSOCIATES INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "JNJ",
+      "name": "JOHNSON & JOHNSON",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "JOBY",
+      "name": "JOBY AVIATION INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "KR",
+      "name": "KROGER CO",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "LRCX",
+      "name": "LAM RESEARCH CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "LSCC",
+      "name": "LATTICE SEMICONDUCTOR CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "MARA",
+      "name": "MARA HOLDINGS INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "MELI",
+      "name": "MERCADOLIBRE INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 0 < 5 mentions",
@@ -1953,8 +2557,44 @@
       "chatter_score": 0
     },
     {
+      "ticker": "MPWR",
+      "name": "MONOLITHIC POWER SYSTEMS INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "NB",
+      "name": "NIOCORP DEVELOPMENTS LTD",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
       "ticker": "NIO",
       "name": "NIO INC - ADR",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "NRIX",
+      "name": "NURIX THERAPEUTICS INC",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 0 < 5 mentions",
@@ -1989,8 +2629,80 @@
       "chatter_score": 0
     },
     {
+      "ticker": "ONTO",
+      "name": "ONTO INNOVATION INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "PCAR",
+      "name": "PACCAR INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
       "ticker": "QMCO",
       "name": "QUANTUM CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "RIVIAN AUTOMOTIVE INC-A",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "RXRX",
+      "name": "RECURSION PHARMACEUTICALS-A",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "SANM",
+      "name": "SANMINA CORP",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 0 < 5 mentions",
@@ -2037,6 +2749,42 @@
       "chatter_score": 0
     },
     {
+      "ticker": "SHOP",
+      "name": "SHOPIFY INC - CLASS A",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "SNAP",
+      "name": "SNAP INC - A",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "SNPS",
+      "name": "SYNOPSYS INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
       "ticker": "SOTK",
       "name": "SONO-TEK CORP",
       "phase": 2,
@@ -2073,8 +2821,32 @@
       "chatter_score": 0
     },
     {
+      "ticker": "TM",
+      "name": "TOYOTA MOTOR CORP -SPON ADR",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
       "ticker": "TPC",
       "name": "TUTOR PERINI CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "TRAX",
+      "name": "FIRST TRACKS BIOTHERAPEUTICS",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 0 < 5 mentions",
@@ -2109,6 +2881,18 @@
       "chatter_score": 0
     },
     {
+      "ticker": "VICI",
+      "name": "VICI PROPERTIES INC",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
       "ticker": "VOD",
       "name": "VODAFONE GROUP PLC-SP ADR",
       "phase": 2,
@@ -2121,8 +2905,8 @@
       "chatter_score": 0
     },
     {
-      "ticker": "WBD",
-      "name": "WARNER BROS DISCOVERY INC",
+      "ticker": "VRT",
+      "name": "VERTIV HOLDINGS CO-A",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 0 < 5 mentions",
@@ -2135,6 +2919,18 @@
     {
       "ticker": "WDC",
       "name": "WESTERN DIGITAL CORP",
+      "phase": 2,
+      "stage": "Phase 2: chatter and distinct users",
+      "reason": "chatter 0 < 5 mentions",
+      "why": "Only 0 posts or articles mentioned it this week. At least 5 are needed before the screen treats the interest as real.",
+      "stocktwits_posts": 0,
+      "distinct_users": 0,
+      "news_articles": 0,
+      "chatter_score": 0
+    },
+    {
+      "ticker": "WFC",
+      "name": "WELLS FARGO & CO",
       "phase": 2,
       "stage": "Phase 2: chatter and distinct users",
       "reason": "chatter 0 < 5 mentions",
@@ -2164,7 +2960,7 @@
     "Catalyst summaries are written by an AI model from the linked headlines; check the sources.",
     "Market data comes from Yahoo Finance and may contain errors.",
     "Each screen covers the last 7 days, but only 5 daily run(s) are saved as a baseline, so 'unusual chatter' compares each stock with the other stocks, not with its own normal level (needs 3+ daily runs).",
-    "The sentiment model agrees with traders' own Bullish/Bearish tags 68% of the time (balanced accuracy; 50% = guessing)."
+    "The sentiment model agrees with traders' own Bullish/Bearish tags 67% of the time (balanced accuracy; 50% = guessing)."
   ],
   "disclaimer": "This is an automated screen of social-media and news chatter for a student project. It is not investment advice. Do your own research before buying or selling anything."
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-15T11:30:41",
+  "generated_at_utc": "2026-10-15T11:52:42",
   "note": "Screening output, not investment advice.",
   "top": [],
   "all_candidates": [
@@ -16,7 +16,7 @@
       "pe_ratio": 16.483791,
       "revenue_growth": 0.266,
       "debt_to_equity": 65.716,
-      "social_sentiment": 0.342,
+      "social_sentiment": 0.341,
       "social_voters": 14,
       "news_sentiment": null,
       "news_articles": 0,
@@ -24,9 +24,9 @@
       "bearish_pct": 7.0,
       "neutral_pct": 21.0,
       "sarcasm_hints": 0,
-      "raw_sentiment": 0.342,
+      "raw_sentiment": 0.341,
       "confidence": 0.58,
-      "net_sentiment": 0.199,
+      "net_sentiment": 0.198,
       "sentiment_label": "Bullish",
       "headlines_used": 1,
       "evidence": [
@@ -60,6 +60,54 @@
       "eligibility": "no genuine catalyst (guidance_or_analyst; downgraded: real event but low materiality)"
     },
     {
+      "ticker": "AUPH",
+      "market_cap": 2209979904.0,
+      "chatter_score": 17,
+      "social_mentions": 17,
+      "unbiased_news": 0,
+      "z_score": 2.14,
+      "z_method": "cross-section",
+      "volume_ratio": 1.21,
+      "unique_author_ratio": 0.71,
+      "pe_ratio": 15.571828,
+      "revenue_growth": 0.189,
+      "debt_to_equity": 10.431,
+      "social_sentiment": 0.314,
+      "social_voters": 12,
+      "news_sentiment": null,
+      "news_articles": 0,
+      "bullish_pct": 67.0,
+      "bearish_pct": 8.0,
+      "neutral_pct": 25.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.314,
+      "confidence": 0.55,
+      "net_sentiment": 0.172,
+      "sentiment_label": "Bullish",
+      "headlines_used": 0,
+      "evidence": [],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "No supporting headlines are provided; the next earnings report is scheduled for October 29, 2026, but no results or other catalyst are reported.",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "no_news_support",
+        "price_action_only",
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.87,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.142,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (no_clear_catalyst)"
+    },
+    {
       "ticker": "AFRM",
       "market_cap": 23791572992.0,
       "chatter_score": 13,
@@ -72,17 +120,17 @@
       "pe_ratio": 14.057382,
       "revenue_growth": 0.33,
       "debt_to_equity": 182.77,
-      "social_sentiment": 0.316,
+      "social_sentiment": 0.33,
       "social_voters": 11,
-      "news_sentiment": -0.014,
+      "news_sentiment": 0.029,
       "news_articles": 1,
-      "bullish_pct": 42.0,
+      "bullish_pct": 50.0,
       "bearish_pct": 0.0,
-      "neutral_pct": 58.0,
+      "neutral_pct": 50.0,
       "sarcasm_hints": 0,
-      "raw_sentiment": 0.184,
+      "raw_sentiment": 0.209,
       "confidence": 0.55,
-      "net_sentiment": 0.101,
+      "net_sentiment": 0.115,
       "sentiment_label": "Neutral",
       "headlines_used": 4,
       "evidence": [],
@@ -90,7 +138,7 @@
       "sarcasm_fixes": 5,
       "status": "OK",
       "catalyst_type": "no_clear_catalyst",
-      "catalyst_summary": "No AFRM-specific material event is reported; the headlines are general market commentary, a stock-performance article, or discussion of other fintech companies.",
+      "catalyst_summary": "No specific AFRM catalyst is reported; the headlines are general market commentary, and no earnings report is scheduled within the next 14 days.",
       "evidence_headlines": [],
       "catalyst_is_genuine": false,
       "hype_risk": "medium",
@@ -99,12 +147,12 @@
         "price_action_only",
         "pump_language"
       ],
-      "catalyst_confidence": 0.89,
+      "catalyst_confidence": 0.87,
       "catalyst_direction": "mixed",
       "materiality": "low",
       "notes": "",
-      "final_sentiment": 0.115,
-      "final_label": "Neutral",
+      "final_sentiment": 0.165,
+      "final_label": "Bullish",
       "eligibility": "no genuine catalyst (no_clear_catalyst)"
     }
   ],
@@ -127,13 +175,47 @@
         "text": "$KLAR off the $12 level from back in Feb-March looks great"
       }
     ],
+    "AUPH": [
+      {
+        "post_id": "st_666052347",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Notes low trading volume and a price decline without clear judgment.",
+        "text": "$AUPH 86k volume holy... index 5$ down..."
+      },
+      {
+        "post_id": "st_666085319",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Too little context to infer a clear opinion about AUPH.",
+        "text": "$AUPH well. I try!"
+      },
+      {
+        "post_id": "st_666077323",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "An unexplained reference to 180 gives no clear sentiment.",
+        "text": "$AUPH That was 180...."
+      },
+      {
+        "post_id": "st_666046463",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "A smiling emoji alone does not establish a clear ticker opinion.",
+        "text": "$AUPH \ud83d\ude01"
+      }
+    ],
     "AFRM": [
       {
         "post_id": "st_666050566",
         "was": "Neutral",
-        "now": "Bearish",
+        "now": "Bullish",
         "sarcastic": true,
-        "reason": "Calls the bullish setup an old gag and hints at disappointing upcoming figures.",
+        "reason": "\u201cOld gags\u201d sounds dismissive, but hints at positive upcoming figures.",
         "text": "$AFRM $KLAR cmon .....old gags\n\nJust wait nov and feb figures...\ud83d\ude0c\ud83e\udd2d\ud83d\ude1a"
       },
       {
@@ -141,32 +223,32 @@
         "was": "Bullish",
         "now": "Neutral",
         "sarcastic": false,
-        "reason": "Ticker mention only; no opinion is expressed.",
+        "reason": "Ticker mention only; no discernible opinion.",
         "text": "$AFRM"
       },
       {
         "post_id": "st_666048949",
         "was": "Neutral",
         "now": "Bullish",
-        "sarcastic": false,
-        "reason": "Calls AFRM stable and a quality company.",
+        "sarcastic": true,
+        "reason": "\u201cDead beat\u201d appears mocking, while calling AFRM stable and quality is positive.",
         "text": "$AFRM nice and stable because it\u2019s quality $SOFI \ufffc"
-      },
-      {
-        "post_id": "st_666083742",
-        "was": "Neutral",
-        "now": "Bullish",
-        "sarcastic": false,
-        "reason": "Notes AFRM has been moving upward.",
-        "text": "$AFRM has been on the move"
       },
       {
         "post_id": "st_666123852",
         "was": "Neutral",
         "now": "Bullish",
         "sarcastic": true,
-        "reason": "Despite calling AFRM a deadbeat, notes it is recovering.",
+        "reason": "Calls AFRM a \u201cdead beat\u201d but notes recovery and a price move.",
         "text": "$AFRM Even dead beat Afrm trying to take a turn. Recovering earnings AVWAP"
+      },
+      {
+        "post_id": "st_666054671",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Predicts a repeating rally, higher price target, and favorable valuations.",
+        "text": "$SEZL patterns repeating. but with a much higher floor. last time it was from $50 to $180. this time it will be from $10"
       }
     ]
   }
