@@ -1,0 +1,2391 @@
+{
+  "generated_at_utc": "2026-10-17T00:16:13",
+  "note": "Screening output, not investment advice.",
+  "top": [
+    {
+      "ticker": "KTOS",
+      "market_cap": 7587695616.0,
+      "chatter_score": 33,
+      "social_mentions": 33,
+      "unbiased_news": 0,
+      "z_score": 2.76,
+      "z_method": "cross-section",
+      "volume_ratio": 1.14,
+      "unique_author_ratio": 0.79,
+      "pe_ratio": 36.297344,
+      "revenue_growth": 0.305,
+      "debt_to_equity": 5.65,
+      "social_sentiment": 0.271,
+      "social_voters": 26,
+      "news_sentiment": 0.373,
+      "news_articles": 7,
+      "bullish_pct": 67.0,
+      "bearish_pct": 3.0,
+      "neutral_pct": 30.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.312,
+      "confidence": 0.77,
+      "net_sentiment": 0.24,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-12",
+          "source": "RTTNews",
+          "title": "Airbus, Kratos Announce U740-Valkyrie First Flight Milestone",
+          "url": "https://www.nasdaq.com/articles/airbus-kratos-announce-u740-valkyrie-first-flight-milestone"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo",
+          "title": "Kratos Breaks Ground on New AN/SPY-1 Radar and Helios Hypersonics Testing Facilities in Indiana",
+          "url": "https://finnhub.io/api/news?id=5e01f5c65fd045af6cf7e114e507cf55eff9e90a9fd0b05b2ee2e1645c078cb6"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 6,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 12, Airbus and Kratos announced the U740-Valkyrie\u2019s first-flight milestone, alongside October 14 reports of new Indiana radar and hypersonics testing facilities.",
+      "evidence_headlines": [
+        8,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.87,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.198,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.7777777778,
+      "c_catalyst": 0.5555555556,
+      "c_attention": 1.0,
+      "c_volume": 0.3333333333,
+      "final_score": 0.689
+    },
+    {
+      "ticker": "V",
+      "market_cap": 755841957888.0,
+      "chatter_score": 29,
+      "social_mentions": 29,
+      "unbiased_news": 0,
+      "z_score": 1.5,
+      "z_method": "history",
+      "volume_ratio": 1.21,
+      "unique_author_ratio": 0.86,
+      "pe_ratio": 26.824785,
+      "revenue_growth": 0.144,
+      "debt_to_equity": 67.821,
+      "social_sentiment": 0.24,
+      "social_voters": 25,
+      "news_sentiment": 0.352,
+      "news_articles": 11,
+      "bullish_pct": 56.0,
+      "bearish_pct": 8.0,
+      "neutral_pct": 36.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.285,
+      "confidence": 0.78,
+      "net_sentiment": 0.222,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-16",
+          "source": "Yahoo",
+          "title": "Visa Direct moves stablecoin payments into commercial deployment",
+          "url": "https://finnhub.io/api/news?id=14dbf8c36bacacd461fa657049a817ea55d0341ed386d5227fc17c9b2c2bdedf"
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Benzinga",
+          "title": "Visa Eyes China's Vast Payments Market After Key Regulatory Breakthrough",
+          "url": "https://finnhub.io/api/news?id=9cc64abe0251a2aefc2c1141fceef66474cc3e71c5731819a67f232a98f57118"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 0,
+      "status": "OK",
+      "catalyst_type": "product_launch",
+      "catalyst_summary": "On October 16, Visa Direct moved stablecoin payments into commercial deployment, with an October 13 report also noting a regulatory breakthrough for Visa's prospective China payments business.",
+      "evidence_headlines": [
+        0,
+        9
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.83,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.222,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.8888888889,
+      "c_catalyst": 0.4444444444,
+      "c_attention": 0.6666666667,
+      "c_volume": 0.6666666667,
+      "final_score": 0.678
+    },
+    {
+      "ticker": "TSM",
+      "market_cap": 2139990917120.0,
+      "chatter_score": 50,
+      "social_mentions": 47,
+      "unbiased_news": 3,
+      "z_score": 1.31,
+      "z_method": "history",
+      "volume_ratio": 1.86,
+      "unique_author_ratio": 0.79,
+      "pe_ratio": 17.856169,
+      "revenue_growth": 0.36,
+      "debt_to_equity": 16.504,
+      "social_sentiment": 0.158,
+      "social_voters": 37,
+      "news_sentiment": 0.091,
+      "news_articles": 92,
+      "bullish_pct": 41.0,
+      "bearish_pct": 21.0,
+      "neutral_pct": 38.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.131,
+      "confidence": 0.93,
+      "net_sentiment": 0.122,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-15",
+          "source": "CNBC",
+          "title": "TSMC chip capacity is \u2018fierce\u2019 battleground for AI customers, amid record quarter",
+          "url": "https://www.cnbc.com/2026/10/15/nvidia-apple-broadcom-in-fierce-battle-to-make-chips-at-tsmc.html"
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Zacks",
+          "title": "Taiwan Semiconductor Q3 Earnings & Revenues Top Estimates, Margins Up",
+          "url": "https://www.nasdaq.com/articles/taiwan-semiconductor-q3-earnings-revenues-top-estimates-margins"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 5,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "TSMC reported Q3 results on October 15, 2026, beating earnings and revenue estimates, with record results and strong AI-chip demand highlighted in coverage.",
+      "evidence_headlines": [
+        6,
+        8
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.95,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.104,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.3333333333,
+      "c_catalyst": 1.0,
+      "c_attention": 0.2222222222,
+      "c_volume": 0.8888888889,
+      "final_score": 0.594
+    },
+    {
+      "ticker": "GFS",
+      "market_cap": 26020300800.0,
+      "chatter_score": 23,
+      "social_mentions": 23,
+      "unbiased_news": 0,
+      "z_score": 1.5,
+      "z_method": "history",
+      "volume_ratio": 2.11,
+      "unique_author_ratio": 0.74,
+      "pe_ratio": 17.758368,
+      "revenue_growth": 0.058,
+      "debt_to_equity": 14.132,
+      "social_sentiment": 0.256,
+      "social_voters": 17,
+      "news_sentiment": 0.207,
+      "news_articles": 12,
+      "bullish_pct": 45.0,
+      "bearish_pct": 7.0,
+      "neutral_pct": 48.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.237,
+      "confidence": 0.74,
+      "net_sentiment": 0.175,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-15",
+          "source": "Yahoo",
+          "title": "Trump administration doubles its equity stake in GlobalFoundries, will partner with company in new semiconductor plant",
+          "url": "https://finnhub.io/api/news?id=14a4e141db11bdaf0fedde8e55bee28c6f8d4d0e57dff858bcd6094e4224e906"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo",
+          "title": "GlobalFoundries To Operate Two New Chip Fabs Under U.S.-Japan Alliance",
+          "url": "https://finnhub.io/api/news?id=9b93a81a65e9764213520008ae8dfd9afb217428d35658bfc7d9040e363f02ea"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo",
+          "title": "A $21 Billion Reason Why GlobalFoundries Stock Is Up Today",
+          "url": "https://finnhub.io/api/news?id=7fed72e8b72da0f512052c88158e2382bd0136bba3f4c7f6f7957ae3f92d9f41"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 15, the Trump administration reportedly doubled its equity stake and partnered with GlobalFoundries on a new semiconductor plant, following October 14 news of two fabs under a U.S.-Japan alliance.",
+      "evidence_headlines": [
+        4,
+        6,
+        11
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.87,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.145,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.4444444444,
+      "c_catalyst": 0.7777777778,
+      "c_attention": 0.6666666667,
+      "c_volume": 1.0,
+      "final_score": 0.572
+    },
+    {
+      "ticker": "GEV",
+      "market_cap": 245346500608.0,
+      "chatter_score": 27,
+      "social_mentions": 27,
+      "unbiased_news": 0,
+      "z_score": 2.57,
+      "z_method": "cross-section",
+      "volume_ratio": 1.54,
+      "unique_author_ratio": 0.78,
+      "pe_ratio": 36.45386,
+      "revenue_growth": 0.219,
+      "debt_to_equity": 28.364,
+      "social_sentiment": 0.189,
+      "social_voters": 21,
+      "news_sentiment": 0.083,
+      "news_articles": 10,
+      "bullish_pct": 48.0,
+      "bearish_pct": 19.0,
+      "neutral_pct": 32.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.146,
+      "confidence": 0.76,
+      "net_sentiment": 0.111,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-15",
+          "source": "Yahoo",
+          "title": "GE Vernova and Venture Global Sign a Power Deal Worth Up to $17.2 Billion. Here\u2019s What\u2019s Firm",
+          "url": "https://finnhub.io/api/news?id=ae0c76c5a14e658018d128b506eff741a9b2b680b138167dd813fc50aa823af3"
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Benzinga",
+          "title": "Venture Global Enters Power And Grid Frame Agreements With GE Vernova And Baker Hughes Energy Services For Up To Sixteen 720 MW Power Island Units And Associated Power Transformer Equipment",
+          "url": "https://finnhub.io/api/news?id=6e51175bee35c35e507d2c8b665608caf7e934544089dab23eb795e55ed3a4b2"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 15, GE Vernova signed power and grid frame agreements with Venture Global for up to 16 power units and associated equipment, with a headline value of up to $17.2 billion.",
+      "evidence_headlines": [
+        0,
+        4
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.91,
+      "catalyst_direction": "mixed",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.011,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.1111111111,
+      "c_catalyst": 0.8888888889,
+      "c_attention": 0.8888888889,
+      "c_volume": 0.7777777778,
+      "final_score": 0.5
+    }
+  ],
+  "all_candidates": [
+    {
+      "ticker": "CRCL",
+      "market_cap": 20873676800.0,
+      "chatter_score": 30,
+      "social_mentions": 30,
+      "unbiased_news": 0,
+      "z_score": 1.5,
+      "z_method": "history",
+      "volume_ratio": 1.06,
+      "unique_author_ratio": 0.7,
+      "pe_ratio": 56.00398,
+      "revenue_growth": 0.066,
+      "debt_to_equity": 0.454,
+      "social_sentiment": 0.402,
+      "social_voters": 21,
+      "news_sentiment": 0.58,
+      "news_articles": 3,
+      "bullish_pct": 75.0,
+      "bearish_pct": 0.0,
+      "neutral_pct": 25.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.473,
+      "confidence": 0.71,
+      "net_sentiment": 0.336,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-15",
+          "source": "Yahoo",
+          "title": "Citi Stands Behind 2 Crypto Stocks as Its Top Picks for the Rest of 2026",
+          "url": "https://finnhub.io/api/news?id=3a6c2a8cbb4c46a21b2246b35febbf312c2bcd4dc873c39d29103b6f1302f485"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Zacks",
+          "title": "Why Circle Internet Group, Inc. (CRCL) is Poised to Beat Earnings Estimates Again",
+          "url": "https://www.nasdaq.com/articles/why-circle-internet-group-inc-crcl-poised-beat-earnings-estimates-again"
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Yahoo",
+          "title": "Citi\u2019s Names Top Digital Asset Picks",
+          "url": "https://finnhub.io/api/news?id=627e43b83969ec025349ee4d9d4b1eea70f505babeeab153f6f3d19cbce2b9e9"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "On October 15, Citi named digital-asset stocks among its top picks for the rest of 2026, while October 14 coverage highlighted expectations that Circle could beat earnings estimates; no imminent earnings report or company guidance change is listed.",
+      "evidence_headlines": [
+        1,
+        4,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.78,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.328,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "PBR",
+      "market_cap": 167553531904.0,
+      "chatter_score": 26,
+      "social_mentions": 26,
+      "unbiased_news": 0,
+      "z_score": 2.53,
+      "z_method": "cross-section",
+      "volume_ratio": 0.85,
+      "unique_author_ratio": 0.77,
+      "pe_ratio": 6.2852488,
+      "revenue_growth": 0.423,
+      "debt_to_equity": 76.067,
+      "social_sentiment": 0.398,
+      "social_voters": 20,
+      "news_sentiment": 0.436,
+      "news_articles": 4,
+      "bullish_pct": 79.0,
+      "bearish_pct": 4.0,
+      "neutral_pct": 17.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.413,
+      "confidence": 0.71,
+      "net_sentiment": 0.293,
+      "sentiment_label": "Bullish",
+      "headlines_used": 8,
+      "evidence": [
+        {
+          "date": "2026-10-12",
+          "source": "Zacks",
+          "title": "Petrobras Signs Major Four-Year Deal for Offshore Pump Services",
+          "url": "https://www.nasdaq.com/articles/petrobras-signs-major-four-year-deal-offshore-pump-services"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "Petrobras signed a four-year offshore pump services deal, reported by Zacks on October 12; the other Petrobras headlines are general bullish commentary rather than specific new catalysts.",
+      "evidence_headlines": [
+        7
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.88,
+      "catalyst_direction": "positive",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.277,
+      "final_label": "Bullish",
+      "eligibility": "no genuine catalyst (partnership_or_contract; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "KTOS",
+      "market_cap": 7587695616.0,
+      "chatter_score": 33,
+      "social_mentions": 33,
+      "unbiased_news": 0,
+      "z_score": 2.76,
+      "z_method": "cross-section",
+      "volume_ratio": 1.14,
+      "unique_author_ratio": 0.79,
+      "pe_ratio": 36.297344,
+      "revenue_growth": 0.305,
+      "debt_to_equity": 5.65,
+      "social_sentiment": 0.271,
+      "social_voters": 26,
+      "news_sentiment": 0.373,
+      "news_articles": 7,
+      "bullish_pct": 67.0,
+      "bearish_pct": 3.0,
+      "neutral_pct": 30.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.312,
+      "confidence": 0.77,
+      "net_sentiment": 0.24,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-12",
+          "source": "RTTNews",
+          "title": "Airbus, Kratos Announce U740-Valkyrie First Flight Milestone",
+          "url": "https://www.nasdaq.com/articles/airbus-kratos-announce-u740-valkyrie-first-flight-milestone"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo",
+          "title": "Kratos Breaks Ground on New AN/SPY-1 Radar and Helios Hypersonics Testing Facilities in Indiana",
+          "url": "https://finnhub.io/api/news?id=5e01f5c65fd045af6cf7e114e507cf55eff9e90a9fd0b05b2ee2e1645c078cb6"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 6,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 12, Airbus and Kratos announced the U740-Valkyrie\u2019s first-flight milestone, alongside October 14 reports of new Indiana radar and hypersonics testing facilities.",
+      "evidence_headlines": [
+        8,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.87,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.198,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "V",
+      "market_cap": 755841957888.0,
+      "chatter_score": 29,
+      "social_mentions": 29,
+      "unbiased_news": 0,
+      "z_score": 1.5,
+      "z_method": "history",
+      "volume_ratio": 1.21,
+      "unique_author_ratio": 0.86,
+      "pe_ratio": 26.824785,
+      "revenue_growth": 0.144,
+      "debt_to_equity": 67.821,
+      "social_sentiment": 0.24,
+      "social_voters": 25,
+      "news_sentiment": 0.352,
+      "news_articles": 11,
+      "bullish_pct": 56.0,
+      "bearish_pct": 8.0,
+      "neutral_pct": 36.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.285,
+      "confidence": 0.78,
+      "net_sentiment": 0.222,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-16",
+          "source": "Yahoo",
+          "title": "Visa Direct moves stablecoin payments into commercial deployment",
+          "url": "https://finnhub.io/api/news?id=14dbf8c36bacacd461fa657049a817ea55d0341ed386d5227fc17c9b2c2bdedf"
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Benzinga",
+          "title": "Visa Eyes China's Vast Payments Market After Key Regulatory Breakthrough",
+          "url": "https://finnhub.io/api/news?id=9cc64abe0251a2aefc2c1141fceef66474cc3e71c5731819a67f232a98f57118"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 0,
+      "status": "OK",
+      "catalyst_type": "product_launch",
+      "catalyst_summary": "On October 16, Visa Direct moved stablecoin payments into commercial deployment, with an October 13 report also noting a regulatory breakthrough for Visa's prospective China payments business.",
+      "evidence_headlines": [
+        0,
+        9
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.83,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.222,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "BE",
+      "market_cap": 65181847552.0,
+      "chatter_score": 36,
+      "social_mentions": 36,
+      "unbiased_news": 0,
+      "z_score": 1.37,
+      "z_method": "history",
+      "volume_ratio": 1.0,
+      "unique_author_ratio": 0.78,
+      "pe_ratio": 44.848892,
+      "revenue_growth": 1.655,
+      "debt_to_equity": 171.578,
+      "social_sentiment": 0.255,
+      "social_voters": 28,
+      "news_sentiment": 0.258,
+      "news_articles": 11,
+      "bullish_pct": 62.0,
+      "bearish_pct": 13.0,
+      "neutral_pct": 26.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.256,
+      "confidence": 0.8,
+      "net_sentiment": 0.205,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-15",
+          "source": "Benzinga",
+          "title": "Baird Maintains Outperform on Bloom Energy, Raises Price Target to $351",
+          "url": "https://finnhub.io/api/news?id=f2e29319e7f48e6181896ba74405e801f40bc9803af6de4ee393f1ba81ef3246"
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Zacks",
+          "title": "Bloom Energy (BE) Reports Next Week: Wall Street Expects Earnings Growth",
+          "url": "https://www.nasdaq.com/articles/bloom-energy-be-reports-next-week-wall-street-expects-earnings-growth"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "On October 15, Baird maintained its Outperform rating and raised its price target to $351; Bloom Energy is also scheduled to report earnings on October 22, but results are not yet available.",
+      "evidence_headlines": [
+        7,
+        1
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.82,
+      "catalyst_direction": "mixed",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.172,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "CELH",
+      "market_cap": 7133058048.0,
+      "chatter_score": 32,
+      "social_mentions": 32,
+      "unbiased_news": 0,
+      "z_score": 2.73,
+      "z_method": "cross-section",
+      "volume_ratio": 0.94,
+      "unique_author_ratio": 0.72,
+      "pe_ratio": 16.525583,
+      "revenue_growth": 0.106,
+      "debt_to_equity": 22.802,
+      "social_sentiment": 0.319,
+      "social_voters": 23,
+      "news_sentiment": 0.157,
+      "news_articles": 6,
+      "bullish_pct": 59.0,
+      "bearish_pct": 0.0,
+      "neutral_pct": 41.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.254,
+      "confidence": 0.74,
+      "net_sentiment": 0.188,
+      "sentiment_label": "Bullish",
+      "headlines_used": 7,
+      "evidence": [
+        {
+          "date": "2026-10-13",
+          "source": "Benzinga",
+          "title": "TD Cowen Maintains Buy on Celsius Holdings, Lowers Price Target to $35",
+          "url": "https://finnhub.io/api/news?id=d75c5ebc79abf87c385760d894147212350c678358ec618808377a04bfb3b776"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "On October 13, TD Cowen maintained its Buy rating on Celsius but lowered its price target to $35.",
+      "evidence_headlines": [
+        3
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.82,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.17,
+      "final_label": "Bullish",
+      "eligibility": "no genuine catalyst (guidance_or_analyst; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "GFS",
+      "market_cap": 26020300800.0,
+      "chatter_score": 23,
+      "social_mentions": 23,
+      "unbiased_news": 0,
+      "z_score": 1.5,
+      "z_method": "history",
+      "volume_ratio": 2.11,
+      "unique_author_ratio": 0.74,
+      "pe_ratio": 17.758368,
+      "revenue_growth": 0.058,
+      "debt_to_equity": 14.132,
+      "social_sentiment": 0.256,
+      "social_voters": 17,
+      "news_sentiment": 0.207,
+      "news_articles": 12,
+      "bullish_pct": 45.0,
+      "bearish_pct": 7.0,
+      "neutral_pct": 48.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.237,
+      "confidence": 0.74,
+      "net_sentiment": 0.175,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-15",
+          "source": "Yahoo",
+          "title": "Trump administration doubles its equity stake in GlobalFoundries, will partner with company in new semiconductor plant",
+          "url": "https://finnhub.io/api/news?id=14a4e141db11bdaf0fedde8e55bee28c6f8d4d0e57dff858bcd6094e4224e906"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo",
+          "title": "GlobalFoundries To Operate Two New Chip Fabs Under U.S.-Japan Alliance",
+          "url": "https://finnhub.io/api/news?id=9b93a81a65e9764213520008ae8dfd9afb217428d35658bfc7d9040e363f02ea"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo",
+          "title": "A $21 Billion Reason Why GlobalFoundries Stock Is Up Today",
+          "url": "https://finnhub.io/api/news?id=7fed72e8b72da0f512052c88158e2382bd0136bba3f4c7f6f7957ae3f92d9f41"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 15, the Trump administration reportedly doubled its equity stake and partnered with GlobalFoundries on a new semiconductor plant, following October 14 news of two fabs under a U.S.-Japan alliance.",
+      "evidence_headlines": [
+        4,
+        6,
+        11
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.87,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.145,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "ELF",
+      "market_cap": 6699767808.0,
+      "chatter_score": 29,
+      "social_mentions": 29,
+      "unbiased_news": 0,
+      "z_score": 2.64,
+      "z_method": "cross-section",
+      "volume_ratio": 1.36,
+      "unique_author_ratio": 0.72,
+      "pe_ratio": 29.106775,
+      "revenue_growth": 0.355,
+      "debt_to_equity": 79.503,
+      "social_sentiment": 0.36,
+      "social_voters": 21,
+      "news_sentiment": 0.016,
+      "news_articles": 4,
+      "bullish_pct": 68.0,
+      "bearish_pct": 8.0,
+      "neutral_pct": 24.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.222,
+      "confidence": 0.71,
+      "net_sentiment": 0.158,
+      "sentiment_label": "Bullish",
+      "headlines_used": 9,
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "source": "Benzinga",
+          "title": "Citigroup Maintains Buy on e.l.f. Beauty, Raises Price Target to $130",
+          "url": "https://finnhub.io/api/news?id=31d17ca27e3939e02f84d6a4910f519589ae7a709300caa792b53fd02a144db7"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "On October 14, Citigroup maintained its Buy rating on e.l.f. Beauty and raised its price target to $130 from $118.",
+      "evidence_headlines": [
+        4
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.88,
+      "catalyst_direction": "positive",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.168,
+      "final_label": "Bullish",
+      "eligibility": "no genuine catalyst (guidance_or_analyst; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "KO",
+      "market_cap": 404009353216.0,
+      "chatter_score": 40,
+      "social_mentions": 40,
+      "unbiased_news": 0,
+      "z_score": 1.41,
+      "z_method": "history",
+      "volume_ratio": 1.17,
+      "unique_author_ratio": 0.85,
+      "pe_ratio": 26.640188,
+      "revenue_growth": 0.067,
+      "debt_to_equity": 115.519,
+      "social_sentiment": 0.124,
+      "social_voters": 34,
+      "news_sentiment": 0.27,
+      "news_articles": 13,
+      "bullish_pct": 40.0,
+      "bearish_pct": 17.0,
+      "neutral_pct": 43.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.182,
+      "confidence": 0.82,
+      "net_sentiment": 0.15,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-16",
+          "source": "RTTNews",
+          "title": "Yum! Brands' KFC U.S. Signs Deal With Coca-Cola As Beverage Partner, Replacing PepsiCo",
+          "url": "https://www.nasdaq.com/articles/yum-brands-kfc-us-signs-deal-coca-cola-beverage-partner-replacing-pepsico"
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Yahoo",
+          "title": "KFC U.S. switches from Pepsi to Coke",
+          "url": "https://finnhub.io/api/news?id=ca7b0b68e13548ad291174407d47ae6b8d96936998ae172f37a0f124d7d66efe"
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Yahoo",
+          "title": "KFC U.S. Announces New Beverage Partnership with Coca-Cola",
+          "url": "https://finnhub.io/api/news?id=80f084d0edc4b848884ec0e0b4822af7ab1465e5d733bfc33e582f875ba4cb61"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 15\u201316, 2026, KFC U.S. announced a beverage partnership switching its restaurants from Pepsi to Coca-Cola, with the transition expected to begin in January 2027.",
+      "evidence_headlines": [
+        0,
+        2,
+        3
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.91,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.167,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "NOC",
+      "market_cap": 73852878848.0,
+      "chatter_score": 14,
+      "social_mentions": 14,
+      "unbiased_news": 0,
+      "z_score": 10.12,
+      "z_method": "history",
+      "volume_ratio": 1.33,
+      "unique_author_ratio": 0.86,
+      "pe_ratio": 17.11848,
+      "revenue_growth": 0.051,
+      "debt_to_equity": 95.348,
+      "social_sentiment": 0.293,
+      "social_voters": 12,
+      "news_sentiment": 0.058,
+      "news_articles": 6,
+      "bullish_pct": 44.0,
+      "bearish_pct": 11.0,
+      "neutral_pct": 44.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.199,
+      "confidence": 0.64,
+      "net_sentiment": 0.127,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "source": "Benzinga",
+          "title": "Bernstein Maintains Market Perform on Northrop Grumman, Lowers Price Target to $556",
+          "url": "https://finnhub.io/api/news?id=b21e44d422788d111be22dcfae9959dcc5d023a43050d7546bbf6c0698e65645"
+        },
+        {
+          "date": "2026-10-10",
+          "source": "Fintel",
+          "title": "Barclays Initiates Coverage of Northrop Grumman at Underweight",
+          "url": "https://finnhub.io/api/news?id=a9b60a43dc204ab9385c6232ffd925062c2aceb2a242975075161a2edb15618b"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "Ahead of NOC's scheduled Q3 earnings on 2026-10-20, Bernstein maintained Market Perform and cut its price target on 2026-10-14, while Barclays initiated coverage at Underweight on 2026-10-10.",
+      "evidence_headlines": [
+        7,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.88,
+      "catalyst_direction": "negative",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.12,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (guidance_or_analyst: Ahead of NOC's scheduled Q3 earnings on 2026-10-20, Bernstei)"
+    },
+    {
+      "ticker": "AVAV",
+      "market_cap": 6189453824.0,
+      "chatter_score": 30,
+      "social_mentions": 30,
+      "unbiased_news": 0,
+      "z_score": 1.79,
+      "z_method": "history",
+      "volume_ratio": 1.02,
+      "unique_author_ratio": 0.8,
+      "pe_ratio": 27.58182,
+      "revenue_growth": 0.057,
+      "debt_to_equity": 19.354,
+      "social_sentiment": 0.015,
+      "social_voters": 24,
+      "news_sentiment": 0.367,
+      "news_articles": 14,
+      "bullish_pct": 45.0,
+      "bearish_pct": 16.0,
+      "neutral_pct": 39.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.156,
+      "confidence": 0.79,
+      "net_sentiment": 0.123,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "source": "Benzinga",
+          "title": "AeroVironment And Thunder Tiger Sign MOU To Explore Collaboration On Uncrewed Systems Integration, Potential UAS Localization And Co-Production And Future Capability Co-Development In Taiwan",
+          "url": "https://finnhub.io/api/news?id=2cbda9eaf2c9216876605fefc566e2d85f0e656b87677e42a8c4a2a76638539a"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Benzinga",
+          "title": "AeroVironment Inks MoU With Alpha Unmanned Systems To Mull Partnership Over JUMP 20 Fixed-Wing Unamanned Aircraft System In Spain",
+          "url": "https://finnhub.io/api/news?id=1c9aeffa2c77375abe2f917d5b8d66f820323296b203e73d2636d88887206bad"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Benzinga",
+          "title": "AeroVironment Collaborates With Elsight To Integrate Elsight's Halo Connectivity Tool Into Its Mayhem 10 Launched Effects System",
+          "url": "https://finnhub.io/api/news?id=c5ee84a4f777504908d86b4c39e382c9d18bd48b47330d826397d07129997c58"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo",
+          "title": "AV and Thunder Tiger Sign MOU to Explore Uncrewed Systems Integration and Co-Production in Taiwan",
+          "url": "https://finnhub.io/api/news?id=37e0abb7b16dd09e4ae57ca214984b19859f9264ad1f7acb2187b80d135e13d9"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 14, AeroVironment announced an Elsight connectivity integration for its Mayhem 10 system and MOUs with Thunder Tiger and Alpha Unmanned Systems to explore potential collaboration; the announcements disclosed no financial terms.",
+      "evidence_headlines": [
+        6,
+        7,
+        8,
+        11
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "low",
+      "hype_signals": [
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.91,
+      "catalyst_direction": "positive",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.116,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (partnership_or_contract; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "TSM",
+      "market_cap": 2139990917120.0,
+      "chatter_score": 50,
+      "social_mentions": 47,
+      "unbiased_news": 3,
+      "z_score": 1.31,
+      "z_method": "history",
+      "volume_ratio": 1.86,
+      "unique_author_ratio": 0.79,
+      "pe_ratio": 17.856169,
+      "revenue_growth": 0.36,
+      "debt_to_equity": 16.504,
+      "social_sentiment": 0.158,
+      "social_voters": 37,
+      "news_sentiment": 0.091,
+      "news_articles": 92,
+      "bullish_pct": 41.0,
+      "bearish_pct": 21.0,
+      "neutral_pct": 38.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.131,
+      "confidence": 0.93,
+      "net_sentiment": 0.122,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-15",
+          "source": "CNBC",
+          "title": "TSMC chip capacity is \u2018fierce\u2019 battleground for AI customers, amid record quarter",
+          "url": "https://www.cnbc.com/2026/10/15/nvidia-apple-broadcom-in-fierce-battle-to-make-chips-at-tsmc.html"
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Zacks",
+          "title": "Taiwan Semiconductor Q3 Earnings & Revenues Top Estimates, Margins Up",
+          "url": "https://www.nasdaq.com/articles/taiwan-semiconductor-q3-earnings-revenues-top-estimates-margins"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 5,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "TSMC reported Q3 results on October 15, 2026, beating earnings and revenue estimates, with record results and strong AI-chip demand highlighted in coverage.",
+      "evidence_headlines": [
+        6,
+        8
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.95,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.104,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "GEV",
+      "market_cap": 245346500608.0,
+      "chatter_score": 27,
+      "social_mentions": 27,
+      "unbiased_news": 0,
+      "z_score": 2.57,
+      "z_method": "cross-section",
+      "volume_ratio": 1.54,
+      "unique_author_ratio": 0.78,
+      "pe_ratio": 36.45386,
+      "revenue_growth": 0.219,
+      "debt_to_equity": 28.364,
+      "social_sentiment": 0.189,
+      "social_voters": 21,
+      "news_sentiment": 0.083,
+      "news_articles": 10,
+      "bullish_pct": 48.0,
+      "bearish_pct": 19.0,
+      "neutral_pct": 32.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.146,
+      "confidence": 0.76,
+      "net_sentiment": 0.111,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-15",
+          "source": "Yahoo",
+          "title": "GE Vernova and Venture Global Sign a Power Deal Worth Up to $17.2 Billion. Here\u2019s What\u2019s Firm",
+          "url": "https://finnhub.io/api/news?id=ae0c76c5a14e658018d128b506eff741a9b2b680b138167dd813fc50aa823af3"
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Benzinga",
+          "title": "Venture Global Enters Power And Grid Frame Agreements With GE Vernova And Baker Hughes Energy Services For Up To Sixteen 720 MW Power Island Units And Associated Power Transformer Equipment",
+          "url": "https://finnhub.io/api/news?id=6e51175bee35c35e507d2c8b665608caf7e934544089dab23eb795e55ed3a4b2"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 15, GE Vernova signed power and grid frame agreements with Venture Global for up to 16 power units and associated equipment, with a headline value of up to $17.2 billion.",
+      "evidence_headlines": [
+        0,
+        4
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.91,
+      "catalyst_direction": "mixed",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.011,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "JPM",
+      "market_cap": 902160449536.0,
+      "chatter_score": 13,
+      "social_mentions": 5,
+      "unbiased_news": 8,
+      "z_score": 1.91,
+      "z_method": "history",
+      "volume_ratio": 1.08,
+      "unique_author_ratio": 1.0,
+      "pe_ratio": 13.321705,
+      "revenue_growth": 0.102,
+      "debt_to_equity": null,
+      "social_sentiment": 0.222,
+      "social_voters": 5,
+      "news_sentiment": -0.045,
+      "news_articles": 51,
+      "bullish_pct": 27.0,
+      "bearish_pct": 25.0,
+      "neutral_pct": 48.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.115,
+      "confidence": 0.85,
+      "net_sentiment": 0.098,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-13",
+          "source": "CNBC",
+          "title": "Bank earnings takeaways: Here's how JPMorgan, Goldman, Wells Fargo and Citi performed in Q3",
+          "url": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html"
+        },
+        {
+          "date": "2026-10-13",
+          "source": "SeekingAlpha",
+          "title": "Wall Street Lunch: Bank Earnings Nothing To Write Home About",
+          "url": "https://finnhub.io/api/news?id=9a894c7153c7c5a5dc9fc1509910af2be7ed4f705868ee5b7142cb34ac249826"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "JPMorgan reported Q3 results on October 13, 2026, with EPS of $5.57 and revenue of $50.9 billion, both below estimates.",
+      "evidence_headlines": [
+        9,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.94,
+      "catalyst_direction": "negative",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.183,
+      "final_label": "Bullish",
+      "eligibility": "catalyst is negative for the stock (earnings: JPMorgan reported Q3 results on October 13, 2026, with EPS o)"
+    },
+    {
+      "ticker": "YUM",
+      "market_cap": 41074339840.0,
+      "chatter_score": 7,
+      "social_mentions": 7,
+      "unbiased_news": 0,
+      "z_score": 1.35,
+      "z_method": "cross-section",
+      "volume_ratio": 0.98,
+      "unique_author_ratio": 0.86,
+      "pe_ratio": 21.881542,
+      "revenue_growth": 0.122,
+      "debt_to_equity": null,
+      "social_sentiment": -0.043,
+      "social_voters": 6,
+      "news_sentiment": 0.584,
+      "news_articles": 2,
+      "bullish_pct": 25.0,
+      "bearish_pct": 25.0,
+      "neutral_pct": 50.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.208,
+      "confidence": 0.44,
+      "net_sentiment": 0.092,
+      "sentiment_label": "Neutral",
+      "headlines_used": 2,
+      "evidence": [
+        {
+          "date": "2026-10-16",
+          "source": "RTTNews",
+          "title": "Yum! Brands' KFC U.S. Signs Deal With Coca-Cola As Beverage Partner, Replacing PepsiCo",
+          "url": "https://www.nasdaq.com/articles/yum-brands-kfc-us-signs-deal-coca-cola-beverage-partner-replacing-pepsico"
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Yahoo",
+          "title": "KFC announces deal to switch U.S. beverage provider to Coca-Cola from Pepsi",
+          "url": "https://finnhub.io/api/news?id=0a6a846bc71908646e0e06c21a3240b5236f408e8ec343e152de3429963a809b"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 15\u201316, 2026, KFC U.S. announced a deal to replace PepsiCo with Coca-Cola as its beverage partner.",
+      "evidence_headlines": [
+        0,
+        1
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.94,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.101,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (partnership_or_contract; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "BAC",
+      "market_cap": 358238519296.0,
+      "chatter_score": 9,
+      "social_mentions": 2,
+      "unbiased_news": 7,
+      "z_score": 1.52,
+      "z_method": "history",
+      "volume_ratio": 1.99,
+      "unique_author_ratio": 1.0,
+      "pe_ratio": 9.869726,
+      "revenue_growth": 0.071,
+      "debt_to_equity": null,
+      "social_sentiment": 0.17,
+      "social_voters": 2,
+      "news_sentiment": 0.06,
+      "news_articles": 17,
+      "bullish_pct": 42.0,
+      "bearish_pct": 21.0,
+      "neutral_pct": 37.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.126,
+      "confidence": 0.66,
+      "net_sentiment": 0.083,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "source": "CNBC",
+          "title": "Bank of America shares drop after third-quarter revenue miss and regulatory penalty",
+          "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html"
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Reuters",
+          "title": "Bank of America fined $1.2 billion by US government for failing to police suspicious activity - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdlFNN0pWVFc2UEQ3a2ViakktenQxdzQwRm9FMFh4azdJOC1jM3FQUDBCbGxmdmw3UUNyWmt3OEhxV1JtVWQzeTFlY3RZZURYc3VZazU2aURrUXBsXzdYS3pDQ2o0aTdhemI0WDgzeTJncUUxZ05ZdEZrYXJidXNNYV9ScGIyTENZeklySS1wRnFLNWpkYTRadkxOQjVLNVpVX00zMTg0WXNScE91MFVITFVYRldudzN4UTFWQjhPTlV1VjlGZ0FqcQ?oc=5"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "On October 14, Bank of America reported third-quarter revenue below estimates and shares fell; the same day Reuters reported a $1.2 billion US government fine for failing to police suspicious activity.",
+      "evidence_headlines": [
+        7,
+        9
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.94,
+      "catalyst_direction": "negative",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": -0.097,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (earnings: On October 14, Bank of America reported third-quarter revenu)"
+    },
+    {
+      "ticker": "NVDA",
+      "market_cap": 5170596937728.0,
+      "chatter_score": 114,
+      "social_mentions": 105,
+      "unbiased_news": 9,
+      "z_score": 1.01,
+      "z_method": "history",
+      "volume_ratio": 1.16,
+      "unique_author_ratio": 0.86,
+      "pe_ratio": 13.454941,
+      "revenue_growth": 1.059,
+      "debt_to_equity": 16.971,
+      "social_sentiment": 0.109,
+      "social_voters": 90,
+      "news_sentiment": -0.024,
+      "news_articles": 187,
+      "bullish_pct": 32.0,
+      "bearish_pct": 26.0,
+      "neutral_pct": 42.0,
+      "sarcasm_hints": 3,
+      "raw_sentiment": 0.056,
+      "confidence": 0.97,
+      "net_sentiment": 0.054,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-16",
+          "source": "Benzinga",
+          "title": "Elon Musk Says Jensen Huang 'Rocks' as SpaceX, Nvidia Team Up on AI Data Centers in Space: \u2018Far Better Than Almost Anyone Expects\u2019",
+          "url": "https://finnhub.io/api/news?id=ebf08ba57ad0bc5099433716288cecf0167bd600bb805a535d123be3e284b13f"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 7,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "On October 16, 2026, headlines and posts described renewed concern about the sustainability of AI infrastructure spending and pressure across semiconductor stocks, while Nvidia also drew attention for a SpaceX AI-data-center collaboration.",
+      "evidence_headlines": [
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "pump_language",
+        "meme_or_loss_posts"
+      ],
+      "catalyst_confidence": 0.77,
+      "catalyst_direction": "mixed",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.063,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "SOFI",
+      "market_cap": 18792347648.0,
+      "chatter_score": 34,
+      "social_mentions": 34,
+      "unbiased_news": 0,
+      "z_score": 1.4,
+      "z_method": "history",
+      "volume_ratio": 1.53,
+      "unique_author_ratio": 0.71,
+      "pe_ratio": 17.645132,
+      "revenue_growth": 0.426,
+      "debt_to_equity": 30.835,
+      "social_sentiment": 0.247,
+      "social_voters": 24,
+      "news_sentiment": -0.29,
+      "news_articles": 10,
+      "bullish_pct": 53.0,
+      "bearish_pct": 29.0,
+      "neutral_pct": 18.0,
+      "sarcasm_hints": 2,
+      "raw_sentiment": 0.032,
+      "confidence": 0.77,
+      "net_sentiment": 0.025,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "source": "The Motley Fool",
+          "title": "Stock Market Today, Oct. 14: SoFi Technologies Falls on Banking Weakness",
+          "url": "https://www.nasdaq.com/articles/stock-market-today-oct-14-sofi-technologies-falls-banking-weakness"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Yahoo",
+          "title": "SoFi, BNY, Bread Financial, Perella Weinberg, and Morgan Stanley Shares Plummet, What You Need To Know",
+          "url": "https://finnhub.io/api/news?id=0d25b940cd9c5ed8374d172cde1f0ee0c5d82376f6375d2fcef50653501ff8e4"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "Benzinga",
+          "title": "SoFi Stock Falls Toward Its 52-Week Low as BofA Miss Weighs on Banking Stocks",
+          "url": "https://finnhub.io/api/news?id=3beb96bc65fcbf24a5f185f81d70e677be08e1fd5c9da982b1007ef9da7676b2"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 5,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "On October 14, SoFi shares fell amid banking-sector weakness, with a Bank of America earnings miss weighing on financial stocks; the headlines provide no SoFi-specific company catalyst.",
+      "evidence_headlines": [
+        2,
+        4,
+        7
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "meme_or_loss_posts",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.84,
+      "catalyst_direction": "negative",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.023,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (macro_or_sector: On October 14, SoFi shares fell amid banking-sector weakness)"
+    },
+    {
+      "ticker": "VRT",
+      "market_cap": 79469256704.0,
+      "chatter_score": 30,
+      "social_mentions": 30,
+      "unbiased_news": 0,
+      "z_score": 1.33,
+      "z_method": "history",
+      "volume_ratio": 2.01,
+      "unique_author_ratio": 0.73,
+      "pe_ratio": 22.4537,
+      "revenue_growth": 0.241,
+      "debt_to_equity": 70.166,
+      "social_sentiment": -0.045,
+      "social_voters": 22,
+      "news_sentiment": 0.134,
+      "news_articles": 12,
+      "bullish_pct": 44.0,
+      "bearish_pct": 35.0,
+      "neutral_pct": 21.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.026,
+      "confidence": 0.77,
+      "net_sentiment": 0.02,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "source": "Benzinga",
+          "title": "RBC Capital Maintains Outperform on Vertiv Holdings, Lowers Price Target to $323",
+          "url": "https://finnhub.io/api/news?id=d69bc87df7ab62be933a3c3b30011c320ba15921401624b5efdfa70545d5abc1"
+        },
+        {
+          "date": "2026-10-12",
+          "source": "Benzinga",
+          "title": "Evercore ISI Group Maintains Outperform on Vertiv Holdings, Lowers Price Target to $325",
+          "url": "https://finnhub.io/api/news?id=88ec0b0fe6667ebcbdd780c757a355935557a722ae06b045b7614959421ef5a2"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 5,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "On October 14, RBC maintained an Outperform rating but lowered its price target to $323, following Evercore's October 12 target cut to $325; the next earnings report is scheduled for October 28.",
+      "evidence_headlines": [
+        7,
+        9
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "low",
+      "hype_signals": [
+        "meme_or_loss_posts",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.88,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": -0.023,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (guidance_or_analyst; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "AXTI",
+      "market_cap": 3375053312.0,
+      "chatter_score": 20,
+      "social_mentions": 20,
+      "unbiased_news": 0,
+      "z_score": 1.1,
+      "z_method": "history",
+      "volume_ratio": 1.34,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 22.875557,
+      "revenue_growth": 1.648,
+      "debt_to_equity": 10.667,
+      "social_sentiment": 0.005,
+      "social_voters": 15,
+      "news_sentiment": null,
+      "news_articles": 0,
+      "bullish_pct": 40.0,
+      "bearish_pct": 40.0,
+      "neutral_pct": 20.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.005,
+      "confidence": 0.6,
+      "net_sentiment": 0.003,
+      "sentiment_label": "Neutral",
+      "headlines_used": 2,
+      "evidence": [],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "No AXTI-specific material catalyst is reported; the October 13 headline raises concern about sharply higher inventory, while the October 29 earnings date is scheduled rather than a reported result.",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "spam",
+        "meme_or_loss_posts",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.87,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.015,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (no_clear_catalyst)"
+    },
+    {
+      "ticker": "DASH",
+      "market_cap": 81958305792.0,
+      "chatter_score": 12,
+      "social_mentions": 12,
+      "unbiased_news": 0,
+      "z_score": 1.82,
+      "z_method": "cross-section",
+      "volume_ratio": 0.85,
+      "unique_author_ratio": 0.83,
+      "pe_ratio": 22.922743,
+      "revenue_growth": 0.356,
+      "debt_to_equity": 33.276,
+      "social_sentiment": 0.041,
+      "social_voters": 10,
+      "news_sentiment": -0.097,
+      "news_articles": 6,
+      "bullish_pct": 31.0,
+      "bearish_pct": 25.0,
+      "neutral_pct": 44.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": -0.014,
+      "confidence": 0.62,
+      "net_sentiment": -0.009,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "source": "Benzinga",
+          "title": "Guggenheim Reiterates Buy on DoorDash, Maintains $255 Price Target",
+          "url": "https://finnhub.io/api/news?id=0ef0e2ed5d8ae78f278654428049934020ce6eb1dc72717e87ed0c788ebf9d8b"
+        },
+        {
+          "date": "2026-10-12",
+          "source": "Benzinga",
+          "title": "Cantor Fitzgerald Maintains Overweight on DoorDash, Lowers Price Target to $240",
+          "url": "https://finnhub.io/api/news?id=68be6ee88e4383d4d00cd6380e92d17237de86f41640c3006c94b212c5edd97c"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 5,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "Guggenheim reiterated Buy with a $255 price target on October 14, while Cantor Fitzgerald maintained Overweight but lowered its target to $240 on October 12.",
+      "evidence_headlines": [
+        3,
+        4
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.86,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.05,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (guidance_or_analyst; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "SNDK",
+      "market_cap": 187784675328.0,
+      "chatter_score": 56,
+      "social_mentions": 56,
+      "unbiased_news": 0,
+      "z_score": 1.53,
+      "z_method": "history",
+      "volume_ratio": 1.15,
+      "unique_author_ratio": 0.82,
+      "pe_ratio": 4.879137,
+      "revenue_growth": 3.716,
+      "debt_to_equity": 1.277,
+      "social_sentiment": -0.026,
+      "social_voters": 46,
+      "news_sentiment": -0.142,
+      "news_articles": 55,
+      "bullish_pct": 23.0,
+      "bearish_pct": 33.0,
+      "neutral_pct": 45.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": -0.072,
+      "confidence": 0.91,
+      "net_sentiment": -0.066,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-16",
+          "source": "ChartMill",
+          "title": "Memory Stocks Slide 17%: Cheap Forward Multiples Face an AI-Cycle Reality Check",
+          "url": "https://finnhub.io/api/news?id=4655c28c726f5b3162e3d4da78d2975bfd06bc00e0bdcdce4162d3e190e30d96"
+        },
+        {
+          "date": "2026-10-15",
+          "source": "Benzinga",
+          "title": "Chip Meltdown Hits Micron, SanDisk and SK Hynix: $1 Trillion Vanishes From Memory Makers",
+          "url": "https://finnhub.io/api/news?id=5a513a269bd1f3f1dacf43e25bee42132db7bca9e3771f44997f8fcae8d55ed9"
+        },
+        {
+          "date": "2026-10-15",
+          "source": "The Motley Fool",
+          "title": "Unfortunate News for Micron Stock and Sandisk Stock Investors",
+          "url": "https://www.nasdaq.com/articles/unfortunate-news-micron-stock-and-sandisk-stock-investors"
+        },
+        {
+          "date": "2026-10-14",
+          "source": "The Motley Fool",
+          "title": "Why SandiskStock Keeps Going Down",
+          "url": "https://www.nasdaq.com/articles/why-sandiskstock-keeps-going-down"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "On October 15\u201316, 2026, headlines reported a sharp memory-sector selloff, including a $1 trillion loss in memory makers and a 17% slide, amid concerns about the AI-cycle outlook.",
+      "evidence_headlines": [
+        0,
+        4,
+        5,
+        8
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.88,
+      "catalyst_direction": "negative",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": -0.063,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (macro_or_sector: On October 15\u201316, 2026, headlines reported a sharp memory-se)"
+    },
+    {
+      "ticker": "LRCX",
+      "market_cap": 330300948480.0,
+      "chatter_score": 5,
+      "social_mentions": 5,
+      "unbiased_news": 0,
+      "z_score": 1.77,
+      "z_method": "history",
+      "volume_ratio": 1.34,
+      "unique_author_ratio": 0.8,
+      "pe_ratio": 22.433023,
+      "revenue_growth": 0.3,
+      "debt_to_equity": 33.049,
+      "social_sentiment": 0.067,
+      "social_voters": 4,
+      "news_sentiment": -0.631,
+      "news_articles": 3,
+      "bullish_pct": 29.0,
+      "bearish_pct": 71.0,
+      "neutral_pct": 0.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": -0.212,
+      "confidence": 0.41,
+      "net_sentiment": -0.087,
+      "sentiment_label": "Neutral",
+      "headlines_used": 3,
+      "evidence": [
+        {
+          "date": "2026-10-13",
+          "source": "Yahoo",
+          "title": "Semiconductor Equipment Stocks Slide as Investors Take Profits on a Huge Year: Applied Materials Sinks 7%, Lam Research and KLA Drop 4%",
+          "url": "https://finnhub.io/api/news?id=276a62b4145219492a2a13dd4a3fc36f5b246e926ccd7fff3733dd5f3d47a40d"
+        },
+        {
+          "date": "2026-10-13",
+          "source": "Yahoo",
+          "title": "Entegris, Intel, KLA Corporation, Lam Research, and Microchip Technology Shares Are Falling, What You Need To Know",
+          "url": "https://finnhub.io/api/news?id=bdee110d585b385d2f845c881ee95975ac306c38bf349e9eb4208961879d8492"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "On October 13, semiconductor equipment stocks fell as investors took profits after a strong year, with Lam Research among the decliners.",
+      "evidence_headlines": [
+        1,
+        2
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.86,
+      "catalyst_direction": "negative",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": -0.111,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (macro_or_sector: On October 13, semiconductor equipment stocks fell as invest)"
+    }
+  ],
+  "sarcasm_corrections": {
+    "CRCL": [
+      {
+        "post_id": "st_666651839",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Sees a possible bottom but acknowledges continued choppy trading.",
+        "text": "$CRCL \n\nThat\u2019s usually a move you see when a stock bottoms \u2026. Or the continuous chop that\u2019s plagued this stock for a yea"
+      }
+    ],
+    "PBR": [
+      {
+        "post_id": "st_666268250",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Ticker-only post gives no discernible opinion.",
+        "text": "$PBR"
+      },
+      {
+        "post_id": "st_666458898",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Ticker-only post gives no discernible opinion.",
+        "text": "$PBR"
+      },
+      {
+        "post_id": "st_666730273",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Ticker-only post gives no discernible opinion.",
+        "text": "$PBR"
+      }
+    ],
+    "KTOS": [
+      {
+        "post_id": "st_666610660",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": true,
+        "reason": "Laughing at uncertainty over whether drone stocks will finish green.",
+        "text": "$SPY $QQQ  \n \nThe Dog Pound is in the Green!  \n$AVAV $KTOS  \n \nWill they close in the Green? \ud83d\ude02"
+      },
+      {
+        "post_id": "st_666550898",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": true,
+        "reason": "Mockingly calls the bearish bankruptcy claims delusional; defends these companie",
+        "text": "$ONDS $KTOS $VWAV $AVAV $PATH etc etc etc\u2026. For the bears that say all of these companies are going broke YOU are delusi"
+      },
+      {
+        "post_id": "st_666551236",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Worries KTOS could stagnate for years, comparing the risk to AMC.",
+        "text": "$AVAV $KTOS $ONDS $PATH $VWAV what if they stay flat for 10 years? Is that much better. Look at amc"
+      },
+      {
+        "post_id": "st_666641910",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Mentions KTOS in a defense article without expressing a view on it.",
+        "text": "$BURU NUBURU Makes A Bold Defense Pivot. What Comes Next? $BURU \nAlso Mentions: $LMT $RTX $DRS $KTOS https://talkmarkets"
+      },
+      {
+        "post_id": "st_666665352",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Lists defense stocks and company details without a clear KTOS opinion.",
+        "text": "$LTELF Watchlist Defense: \n \n$LTELF German company \nMarketcap: $20 million \u2705 \nFreeFloat: 3 million shares \u2705\u2705 \n \nhttps://"
+      },
+      {
+        "post_id": "st_666624911",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Briefly lists KTOS among interesting stocks without a clear directional view.",
+        "text": "$VSTM 27% now \n\n$INO $IRD $KTOS \n\nInteresting"
+      }
+    ],
+    "BE": [
+      {
+        "post_id": "st_666744412",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Raises an unconfirmed fund-collapse rumor involving substantial BE holdings.",
+        "text": "$NBIS exactly same pattern like 3 months back . there is a rumor going on that VARA AI fund blow up though none confirme"
+      },
+      {
+        "post_id": "st_666631727",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Asks whether BE will close green without clear conviction.",
+        "text": "$BE closes green?"
+      }
+    ],
+    "CELH": [
+      {
+        "post_id": "st_666683989",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Suspects the move is a deceptive pump.",
+        "text": "$CELH is this another fake pump??"
+      }
+    ],
+    "GFS": [
+      {
+        "post_id": "st_666648161",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Expresses uncertainty and compares GFS unfavorably with Intel's turnaround prosp",
+        "text": "$GFS Im not getting this and I am not familiar with GFS. Intel at 20 was a ridiculous steal and had a plan to resurrect "
+      },
+      {
+        "post_id": "st_666607013",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Notes both price support and resistance without expressing a directional view.",
+        "text": "$GFS Good news it has strong support at these levels, bad news it has heavy resistance around the 50 dollar level."
+      },
+      {
+        "post_id": "st_666579039",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Contains no opinion or meaningful sentiment.",
+        "text": "$GFS"
+      }
+    ],
+    "ELF": [
+      {
+        "post_id": "st_666473246",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": true,
+        "reason": "Mocks a put holder who remains underwater; favors ELF over bearish bets.",
+        "text": "$ELF @Undone_ai lmao cpi came in hot and your still under water on you puts clown \ud83e\udd21"
+      }
+    ],
+    "KO": [
+      {
+        "post_id": "st_666689385",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Describes Coke outperforming Pepsi and anticipates a Celsius acquisition.",
+        "text": "$CELH Pepsi $PEP is losing against Coke $KO and is starting to fail on their growth plans.  They need a true growth engi"
+      },
+      {
+        "post_id": "st_666634410",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Ticker only; no expressed opinion.",
+        "text": "$KO"
+      },
+      {
+        "post_id": "st_666648779",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Reports KFC switching to Coke, a positive development for KO.",
+        "text": "KFC Dumps Pepsi For Coke In US Restaurants Starting 2027 \u2014 PEP Stock Drops\n\n$PEP $KO $YUM\n\nhttps://stocktwits.com/news/e"
+      }
+    ],
+    "NOC": [
+      {
+        "post_id": "st_666537815",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Asks which company might buy FLY; no clear view on NOC.",
+        "text": "$FLY what are we thinking? Buyout from $LMT $NOC or $SPCX ?"
+      },
+      {
+        "post_id": "st_666685082",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Lists tickers without expressing an opinion.",
+        "text": "$NOC $LHX $HWM $ITA.X $BA"
+      },
+      {
+        "post_id": "st_666248960",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Despite a decline, says NOC remains supported at technical levels.",
+        "text": "Northrop Grumman $NOC drops to the lower line of its weekly moving average support cluster. \nStill supported. \n \nNOC @ $"
+      }
+    ],
+    "AVAV": [
+      {
+        "post_id": "st_666610660",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocks the supposed green performance and doubts the stocks will close green.",
+        "text": "$SPY $QQQ  \n \nThe Dog Pound is in the Green!  \n$AVAV $KTOS  \n \nWill they close in the Green? \ud83d\ude02"
+      },
+      {
+        "post_id": "st_666550898",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": true,
+        "reason": "Sarcastically calls bears delusional while defending these companies.",
+        "text": "$ONDS $KTOS $VWAV $AVAV $PATH etc etc etc\u2026. For the bears that say all of these companies are going broke YOU are delusi"
+      },
+      {
+        "post_id": "st_666551236",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Warns that years of flat performance could resemble AMC.",
+        "text": "$AVAV $KTOS $ONDS $PATH $VWAV what if they stay flat for 10 years? Is that much better. Look at amc"
+      }
+    ],
+    "TSM": [
+      {
+        "post_id": "st_666562437",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Insults Elon and expresses hostility, with no positive view of TSM.",
+        "text": "$TSM Of course what does ELon think he is F him"
+      },
+      {
+        "post_id": "st_666568643",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Reports TSMC results as context for Intel, without a clear TSM view.",
+        "text": "$INTC Yes\u2014TSMC beat earnings today, October 15.\n\n* Net profit: NT$763.1 billion versus NT$746.3 billion expected\u2014about 2"
+      },
+      {
+        "post_id": "st_666732392",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Reports suppliers cannot meet demand and TSMC is expanding operations.",
+        "text": "$IREN my wife works in logistics for the semiconductor industry. Does business with $SMCI $SPCX $TSM etc.  They are supp"
+      },
+      {
+        "post_id": "st_666653370",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Discusses NBIG and NBIS; TSM is not meaningfully addressed.",
+        "text": "$NBIG whoever doesn\u2019t believe price is not going to start to recover before $NBIS  reporting earnings on NOV 10th it\u2019s o"
+      },
+      {
+        "post_id": "st_666565299",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Says TSM is holding up well, without a clear directional view.",
+        "text": "$TSM Compared to others, this is holding up surprisingly well"
+      }
+    ],
+    "GEV": [
+      {
+        "post_id": "st_666594626",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Calls the expensive price absurdity while noting another purchase.",
+        "text": "$GEV added some more 890. More absurdity."
+      },
+      {
+        "post_id": "st_666604935",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Laughing at the stock merely closing green suggests disdain or disappointment.",
+        "text": "$GEV closing green hahahahahahaha"
+      },
+      {
+        "post_id": "st_666612019",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "The wildly unrealistic $1,000-in-a-week target mocks bullish dip claims.",
+        "text": "$GEV Looks like a dip. $1000 in a week."
+      },
+      {
+        "post_id": "st_666601387",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Rhetorical question mocks GEV falling while QQQ rallies.",
+        "text": "$GEV QQQ ripping and this dumping out...makes sense right"
+      }
+    ],
+    "JPM": [
+      {
+        "post_id": "st_666401794",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Distinguishes payment networks from lenders without expressing a view on JPM.",
+        "text": "$MA \n \nWorth separating the rails from the lenders when reading this earnings season. \n \nThe network earns on payment vo"
+      },
+      {
+        "post_id": "st_666621045",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Describes improving financial-sector chart signals and a potential breakout.",
+        "text": "$XLF After sliding entire month of Sept. and dropping under all key 20, 50, 100, and 200 MAs, the financial are making a"
+      }
+    ],
+    "YUM": [
+      {
+        "post_id": "st_666648779",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Headline concerns Pepsi's lost KFC contract, not a stated view on YUM.",
+        "text": "KFC Dumps Pepsi For Coke In US Restaurants Starting 2027 \u2014 PEP Stock Drops\n\n$PEP $KO $YUM\n\nhttps://stocktwits.com/news/e"
+      }
+    ],
+    "BAC": [
+      {
+        "post_id": "st_666684694",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Calls BAC cowards and money-laundering criminals; clearly expresses contempt.",
+        "text": "$PYPL hey $BAC \u2026 how\u2019s it feel to be a bunch of cowards?\n\nMoney laundering shit heads \ud83d\ude02\ud83d\ude02"
+      }
+    ],
+    "NVDA": [
+      {
+        "post_id": "st_666565057",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Says the stock is undervalued relative to strong growth, profitability, and dema",
+        "text": "$NVDA stock price is trading in a totally different direction compared outstanding growth of company revenue, profitabil"
+      },
+      {
+        "post_id": "st_666755526",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Lists NVDA among tickers without expressing an opinion.",
+        "text": "$CRWV $MU $NVDA $TSLA bye bye man"
+      },
+      {
+        "post_id": "st_666568762",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Only lists tickers, with no sentiment expressed.",
+        "text": "$SPY $MU $GOOGL $NVDA"
+      },
+      {
+        "post_id": "st_666566664",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": true,
+        "reason": "Sarcastically thanks Bessent for calming markets, implying relief and optimism.",
+        "text": "$SPY $QQQ $MU $NVDA \n\nI wanna personally thank Scott Bessent for his ability to calm down the markets"
+      },
+      {
+        "post_id": "st_666664460",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Shares a Teradata article; NVDA is not discussed.",
+        "text": "$TDC  \u201cEnterprise scale AI implementation by TDC. Teradata Brings Elastic Python Compute to AI Studio, Unifying Data, Go"
+      },
+      {
+        "post_id": "st_666589275",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Reports an acquisition deal without expressing an opinion on NVDA.",
+        "text": "$DVLT $CYBHF $IBM $MEDS $NVDA  \nUnder the definitive agreement, Datavault Al Will acquire all of CyberCatch's issued and"
+      },
+      {
+        "post_id": "st_666565616",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "The $210 price target suggests an expectation of further upside.",
+        "text": "$NVDA $210"
+      }
+    ],
+    "SOFI": [
+      {
+        "post_id": "st_666631260",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocks the disappearance of bears, implying the stock's decline is concerning.",
+        "text": "$SOFI Not as many bears as yesterday. Why? \ud83e\udd23"
+      },
+      {
+        "post_id": "st_666630612",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Mocks someone for taking a beating, reflecting a painful day for holders.",
+        "text": "$SOFI Ouch Ouch Ouch Ouch Ouch Ouch Ouch spewing nonsense and getting BTA best to go home and apply some ice you got you"
+      },
+      {
+        "post_id": "st_666630796",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Expresses sympathy for losses after the stock fell.",
+        "text": "$SOFI ouch!!!!!!!!!! sorry for your losses today"
+      },
+      {
+        "post_id": "st_666487778",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Moved funds into SOFI, suggesting confidence in its prospects.",
+        "text": "$ELF Thanks for holding up. Sold 50% and moved them into $RDW $SOFI and $OUST"
+      },
+      {
+        "post_id": "st_666730508",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Criticizes the president; ticker list gives no clear SOFI opinion.",
+        "text": "$SMCI $SPY $SOFI $CCL $APLD \n\nSuch a weak, pathetic president."
+      }
+    ],
+    "VRT": [
+      {
+        "post_id": "st_666618948",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "States an entry price without expressing a directional opinion.",
+        "text": "$VRT in at 207.9"
+      },
+      {
+        "post_id": "st_666646842",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Strong results from related companies are implied to support VRT.",
+        "text": "$VRT mega print after mega print \n$MSFT $NET $PLTR"
+      },
+      {
+        "post_id": "st_666621044",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Directly calls the stock a piece of shit.",
+        "text": "$VRT piece of shit"
+      },
+      {
+        "post_id": "st_666615949",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Complains about volatility and says gap-ups are harmful.",
+        "text": "$VRT fkn wild. Gap from FEBRUARY filled today. gap ups are evil."
+      },
+      {
+        "post_id": "st_666620317",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Accuses someone of exploiting the system and damaging VRT.",
+        "text": "$VRT unreal. Someone's exploiting the system doing damage here"
+      }
+    ],
+    "AXTI": [
+      {
+        "post_id": "st_666579440",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": true,
+        "reason": "Mocks similar four-letter technology tickers; expresses no clear AXTI view.",
+        "text": "$AAOI $AEHR $AXTI  lol charts all look the same for the \u201cI\u2019m in technology and my ticker has 4 letters that starts with "
+      },
+      {
+        "post_id": "st_666481695",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "A chart label alone conveys no clear sentiment.",
+        "text": "$AXTI 1 Month chart"
+      }
+    ],
+    "DASH": [
+      {
+        "post_id": "st_666280569",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Calling 150 fair expresses a valuation view without clear directional conviction",
+        "text": "$DASH 150 seems fair"
+      },
+      {
+        "post_id": "st_666489073",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Despite the drop, the author sees support and a possible bullish trigger.",
+        "text": "Kim K x $DASH Partnership?!? \nAND the chart looks DECENT?! \ud83d\udc40 \n \nObviously, the stock is down severely today, ~6.4% \n \nHo"
+      },
+      {
+        "post_id": "st_666563142",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": true,
+        "reason": "Mocks AI-bubble pessimists by suggesting they will work for DASH or UBER.",
+        "text": "$UBER $DASH many  of this ai bubble wallstreet wolfs and ex programmers will soon be employees here"
+      },
+      {
+        "post_id": "st_666474847",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Reports a large put trade and mixed technical indicators without stating a view.",
+        "text": "WEDNESDAY MORNING FLOWBOARD \ud83d\udccb\n\n$DASH has the standout print: $915K in the Dec 18 $180 puts. At capture, contract volume "
+      },
+      {
+        "post_id": "st_666482458",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Complains about a poor order and criticizes the broader economy.",
+        "text": "$DASH i thought I ordered 12 buffalo wings but got two breasts  \n \nThe degenerate economy gets trashy"
+      }
+    ],
+    "SNDK": [
+      {
+        "post_id": "st_666594874",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Asks for data without expressing a clear view on the ticker.",
+        "text": "$MU $SNDK $STX Where\u2019s the data? I\u2019m waiting."
+      },
+      {
+        "post_id": "st_666567675",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Plans to buy at a lower price, implying a bullish entry view.",
+        "text": "$SNDK I\u2019m a buyer at $55-$60 range. This has a lot of down to go"
+      },
+      {
+        "post_id": "st_666563966",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Discusses KORU and does not express a view on SNDK.",
+        "text": "$KORU The KOSPI is extremely oversold (RSI = 23).  In fact, during much bigger drop back in Jun/Jul, RSI never dropped s"
+      }
+    ],
+    "LRCX": [
+      {
+        "post_id": "st_666405444",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Discusses breakfast details; no clear opinion about LRCX.",
+        "text": "$AMAT $LRCX $ASML $KLAC Yeah, that tracks. AMAT investor breakfast presentation. So attendees would typically have been "
+      },
+      {
+        "post_id": "st_666312803",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Promotes research service without expressing a view on LRCX.",
+        "text": "The semiconductor cycle isn't captured by one earnings headline.\n\nWe track Korean chip exports, Taiwan supply-chain reve"
+      },
+      {
+        "post_id": "st_666387802",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Shares an earnings-calendar note; no LRCX sentiment.",
+        "text": "$AMAT $CAT $LRCX $ASML $KLAC  \n \nlooks like ASML reporting tomorrow before open, unless something changed ofc... \nhttps:"
+      },
+      {
+        "post_id": "st_666381396",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Eyes emoji gives no clear sentiment about LRCX.",
+        "text": "$AMAT $CAT $LRCX $ASML $KLAC\n\n\ud83d\udc40"
+      }
+    ]
+  }
+}
