@@ -1,0 +1,2992 @@
+{
+  "generated_at_utc": "2026-10-23T00:35:20",
+  "note": "Screening output, not investment advice.",
+  "top": [
+    {
+      "ticker": "RTX",
+      "market_cap": 262421987328.0,
+      "chatter_score": 40,
+      "social_mentions": 40,
+      "unbiased_news": 0,
+      "z_score": 1.43,
+      "z_method": "history",
+      "volume_ratio": 1.75,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 24.258121,
+      "revenue_growth": 0.111,
+      "debt_to_equity": 54.758,
+      "social_sentiment": 0.253,
+      "social_voters": 30,
+      "news_sentiment": 0.383,
+      "news_articles": 22,
+      "bullish_pct": 54.0,
+      "bearish_pct": 10.0,
+      "neutral_pct": 37.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.305,
+      "confidence": 0.84,
+      "net_sentiment": 0.256,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "RTTNews",
+          "title": "RTX Raises 2026 Outlook For Adj. Sales, Adj. EPS",
+          "url": "https://www.nasdaq.com/articles/rtx-raises-2026-outlook-adj-sales-adj-eps"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Zacks",
+          "title": "RTX Q3 Earnings Outpace Estimates, Revenues Increase Y/Y",
+          "url": "https://www.nasdaq.com/articles/rtx-q3-earnings-outpace-estimates-revenues-increase-y-y"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Zacks",
+          "title": "RTX (RTX) Q3 Earnings and Revenues Beat Estimates",
+          "url": "https://www.nasdaq.com/articles/rtx-rtx-q3-earnings-and-revenues-beat-estimates"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "RTTNews",
+          "title": "RTX Corporation Reports Increase In Q3 Profit",
+          "url": "https://www.nasdaq.com/articles/rtx-corporation-reports-increase-q3-profit"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "On 2026-10-20, RTX reported Q3 results that beat earnings and revenue estimates and raised its 2026 adjusted sales and EPS outlook.",
+      "evidence_headlines": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.98,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.233,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 1.0,
+      "c_catalyst": 0.9285714286,
+      "c_attention": 0.3571428571,
+      "c_volume": 0.7142857143,
+      "final_score": 0.807
+    },
+    {
+      "ticker": "BRZE",
+      "market_cap": 5208981504.0,
+      "chatter_score": 10,
+      "social_mentions": 10,
+      "unbiased_news": 0,
+      "z_score": 1.03,
+      "z_method": "cross-section",
+      "volume_ratio": 15.67,
+      "unique_author_ratio": 0.8,
+      "pe_ratio": 46.70299,
+      "revenue_growth": 0.262,
+      "debt_to_equity": 16.008,
+      "social_sentiment": 0.065,
+      "social_voters": 8,
+      "news_sentiment": 0.269,
+      "news_articles": 10,
+      "bullish_pct": 44.0,
+      "bearish_pct": 17.0,
+      "neutral_pct": 39.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.147,
+      "confidence": 0.64,
+      "net_sentiment": 0.094,
+      "sentiment_label": "Neutral",
+      "headlines_used": 10,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "RTTNews",
+          "title": "Salesforce To Acquire Braze For $5.66 Bln",
+          "url": "https://www.nasdaq.com/articles/salesforce-acquire-braze-566-bln"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Yahoo",
+          "title": "Salesforce Strikes $5.66 Billion Deal to Buy Customer Engagement Platform Braze",
+          "url": "https://finnhub.io/api/news?id=2b1d6f13f94b8a64769b43b285614d934823a96186937133df20d8ed10b57101"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Yahoo",
+          "title": "Salesforce Signs Definitive Agreement to Acquire Braze",
+          "url": "https://finnhub.io/api/news?id=c3c395b9a4347db88e39e6457c6e77c2f261139417ac6ceecdb834ef185b3460"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "m_and_a",
+      "catalyst_summary": "On 2026-10-20, Salesforce announced a definitive agreement to acquire Braze for $5.66 billion, offering $47.50 per share in cash at a reported 58% premium.",
+      "evidence_headlines": [
+        3,
+        4,
+        9
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.99,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.149,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.6428571429,
+      "c_catalyst": 1.0,
+      "c_attention": 0.1428571429,
+      "c_volume": 1.0,
+      "final_score": 0.704
+    },
+    {
+      "ticker": "AMKR",
+      "market_cap": 9702069248.0,
+      "chatter_score": 28,
+      "social_mentions": 28,
+      "unbiased_news": 0,
+      "z_score": 2.26,
+      "z_method": "history",
+      "volume_ratio": 1.32,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 13.892841,
+      "revenue_growth": 0.256,
+      "debt_to_equity": 57.054,
+      "social_sentiment": 0.325,
+      "social_voters": 21,
+      "news_sentiment": 0.272,
+      "news_articles": 9,
+      "bullish_pct": 67.0,
+      "bearish_pct": 3.0,
+      "neutral_pct": 30.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.304,
+      "confidence": 0.75,
+      "net_sentiment": 0.228,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-21",
+          "source": "Benzinga",
+          "title": "Amkor Secures $1.3 Billion NVIDIA Deal To Expand AI Packaging",
+          "url": "https://finnhub.io/api/news?id=32930a09dfa7a720a237377bbf9cbb2ad6d92848d6492304c6e4e69d3e5725a1"
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Benzinga",
+          "title": "NVIDIA And Amkor Plan To Expand Advanced Packaging Capacity In South Korea, Targeting Greater Than 300% Increase In Interposer Wafer Capacity By End Of 2028",
+          "url": "https://finnhub.io/api/news?id=53e729fc4736a5695ae64f8758b18c388048fecd0097d829b3b475cb85b9708d"
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Yahoo",
+          "title": "Amkor Technology stock jumps on Nvidia advanced packaging expansion",
+          "url": "https://finnhub.io/api/news?id=629544c7e3d7c28bf3b60ed90d6bd21b49d7b750bae773b9ba2a7aebadbb60ad"
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Yahoo",
+          "title": "Amkor Technology and NVIDIA Advance Strategic Partnership for AI Infrastructure",
+          "url": "https://finnhub.io/api/news?id=be648d621e3f5dcf4d490e71efe13b7ed91ccc6498da65d86bc17c44ffcab994"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 21, Amkor and NVIDIA announced an expanded advanced-packaging partnership, including a reported $1.3 billion deal and a target of more than 300% higher interposer-wafer capacity by the end of 2028.",
+      "evidence_headlines": [
+        6,
+        8,
+        10,
+        11
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "pump_language",
+        "meme_or_loss_posts"
+      ],
+      "catalyst_confidence": 0.95,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.172,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.7142857143,
+      "c_catalyst": 0.6428571429,
+      "c_attention": 0.7142857143,
+      "c_volume": 0.3571428571,
+      "final_score": 0.639
+    },
+    {
+      "ticker": "NOC",
+      "market_cap": 78468505600.0,
+      "chatter_score": 35,
+      "social_mentions": 34,
+      "unbiased_news": 1,
+      "z_score": 1.31,
+      "z_method": "history",
+      "volume_ratio": 1.42,
+      "unique_author_ratio": 0.71,
+      "pe_ratio": 18.380812,
+      "revenue_growth": 0.067,
+      "debt_to_equity": 89.038,
+      "social_sentiment": 0.309,
+      "social_voters": 24,
+      "news_sentiment": 0.299,
+      "news_articles": 22,
+      "bullish_pct": 57.0,
+      "bearish_pct": 13.0,
+      "neutral_pct": 30.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.305,
+      "confidence": 0.82,
+      "net_sentiment": 0.25,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "Zacks",
+          "title": "Northrop Grumman Q3 Earnings Surpass Estimates, Revenues Increase Y/Y",
+          "url": "https://www.nasdaq.com/articles/northrop-grumman-q3-earnings-surpass-estimates-revenues-increase-y-y"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Zacks",
+          "title": "Northrop Grumman (NOC) Q3 Earnings and Revenues Surpass Estimates",
+          "url": "https://www.nasdaq.com/articles/northrop-grumman-noc-q3-earnings-and-revenues-surpass-estimates"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "RTTNews",
+          "title": "Northrop Grumman Corp. Q3 Profit Rises",
+          "url": "https://www.nasdaq.com/articles/northrop-grumman-corp-q3-profit-rises"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "SeekingAlpha",
+          "title": "Northrop Grumman Corporation 2026 Q3 - Results - Earnings Call Presentation",
+          "url": "https://finnhub.io/api/news?id=ff21227fa7b94ca74656078c3b2fb2413381b1bf2975fdf1c45d89e92a8e8698"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "On October 20, 2026, Northrop Grumman reported Q3 earnings that beat EPS and revenue estimates, with reports also indicating higher year-over-year revenue and raised 2026 guidance.",
+      "evidence_headlines": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.93,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.222,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.9285714286,
+      "c_catalyst": 0.5,
+      "c_attention": 0.2857142857,
+      "c_volume": 0.5,
+      "final_score": 0.607
+    },
+    {
+      "ticker": "TXN",
+      "market_cap": 255252725760.0,
+      "chatter_score": 10,
+      "social_mentions": 10,
+      "unbiased_news": 0,
+      "z_score": 2.13,
+      "z_method": "history",
+      "volume_ratio": 2.01,
+      "unique_author_ratio": 0.9,
+      "pe_ratio": 24.256804,
+      "revenue_growth": 0.228,
+      "debt_to_equity": 78.036,
+      "social_sentiment": 0.093,
+      "social_voters": 9,
+      "news_sentiment": 0.208,
+      "news_articles": 7,
+      "bullish_pct": 38.0,
+      "bearish_pct": 12.0,
+      "neutral_pct": 50.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.139,
+      "confidence": 0.62,
+      "net_sentiment": 0.086,
+      "sentiment_label": "Neutral",
+      "headlines_used": 7,
+      "evidence": [
+        {
+          "date": "2026-10-21",
+          "source": "Zacks",
+          "title": "Texas Instruments (TXN) Q3 Earnings and Revenues Top Estimates",
+          "url": "https://www.nasdaq.com/articles/texas-instruments-txn-q3-earnings-and-revenues-top-estimates"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 6,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "On October 21, 2026, Texas Instruments reported Q3 EPS of $2.62 and revenue of $6.055 billion, both above estimates.",
+      "evidence_headlines": [
+        2
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.96,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.104,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE",
+      "c_sentiment": 0.2857142857,
+      "c_catalyst": 0.7142857143,
+      "c_attention": 0.6428571429,
+      "c_volume": 0.9285714286,
+      "final_score": 0.582
+    }
+  ],
+  "all_candidates": [
+    {
+      "ticker": "RTX",
+      "market_cap": 262421987328.0,
+      "chatter_score": 40,
+      "social_mentions": 40,
+      "unbiased_news": 0,
+      "z_score": 1.43,
+      "z_method": "history",
+      "volume_ratio": 1.75,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 24.258121,
+      "revenue_growth": 0.111,
+      "debt_to_equity": 54.758,
+      "social_sentiment": 0.253,
+      "social_voters": 30,
+      "news_sentiment": 0.383,
+      "news_articles": 22,
+      "bullish_pct": 54.0,
+      "bearish_pct": 10.0,
+      "neutral_pct": 37.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.305,
+      "confidence": 0.84,
+      "net_sentiment": 0.256,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "RTTNews",
+          "title": "RTX Raises 2026 Outlook For Adj. Sales, Adj. EPS",
+          "url": "https://www.nasdaq.com/articles/rtx-raises-2026-outlook-adj-sales-adj-eps"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Zacks",
+          "title": "RTX Q3 Earnings Outpace Estimates, Revenues Increase Y/Y",
+          "url": "https://www.nasdaq.com/articles/rtx-q3-earnings-outpace-estimates-revenues-increase-y-y"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Zacks",
+          "title": "RTX (RTX) Q3 Earnings and Revenues Beat Estimates",
+          "url": "https://www.nasdaq.com/articles/rtx-rtx-q3-earnings-and-revenues-beat-estimates"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "RTTNews",
+          "title": "RTX Corporation Reports Increase In Q3 Profit",
+          "url": "https://www.nasdaq.com/articles/rtx-corporation-reports-increase-q3-profit"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "On 2026-10-20, RTX reported Q3 results that beat earnings and revenue estimates and raised its 2026 adjusted sales and EPS outlook.",
+      "evidence_headlines": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.98,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.233,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "NOC",
+      "market_cap": 78468505600.0,
+      "chatter_score": 35,
+      "social_mentions": 34,
+      "unbiased_news": 1,
+      "z_score": 1.31,
+      "z_method": "history",
+      "volume_ratio": 1.42,
+      "unique_author_ratio": 0.71,
+      "pe_ratio": 18.380812,
+      "revenue_growth": 0.067,
+      "debt_to_equity": 89.038,
+      "social_sentiment": 0.309,
+      "social_voters": 24,
+      "news_sentiment": 0.299,
+      "news_articles": 22,
+      "bullish_pct": 57.0,
+      "bearish_pct": 13.0,
+      "neutral_pct": 30.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.305,
+      "confidence": 0.82,
+      "net_sentiment": 0.25,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "Zacks",
+          "title": "Northrop Grumman Q3 Earnings Surpass Estimates, Revenues Increase Y/Y",
+          "url": "https://www.nasdaq.com/articles/northrop-grumman-q3-earnings-surpass-estimates-revenues-increase-y-y"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Zacks",
+          "title": "Northrop Grumman (NOC) Q3 Earnings and Revenues Surpass Estimates",
+          "url": "https://www.nasdaq.com/articles/northrop-grumman-noc-q3-earnings-and-revenues-surpass-estimates"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "RTTNews",
+          "title": "Northrop Grumman Corp. Q3 Profit Rises",
+          "url": "https://www.nasdaq.com/articles/northrop-grumman-corp-q3-profit-rises"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "SeekingAlpha",
+          "title": "Northrop Grumman Corporation 2026 Q3 - Results - Earnings Call Presentation",
+          "url": "https://finnhub.io/api/news?id=ff21227fa7b94ca74656078c3b2fb2413381b1bf2975fdf1c45d89e92a8e8698"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "On October 20, 2026, Northrop Grumman reported Q3 earnings that beat EPS and revenue estimates, with reports also indicating higher year-over-year revenue and raised 2026 guidance.",
+      "evidence_headlines": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.93,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.222,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "AVAV",
+      "market_cap": 5981596672.0,
+      "chatter_score": 35,
+      "social_mentions": 35,
+      "unbiased_news": 0,
+      "z_score": 1.12,
+      "z_method": "history",
+      "volume_ratio": 0.93,
+      "unique_author_ratio": 0.74,
+      "pe_ratio": 26.701088,
+      "revenue_growth": 0.057,
+      "debt_to_equity": 19.354,
+      "social_sentiment": 0.138,
+      "social_voters": 26,
+      "news_sentiment": 0.565,
+      "news_articles": 8,
+      "bullish_pct": 53.0,
+      "bearish_pct": 24.0,
+      "neutral_pct": 24.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.309,
+      "confidence": 0.77,
+      "net_sentiment": 0.238,
+      "sentiment_label": "Bullish",
+      "headlines_used": 11,
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "source": "Yahoo",
+          "title": "AeroVironment stock: Oppenheimer bullish amid counter-drone growth",
+          "url": "https://finnhub.io/api/news?id=9294ae4043c20f0a1b93da0ad94df1aa25a73bed665022cc204cf78588160f38"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Benzinga",
+          "title": "Oppenheimer Initiates Coverage On AeroVironment with Outperform Rating, Announces Price Target of $205",
+          "url": "https://finnhub.io/api/news?id=a53ee0fb3779e99a73cc443137e31071c20a060f2f612641dd30949dc4b95e5b"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "On 2026-10-22, Oppenheimer initiated coverage of AeroVironment with an Outperform rating and a $205 price target, citing counter-drone growth.",
+      "evidence_headlines": [
+        0,
+        1
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "meme_or_loss_posts"
+      ],
+      "catalyst_confidence": 0.91,
+      "catalyst_direction": "positive",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.234,
+      "final_label": "Bullish",
+      "eligibility": "no genuine catalyst (guidance_or_analyst; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "AMKR",
+      "market_cap": 9702069248.0,
+      "chatter_score": 28,
+      "social_mentions": 28,
+      "unbiased_news": 0,
+      "z_score": 2.26,
+      "z_method": "history",
+      "volume_ratio": 1.32,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 13.892841,
+      "revenue_growth": 0.256,
+      "debt_to_equity": 57.054,
+      "social_sentiment": 0.325,
+      "social_voters": 21,
+      "news_sentiment": 0.272,
+      "news_articles": 9,
+      "bullish_pct": 67.0,
+      "bearish_pct": 3.0,
+      "neutral_pct": 30.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.304,
+      "confidence": 0.75,
+      "net_sentiment": 0.228,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-21",
+          "source": "Benzinga",
+          "title": "Amkor Secures $1.3 Billion NVIDIA Deal To Expand AI Packaging",
+          "url": "https://finnhub.io/api/news?id=32930a09dfa7a720a237377bbf9cbb2ad6d92848d6492304c6e4e69d3e5725a1"
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Benzinga",
+          "title": "NVIDIA And Amkor Plan To Expand Advanced Packaging Capacity In South Korea, Targeting Greater Than 300% Increase In Interposer Wafer Capacity By End Of 2028",
+          "url": "https://finnhub.io/api/news?id=53e729fc4736a5695ae64f8758b18c388048fecd0097d829b3b475cb85b9708d"
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Yahoo",
+          "title": "Amkor Technology stock jumps on Nvidia advanced packaging expansion",
+          "url": "https://finnhub.io/api/news?id=629544c7e3d7c28bf3b60ed90d6bd21b49d7b750bae773b9ba2a7aebadbb60ad"
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Yahoo",
+          "title": "Amkor Technology and NVIDIA Advance Strategic Partnership for AI Infrastructure",
+          "url": "https://finnhub.io/api/news?id=be648d621e3f5dcf4d490e71efe13b7ed91ccc6498da65d86bc17c44ffcab994"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 21, Amkor and NVIDIA announced an expanded advanced-packaging partnership, including a reported $1.3 billion deal and a target of more than 300% higher interposer-wafer capacity by the end of 2028.",
+      "evidence_headlines": [
+        6,
+        8,
+        10,
+        11
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "pump_language",
+        "meme_or_loss_posts"
+      ],
+      "catalyst_confidence": 0.95,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.172,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "LLY",
+      "market_cap": 1165229424640.0,
+      "chatter_score": 57,
+      "social_mentions": 57,
+      "unbiased_news": 0,
+      "z_score": 1.27,
+      "z_method": "history",
+      "volume_ratio": 1.1,
+      "unique_author_ratio": 0.72,
+      "pe_ratio": 27.671873,
+      "revenue_growth": 0.477,
+      "debt_to_equity": 162.071,
+      "social_sentiment": 0.33,
+      "social_voters": 41,
+      "news_sentiment": 0.151,
+      "news_articles": 18,
+      "bullish_pct": 61.0,
+      "bearish_pct": 10.0,
+      "neutral_pct": 29.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.258,
+      "confidence": 0.86,
+      "net_sentiment": 0.222,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "RTTNews",
+          "title": "METiS TechBio, Eli Lilly Sign $1.1 Billion For AI-Designed Drug Delivery Collaboration",
+          "url": "https://www.nasdaq.com/articles/metis-techbio-eli-lilly-sign-11-billion-ai-designed-drug-delivery-collaboration"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "partnership_or_contract",
+      "catalyst_summary": "On October 20, 2026, Lilly announced a reported $1.1 billion AI-designed drug-delivery collaboration with METiS TechBio; the upcoming October 29 earnings report is also attracting attention.",
+      "evidence_headlines": [
+        3
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.87,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.21,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "PFE",
+      "market_cap": 173384073216.0,
+      "chatter_score": 55,
+      "social_mentions": 55,
+      "unbiased_news": 0,
+      "z_score": 1.05,
+      "z_method": "history",
+      "volume_ratio": 0.94,
+      "unique_author_ratio": 0.73,
+      "pe_ratio": 10.547522,
+      "revenue_growth": 0.026,
+      "debt_to_equity": 74.253,
+      "social_sentiment": 0.303,
+      "social_voters": 40,
+      "news_sentiment": 0.212,
+      "news_articles": 4,
+      "bullish_pct": 66.0,
+      "bearish_pct": 7.0,
+      "neutral_pct": 27.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.267,
+      "confidence": 0.81,
+      "net_sentiment": 0.216,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "No specific new Pfizer catalyst is supported by the headlines; the upcoming November 3 earnings date is scheduled, while recent coverage mainly discusses its dividend and general stock interest.",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "low",
+      "hype_signals": [
+        "no_news_support",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.88,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.201,
+      "final_label": "Bullish",
+      "eligibility": "no genuine catalyst (no_clear_catalyst)"
+    },
+    {
+      "ticker": "UPS",
+      "market_cap": 86371344384.0,
+      "chatter_score": 24,
+      "social_mentions": 24,
+      "unbiased_news": 0,
+      "z_score": 1.38,
+      "z_method": "history",
+      "volume_ratio": 0.92,
+      "unique_author_ratio": 0.88,
+      "pe_ratio": 12.597706,
+      "revenue_growth": 0.076,
+      "debt_to_equity": 189.9,
+      "social_sentiment": 0.319,
+      "social_voters": 21,
+      "news_sentiment": 0.252,
+      "news_articles": 6,
+      "bullish_pct": 74.0,
+      "bearish_pct": 11.0,
+      "neutral_pct": 15.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.292,
+      "confidence": 0.73,
+      "net_sentiment": 0.213,
+      "sentiment_label": "Bullish",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "Benzinga",
+          "title": "Evercore ISI Group Maintains In-Line on United Parcel Service, Lowers Price Target to $107",
+          "url": "https://finnhub.io/api/news?id=66e566ada647f445263ecabe3ca485a0d23d98cdb15fbdda43dd17a26de34b24"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "On October 20, Evercore ISI maintained its In-Line rating on UPS and lowered its price target to $107; UPS is also scheduled to report earnings on October 27.",
+      "evidence_headlines": [
+        3
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.83,
+      "catalyst_direction": "negative",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.198,
+      "final_label": "Bullish",
+      "eligibility": "catalyst is negative for the stock (guidance_or_analyst: On October 20, Evercore ISI maintained its In-Line rating on)"
+    },
+    {
+      "ticker": "GLW",
+      "market_cap": 106803535872.0,
+      "chatter_score": 28,
+      "social_mentions": 28,
+      "unbiased_news": 0,
+      "z_score": 1.99,
+      "z_method": "history",
+      "volume_ratio": 1.24,
+      "unique_author_ratio": 0.93,
+      "pe_ratio": 28.207624,
+      "revenue_growth": 0.166,
+      "debt_to_equity": 71.448,
+      "social_sentiment": 0.176,
+      "social_voters": 26,
+      "news_sentiment": 0.306,
+      "news_articles": 5,
+      "bullish_pct": 55.0,
+      "bearish_pct": 29.0,
+      "neutral_pct": 16.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.228,
+      "confidence": 0.76,
+      "net_sentiment": 0.173,
+      "sentiment_label": "Bullish",
+      "headlines_used": 10,
+      "evidence": [
+        {
+          "date": "2026-10-19",
+          "source": "Yahoo",
+          "title": "GLW, VZ, COHR In Focus As AI Fiber Shortage Drives Prices Higher \u2014 TrendForce Sees Supply Crunch Through 2028",
+          "url": "https://finnhub.io/api/news?id=7338b03f36359df8ead95869e3f85bb510ab485bcb98b7cf16f7f99405289a2f"
+        },
+        {
+          "date": "2026-10-19",
+          "source": "Yahoo",
+          "title": "Can Meta\u2019s Fiber Partner Corning Capitalize On Rising AI Fiber Prices?",
+          "url": "https://finnhub.io/api/news?id=7d2439bd64be4441a4a694b0cbf68608740bad2eacf4bc81806cd08039d00864"
+        },
+        {
+          "date": "2026-10-19",
+          "source": "Yahoo",
+          "title": "Corning Is Moving Beyond Fiber Cables. Can AI Networking Pay Off?",
+          "url": "https://finnhub.io/api/news?id=2b07e1352761005dca8f0bd707b07b16da5148c1f26def1f40410c987ef157f6"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "Reports on October 19 describe an AI-driven fiber supply crunch and rising prices expected through 2028, while Corning's earnings are scheduled for October 27.",
+      "evidence_headlines": [
+        7,
+        8,
+        9
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language"
+      ],
+      "catalyst_confidence": 0.83,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.19,
+      "final_label": "Bullish",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "IBM",
+      "market_cap": 237521502208.0,
+      "chatter_score": 141,
+      "social_mentions": 138,
+      "unbiased_news": 3,
+      "z_score": 2.42,
+      "z_method": "history",
+      "volume_ratio": 1.76,
+      "unique_author_ratio": 0.74,
+      "pe_ratio": 19.049295,
+      "revenue_growth": 0.011,
+      "debt_to_equity": 188.97,
+      "social_sentiment": 0.081,
+      "social_voters": 102,
+      "news_sentiment": 0.274,
+      "news_articles": 100,
+      "bullish_pct": 49.0,
+      "bearish_pct": 21.0,
+      "neutral_pct": 31.0,
+      "sarcasm_hints": 3,
+      "raw_sentiment": 0.158,
+      "confidence": 0.95,
+      "net_sentiment": 0.15,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "source": "Zacks",
+          "title": "IBM Q3 Beat Highlights Software Growth and a Stronger Cash Outlook",
+          "url": "https://www.nasdaq.com/articles/ibm-q3-beat-highlights-software-growth-and-stronger-cash-outlook"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "The Motley Fool",
+          "title": "Why Isn't IBM's Stock Bouncing Back After Strong Earnings Results?",
+          "url": "https://www.nasdaq.com/articles/why-isnt-ibms-stock-bouncing-back-after-strong-earnings-results"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Yahoo",
+          "title": "IBM (IBM) stock trades down, here is why",
+          "url": "https://finnhub.io/api/news?id=8afaa5aed03ede5908d26eb010fbc7e2a22396498eca2b086dee27b8bd058ca7"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "MarketWatch",
+          "title": "IBM\u2019s stock falls as investors struggle to shake off July earnings miss",
+          "url": "https://www.marketwatch.com/story/ibms-stock-falls-as-investors-struggle-to-shake-off-july-earnings-miss-0969b9e3?mod=mw_rss_topstories"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 5,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "IBM reported Q3 results on October 21, 2026, beating EPS and revenue estimates, with software growth and a stronger cash outlook, while reaffirming its 2026 revenue-growth outlook.",
+      "evidence_headlines": [
+        5,
+        0,
+        3,
+        10
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.91,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.146,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "SPOT",
+      "market_cap": 119991271424.0,
+      "chatter_score": 30,
+      "social_mentions": 30,
+      "unbiased_news": 0,
+      "z_score": 2.47,
+      "z_method": "history",
+      "volume_ratio": 1.96,
+      "unique_author_ratio": 0.83,
+      "pe_ratio": 33.76912,
+      "revenue_growth": 0.139,
+      "debt_to_equity": 5.558,
+      "social_sentiment": 0.292,
+      "social_voters": 25,
+      "news_sentiment": 0.022,
+      "news_articles": 14,
+      "bullish_pct": 46.0,
+      "bearish_pct": 18.0,
+      "neutral_pct": 36.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.184,
+      "confidence": 0.8,
+      "net_sentiment": 0.148,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "source": "The Motley Fool",
+          "title": "Spotify (SPOT) Q3 2026 Earnings Call Transcript",
+          "url": "https://www.nasdaq.com/articles/spotify-spot-q3-2026-earnings-call-transcript"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Zacks",
+          "title": "Spotify (SPOT) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+          "url": "https://www.nasdaq.com/articles/spotify-spot-q3-earnings-taking-look-key-metrics-versus-estimates"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Fintel",
+          "title": "Spotify Technology S.A. Reports Q3 2026 Revenue of \u20ac4,969 million",
+          "url": "https://www.nasdaq.com/articles/spotify-technology-sa-reports-q3-2026-revenue-eu4969-million"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "ChartMill",
+          "title": "Spotify Technology SA (NYSE:SPOT) Q3 2026 Mixed Results: Subscriber Strength Offsets EPS Miss",
+          "url": "https://finnhub.io/api/news?id=a345ca77cff6167a8226ddbe8312e1f3b679913963d22909fa6b311a195180cb"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "RTTNews",
+          "title": "Spotify Q3 MAUs Up 11% YoY; Issues Q4 Outlook",
+          "url": "https://www.nasdaq.com/articles/spotify-q3-maus-11-yoy-issues-q4-outlook"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Zacks",
+          "title": "Spotify (SPOT) Q3 Earnings Miss Estimates",
+          "url": "https://www.nasdaq.com/articles/spotify-spot-q3-earnings-miss-estimates"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "RTTNews",
+          "title": "Spotify Technology S.A. Q3 Profit Retreats",
+          "url": "https://www.nasdaq.com/articles/spotify-technology-sa-q3-profit-retreats"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "On 2026-10-22 Spotify reported Q3 results with revenue slightly above estimates but EPS below estimates, subscriber growth, and an upbeat Q4 outlook.",
+      "evidence_headlines": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.97,
+      "catalyst_direction": "mixed",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.094,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "RKT",
+      "market_cap": 33243480064.0,
+      "chatter_score": 28,
+      "social_mentions": 28,
+      "unbiased_news": 0,
+      "z_score": 1.29,
+      "z_method": "history",
+      "volume_ratio": 1.09,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 15.073699,
+      "revenue_growth": 0.919,
+      "debt_to_equity": 140.911,
+      "social_sentiment": 0.209,
+      "social_voters": 21,
+      "news_sentiment": null,
+      "news_articles": 0,
+      "bullish_pct": 52.0,
+      "bearish_pct": 19.0,
+      "neutral_pct": 29.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.209,
+      "confidence": 0.68,
+      "net_sentiment": 0.142,
+      "sentiment_label": "Neutral",
+      "headlines_used": 2,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "Yahoo",
+          "title": "Redfin Reports U.S. Home Prices Ticked Up 0.25% in September",
+          "url": "https://finnhub.io/api/news?id=08a3b1ed8f33946d0e5ba686a4f397ddfaa753242aff0c55f2bb22d5d585a8f3"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "Redfin reported that U.S. home prices rose 0.25% in September on October 20, 2026, while a post also cites a 14-year low in homebuilder sentiment without a supporting headline.",
+      "evidence_headlines": [
+        0
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "meme_or_loss_posts",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.82,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.1,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (macro_or_sector; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "CRM",
+      "market_cap": 205988659200.0,
+      "chatter_score": 36,
+      "social_mentions": 31,
+      "unbiased_news": 5,
+      "z_score": 1.88,
+      "z_method": "history",
+      "volume_ratio": 0.88,
+      "unique_author_ratio": 0.81,
+      "pe_ratio": 15.628248,
+      "revenue_growth": 0.108,
+      "debt_to_equity": 110.417,
+      "social_sentiment": 0.149,
+      "social_voters": 25,
+      "news_sentiment": 0.173,
+      "news_articles": 57,
+      "bullish_pct": 50.0,
+      "bearish_pct": 22.0,
+      "neutral_pct": 28.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.158,
+      "confidence": 0.89,
+      "net_sentiment": 0.141,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-21",
+          "source": "CNBC",
+          "title": "Salesforce goes back to the M&A well to fortify a weaker business. Why it's a smart move",
+          "url": "https://www.cnbc.com/investingclub/2026/10/21/salesforce-goes-back-to-the-ma-well-to-fortify-a-weaker-business-why-its-a-smart-move.html"
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Yahoo",
+          "title": "CRM Stock In Focus: Jefferies Says Salesforce\u2019s Braze Deal Could Spark More Software Takeovers",
+          "url": "https://finnhub.io/api/news?id=db7b198b02d8c1696422328ab488f30c90e2b9a287036642b04b92f1fa21bbd7"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Investing.com",
+          "title": "Salesforce deepens AI bets with $5.66 billion Braze deal",
+          "url": "https://www.investing.com/news/stock-market-news/salesforce-to-acquire-braze-in-a-566-billion-deal-4959937"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "CNBC",
+          "title": "Salesforce announces $5.66 billion deal for Braze, sending BRZE stock soaring 50%",
+          "url": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "MarketWatch",
+          "title": "Salesforce gets a chilly investor response to a $6 billion deal at a 58% premium",
+          "url": "https://www.marketwatch.com/story/salesforce-gets-a-chilly-investor-response-to-a-6-billion-deal-at-a-58-premium-57bd260b?mod=mw_rss_topstories"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "RTTNews",
+          "title": "Salesforce To Acquire Braze For $5.66 Bln",
+          "url": "https://www.nasdaq.com/articles/salesforce-acquire-braze-566-bln"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 7,
+      "status": "OK",
+      "catalyst_type": "m_and_a",
+      "catalyst_summary": "On October 20, 2026, Salesforce announced a $5.66 billion cash acquisition of Braze, prompting investor concerns about the premium and deal value.",
+      "evidence_headlines": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.97,
+      "catalyst_direction": "mixed",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.099,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "HONA",
+      "market_cap": 51669635072.0,
+      "chatter_score": 5,
+      "social_mentions": 4,
+      "unbiased_news": 1,
+      "z_score": 1.15,
+      "z_method": "history",
+      "volume_ratio": 1.0,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 18.283676,
+      "revenue_growth": 0.054,
+      "debt_to_equity": null,
+      "social_sentiment": 0.172,
+      "social_voters": 3,
+      "news_sentiment": 0.81,
+      "news_articles": 1,
+      "bullish_pct": 50.0,
+      "bearish_pct": 0.0,
+      "neutral_pct": 50.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.427,
+      "confidence": 0.29,
+      "net_sentiment": 0.124,
+      "sentiment_label": "Neutral",
+      "headlines_used": 1,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "Investing.com",
+          "title": "Honeywell Aerospace sees business aviation growth on rising aircraft use",
+          "url": "https://www.investing.com/news/stock-market-news/honeywell-aerospace-sees-business-aviation-growth-on-rising-aircraft-use-4958553"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "An October 20, 2026 report said Honeywell Aerospace sees growth in business aviation as aircraft use rises.",
+      "evidence_headlines": [
+        0
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.88,
+      "catalyst_direction": "positive",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.185,
+      "final_label": "Bullish",
+      "eligibility": "no genuine catalyst (macro_or_sector; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "CLF",
+      "market_cap": 7445547520.0,
+      "chatter_score": 55,
+      "social_mentions": 55,
+      "unbiased_news": 0,
+      "z_score": 1.01,
+      "z_method": "history",
+      "volume_ratio": 1.56,
+      "unique_author_ratio": 0.71,
+      "pe_ratio": 8.9386015,
+      "revenue_growth": 0.185,
+      "debt_to_equity": 128.461,
+      "social_sentiment": 0.124,
+      "social_voters": 39,
+      "news_sentiment": 0.178,
+      "news_articles": 19,
+      "bullish_pct": 41.0,
+      "bearish_pct": 19.0,
+      "neutral_pct": 40.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.145,
+      "confidence": 0.85,
+      "net_sentiment": 0.123,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-19",
+          "source": "The Motley Fool",
+          "title": "Stock Market Today, Oct. 19: Cleveland-Cliffs Surges on Stronger Q3 Results and Raised 2027 EBITDA Outlook",
+          "url": "https://www.nasdaq.com/articles/stock-market-today-oct-19-cleveland-cliffs-surges-stronger-q3-results-and-raised-2027"
+        },
+        {
+          "date": "2026-10-19",
+          "source": "Yahoo",
+          "title": "Cleveland-Cliffs Inc. Q3 2026 Earnings Call Summary",
+          "url": "https://finnhub.io/api/news?id=5bfbfa31094ef4efd1218f9ae1ca958a1e7fa46d580e07d4c2b2182038ee32cc"
+        },
+        {
+          "date": "2026-10-19",
+          "source": "The Motley Fool",
+          "title": "Cliffs (CLF) Q3 2026 Earnings Call Transcript",
+          "url": "https://www.nasdaq.com/articles/cliffs-clf-q3-2026-earnings-call-transcript"
+        },
+        {
+          "date": "2026-10-19",
+          "source": "SeekingAlpha",
+          "title": "Cleveland-Cliffs Inc. (CLF) Q3 2026 Earnings Call Transcript",
+          "url": "https://finnhub.io/api/news?id=1306385d3be6e3618faecb4326903fd5707517ceba7eae0eb07c921ee761ff8f"
+        },
+        {
+          "date": "2026-10-19",
+          "source": "RTTNews",
+          "title": "Cleveland-Cliffs Reports Net Income In Q3",
+          "url": "https://www.nasdaq.com/articles/cleveland-cliffs-reports-net-income-q3"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "On 2026-10-19, Cleveland-Cliffs reported Q3 net income and EPS of $0.27 versus an estimate of $0.19, alongside a reported raise to its 2027 EBITDA outlook above $4 billion.",
+      "evidence_headlines": [
+        1,
+        2,
+        4,
+        8,
+        11
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "meme_or_loss_posts",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.94,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.143,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "META",
+      "market_cap": 1652949385216.0,
+      "chatter_score": 287,
+      "social_mentions": 284,
+      "unbiased_news": 3,
+      "z_score": 2.86,
+      "z_method": "history",
+      "volume_ratio": 1.44,
+      "unique_author_ratio": 0.75,
+      "pe_ratio": 18.646185,
+      "revenue_growth": 0.28,
+      "debt_to_equity": 42.997,
+      "social_sentiment": 0.098,
+      "social_voters": 212,
+      "news_sentiment": 0.169,
+      "news_articles": 134,
+      "bullish_pct": 39.0,
+      "bearish_pct": 21.0,
+      "neutral_pct": 39.0,
+      "sarcasm_hints": 7,
+      "raw_sentiment": 0.127,
+      "confidence": 0.97,
+      "net_sentiment": 0.123,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "source": "Zacks",
+          "title": "Buy, Hold, or Sell Meta Stock After Q3 Earnings & Stock Split Announcement?",
+          "url": "https://www.nasdaq.com/articles/buy-hold-or-sell-meta-stock-after-q3-earnings-stock-split-announcement"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "The Motley Fool",
+          "title": "Why Meta Platforms Stock Took a Hit Today",
+          "url": "https://www.nasdaq.com/articles/why-meta-platforms-stock-took-hit-today"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Zacks",
+          "title": "Meta: 5 Reasons to Buy the Dip",
+          "url": "https://www.nasdaq.com/articles/meta-5-reasons-buy-dip"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Zacks",
+          "title": "Meta FCF Flips Negative: Why Investors Should Overlook It",
+          "url": "https://www.nasdaq.com/articles/meta-fcf-flips-negative-why-investors-should-overlook-it"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "CNBC",
+          "title": "Meta Platforms beat the Street. Here's why analysts are bullish on the stock",
+          "url": "https://www.cnbc.com/2026/10/22/meta-platforms-beat-the-street-heres-why-analysts-are-bullish-on-the-stock.html"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "Meta reported Q3 earnings on October 21, beating EPS estimates ($7.40 vs. $5.79) but missing revenue estimates, with coverage highlighting both the earnings beat and concerns about negative free cash flow.",
+      "evidence_headlines": [
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.9,
+      "catalyst_direction": "mixed",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.124,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "CVX",
+      "market_cap": 444656222208.0,
+      "chatter_score": 18,
+      "social_mentions": 18,
+      "unbiased_news": 0,
+      "z_score": 1.61,
+      "z_method": "history",
+      "volume_ratio": 1.01,
+      "unique_author_ratio": 0.72,
+      "pe_ratio": 14.423452,
+      "revenue_growth": 0.535,
+      "debt_to_equity": 18.959,
+      "social_sentiment": 0.218,
+      "social_voters": 13,
+      "news_sentiment": 0.041,
+      "news_articles": 16,
+      "bullish_pct": 41.0,
+      "bearish_pct": 10.0,
+      "neutral_pct": 48.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.148,
+      "confidence": 0.74,
+      "net_sentiment": 0.109,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "Yahoo",
+          "title": "Why Did XOM, CVX, MPC Stocks Surge To 52-Week Highs Today?",
+          "url": "https://finnhub.io/api/news?id=cc074c7d9c2ee91eda7ac0f28a1bb0b9e268b9578fc0f19e75cb25c07152fde7"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "On October 20, CVX and other energy stocks surged to 52-week highs as crude prices rose amid geopolitical tensions, according to the headline and supporting posts.",
+      "evidence_headlines": [
+        0
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.78,
+      "catalyst_direction": "positive",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.148,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "BRZE",
+      "market_cap": 5208981504.0,
+      "chatter_score": 10,
+      "social_mentions": 10,
+      "unbiased_news": 0,
+      "z_score": 1.03,
+      "z_method": "cross-section",
+      "volume_ratio": 15.67,
+      "unique_author_ratio": 0.8,
+      "pe_ratio": 46.70299,
+      "revenue_growth": 0.262,
+      "debt_to_equity": 16.008,
+      "social_sentiment": 0.065,
+      "social_voters": 8,
+      "news_sentiment": 0.269,
+      "news_articles": 10,
+      "bullish_pct": 44.0,
+      "bearish_pct": 17.0,
+      "neutral_pct": 39.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.147,
+      "confidence": 0.64,
+      "net_sentiment": 0.094,
+      "sentiment_label": "Neutral",
+      "headlines_used": 10,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "RTTNews",
+          "title": "Salesforce To Acquire Braze For $5.66 Bln",
+          "url": "https://www.nasdaq.com/articles/salesforce-acquire-braze-566-bln"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Yahoo",
+          "title": "Salesforce Strikes $5.66 Billion Deal to Buy Customer Engagement Platform Braze",
+          "url": "https://finnhub.io/api/news?id=2b1d6f13f94b8a64769b43b285614d934823a96186937133df20d8ed10b57101"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Yahoo",
+          "title": "Salesforce Signs Definitive Agreement to Acquire Braze",
+          "url": "https://finnhub.io/api/news?id=c3c395b9a4347db88e39e6457c6e77c2f261139417ac6ceecdb834ef185b3460"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 4,
+      "status": "OK",
+      "catalyst_type": "m_and_a",
+      "catalyst_summary": "On 2026-10-20, Salesforce announced a definitive agreement to acquire Braze for $5.66 billion, offering $47.50 per share in cash at a reported 58% premium.",
+      "evidence_headlines": [
+        3,
+        4,
+        9
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.99,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.149,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "DECK",
+      "market_cap": 11613588480.0,
+      "chatter_score": 27,
+      "social_mentions": 27,
+      "unbiased_news": 0,
+      "z_score": 26.0,
+      "z_method": "history",
+      "volume_ratio": 1.56,
+      "unique_author_ratio": 0.74,
+      "pe_ratio": 10.231603,
+      "revenue_growth": 0.057,
+      "debt_to_equity": 20.521,
+      "social_sentiment": 0.176,
+      "social_voters": 20,
+      "news_sentiment": 0.026,
+      "news_articles": 16,
+      "bullish_pct": 39.0,
+      "bearish_pct": 19.0,
+      "neutral_pct": 42.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.116,
+      "confidence": 0.78,
+      "net_sentiment": 0.09,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "source": "Fintel",
+          "title": "Deckers Outdoor Corporation Reports Record Second Quarter FY 2027 Revenue of $1.48 Billion and Appoints Rati Sahi Levesque to Board",
+          "url": "https://www.nasdaq.com/articles/deckers-outdoor-corporation-reports-record-second-quarter-fy-2027-revenue-148-billion-and"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Yahoo",
+          "title": "Deckers Outdoor Cuts Outlook on Shoe Revenue. Why Investors See a Bad Fit.",
+          "url": "https://finnhub.io/api/news?id=c8e25a953f67bad29241d9428990b5bd87a5daa1aade69c224a17b71b65aa22a"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "ChartMill",
+          "title": "Deckers Outdoor (NYSE:DECK) Profit Beat Can\u2019t Offset Sales Miss and Weak Guidance",
+          "url": "https://finnhub.io/api/news?id=37f5e4db758ecc1fe596d466f6aea6ade40dda09857ad92bee58062c2e0c8744"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Yahoo",
+          "title": "Deckers (NYSE:DECK) reports sales below analyst estimates in Q3 CY2026 earnings, stock drops",
+          "url": "https://finnhub.io/api/news?id=897085f9fcd85fdba0b44f9e7e57ea23ced795b5fd526aa89d3c5c58f5b67fa9"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Zacks",
+          "title": "Deckers (DECK) Beats Q2 Earnings Estimates",
+          "url": "https://www.nasdaq.com/articles/deckers-deck-beats-q2-earnings-estimates"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Yahoo",
+          "title": "Deckers: Fiscal Q2 Earnings Snapshot",
+          "url": "https://finnhub.io/api/news?id=fb48eefa105edbe3f422ed38fa27e8f65824aa67566f162bdd8363097344f6c2"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "RTTNews",
+          "title": "Deckers Outdoor Corp Bottom Line Rises In Q2",
+          "url": "https://www.nasdaq.com/articles/deckers-outdoor-corp-bottom-line-rises-q2"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "On 2026-10-22, Deckers reported record Q2 FY2027 revenue and beat EPS estimates, but missed revenue expectations and cut its shoe-revenue outlook, prompting a negative share-price reaction.",
+      "evidence_headlines": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.96,
+      "catalyst_direction": "negative",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.045,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (earnings: On 2026-10-22, Deckers reported record Q2 FY2027 revenue and)"
+    },
+    {
+      "ticker": "TXN",
+      "market_cap": 255252725760.0,
+      "chatter_score": 10,
+      "social_mentions": 10,
+      "unbiased_news": 0,
+      "z_score": 2.13,
+      "z_method": "history",
+      "volume_ratio": 2.01,
+      "unique_author_ratio": 0.9,
+      "pe_ratio": 24.256804,
+      "revenue_growth": 0.228,
+      "debt_to_equity": 78.036,
+      "social_sentiment": 0.093,
+      "social_voters": 9,
+      "news_sentiment": 0.208,
+      "news_articles": 7,
+      "bullish_pct": 38.0,
+      "bearish_pct": 12.0,
+      "neutral_pct": 50.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.139,
+      "confidence": 0.62,
+      "net_sentiment": 0.086,
+      "sentiment_label": "Neutral",
+      "headlines_used": 7,
+      "evidence": [
+        {
+          "date": "2026-10-21",
+          "source": "Zacks",
+          "title": "Texas Instruments (TXN) Q3 Earnings and Revenues Top Estimates",
+          "url": "https://www.nasdaq.com/articles/texas-instruments-txn-q3-earnings-and-revenues-top-estimates"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 6,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "On October 21, 2026, Texas Instruments reported Q3 EPS of $2.62 and revenue of $6.055 billion, both above estimates.",
+      "evidence_headlines": [
+        2
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.96,
+      "catalyst_direction": "positive",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": 0.104,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "LOW",
+      "market_cap": 114662604800.0,
+      "chatter_score": 17,
+      "social_mentions": 17,
+      "unbiased_news": 0,
+      "z_score": 1.79,
+      "z_method": "history",
+      "volume_ratio": 1.03,
+      "unique_author_ratio": 0.94,
+      "pe_ratio": 15.720769,
+      "revenue_growth": 0.083,
+      "debt_to_equity": null,
+      "social_sentiment": 0.149,
+      "social_voters": 16,
+      "news_sentiment": 0.081,
+      "news_articles": 6,
+      "bullish_pct": 45.0,
+      "bearish_pct": 23.0,
+      "neutral_pct": 32.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.122,
+      "confidence": 0.69,
+      "net_sentiment": 0.084,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "Benzinga",
+          "title": "Evercore ISI Group Maintains In-Line on Lowe's Companies, Raises Price Target to $200",
+          "url": "https://finnhub.io/api/news?id=cbe1778f0d13730c1f8ed52860f84a2f044eafb5833586887675af266d7c49fa"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "On October 20, Evercore ISI maintained its In-Line rating on Lowe's and raised its price target to $200.",
+      "evidence_headlines": [
+        5
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.87,
+      "catalyst_direction": "positive",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.149,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (guidance_or_analyst; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "TM",
+      "market_cap": 233464823808.0,
+      "chatter_score": 5,
+      "social_mentions": 5,
+      "unbiased_news": 0,
+      "z_score": 1.38,
+      "z_method": "history",
+      "volume_ratio": 0.84,
+      "unique_author_ratio": 1.0,
+      "pe_ratio": 12.56147,
+      "revenue_growth": 0.104,
+      "debt_to_equity": 114.974,
+      "social_sentiment": 0.023,
+      "social_voters": 5,
+      "news_sentiment": 0.427,
+      "news_articles": 2,
+      "bullish_pct": 43.0,
+      "bearish_pct": 29.0,
+      "neutral_pct": 29.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.185,
+      "confidence": 0.41,
+      "net_sentiment": 0.076,
+      "sentiment_label": "Neutral",
+      "headlines_used": 2,
+      "evidence": [],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 3,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "No clear Toyota-specific material catalyst is supported; the headlines discuss Toyota's EV casting technology and EU rule changes, while the recall appears only in a StockTwits link without a supporting headline.",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "low",
+      "hype_signals": [
+        "no_news_support"
+      ],
+      "catalyst_confidence": 0.79,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.098,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (no_clear_catalyst)"
+    },
+    {
+      "ticker": "AMAT",
+      "market_cap": 298059300864.0,
+      "chatter_score": 50,
+      "social_mentions": 50,
+      "unbiased_news": 0,
+      "z_score": 1.65,
+      "z_method": "history",
+      "volume_ratio": 1.39,
+      "unique_author_ratio": 0.7,
+      "pe_ratio": 20.311567,
+      "revenue_growth": 0.248,
+      "debt_to_equity": 28.666,
+      "social_sentiment": 0.058,
+      "social_voters": 35,
+      "news_sentiment": 0.123,
+      "news_articles": 13,
+      "bullish_pct": 35.0,
+      "bearish_pct": 21.0,
+      "neutral_pct": 44.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.084,
+      "confidence": 0.83,
+      "net_sentiment": 0.069,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "Zacks",
+          "title": "Applied Materials (AMAT) Stock Sinks As Market Gains: What You Should Know",
+          "url": "https://www.nasdaq.com/articles/applied-materials-amat-stock-sinks-market-gains-what-you-should-know"
+        },
+        {
+          "date": "2026-10-20",
+          "source": "Yahoo",
+          "title": "Global chip stocks tumble on AI investment worries",
+          "url": "https://finnhub.io/api/news?id=e7e4b9896048a671b81af074030d78fff862e4c6a571bd4bbbffbeffdcc2b5f7"
+        }
+      ],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "macro_or_sector",
+      "catalyst_summary": "On 2026-10-20, global chip stocks reportedly fell on AI investment worries, while a separate headline says AMAT shares sank as the broader market gained.",
+      "evidence_headlines": [
+        0,
+        7
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "medium",
+      "hype_signals": [
+        "pump_language",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.82,
+      "catalyst_direction": "negative",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.065,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (macro_or_sector: On 2026-10-20, global chip stocks reportedly fell on AI inve)"
+    },
+    {
+      "ticker": "T",
+      "market_cap": 155823243264.0,
+      "chatter_score": 65,
+      "social_mentions": 64,
+      "unbiased_news": 1,
+      "z_score": 3.26,
+      "z_method": "history",
+      "volume_ratio": 1.36,
+      "unique_author_ratio": 0.8,
+      "pe_ratio": 8.763175,
+      "revenue_growth": 0.053,
+      "debt_to_equity": 142.792,
+      "social_sentiment": 0.059,
+      "social_voters": 51,
+      "news_sentiment": 0.058,
+      "news_articles": 63,
+      "bullish_pct": 40.0,
+      "bearish_pct": 28.0,
+      "neutral_pct": 32.0,
+      "sarcasm_hints": 1,
+      "raw_sentiment": 0.059,
+      "confidence": 0.92,
+      "net_sentiment": 0.054,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "source": "Yahoo",
+          "title": "SpaceX Reportedly Eyes 80,000 Cell Sites In Push To Become Fourth US Wireless Carrier: T, TMUS, VZ Stocks Slip After-Hours",
+          "url": "https://finnhub.io/api/news?id=d761dcc4aa24218327141964173619a9990a3bc972b7e9efc0c2a581388d3fda"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Yahoo",
+          "title": "SpaceX in talks for 80,000 cell sites to build nationwide wireless network -report",
+          "url": "https://finnhub.io/api/news?id=268d7a24d1286a931be4cee318655f7d1678ec070cde8cded19e2b7848842af6"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Investing.com",
+          "title": "Best large-cap dip buys: AT&T leads on earnings beat and rising estimates",
+          "url": "https://www.investing.com/news/stock-market-news/best-largecap-dip-buys-att-leads-on-earnings-beat-and-rising-estimates-93CH-4967207"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Zacks",
+          "title": "AT&T's Q3 Earnings Call Refines Fiber Spending and Pricing Strategy",
+          "url": "https://www.nasdaq.com/articles/atts-q3-earnings-call-refines-fiber-spending-and-pricing-strategy"
+        },
+        {
+          "date": "2026-10-21",
+          "source": "The Motley Fool",
+          "title": "AT&T (T) Q3 2026 Earnings Call Transcript",
+          "url": "https://www.nasdaq.com/articles/att-t-q3-2026-earnings-call-transcript"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 6,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "AT&T reported Q3 results on October 21, 2026, beating EPS estimates ($0.65 vs. $0.61) while revenue was essentially in line; coverage also highlighted fiber spending and pricing concerns, and reports of SpaceX pursuing 80,000 cell sites weighed on wireless stocks.",
+      "evidence_headlines": [
+        1,
+        2,
+        3,
+        6,
+        11
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [
+        "meme_or_loss_posts",
+        "price_action_only"
+      ],
+      "catalyst_confidence": 0.88,
+      "catalyst_direction": "mixed",
+      "materiality": "medium",
+      "notes": "",
+      "final_sentiment": 0.072,
+      "final_label": "Neutral",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "ticker": "SNDK",
+      "market_cap": 182239150080.0,
+      "chatter_score": 106,
+      "social_mentions": 106,
+      "unbiased_news": 0,
+      "z_score": 1.4,
+      "z_method": "history",
+      "volume_ratio": 0.97,
+      "unique_author_ratio": 0.72,
+      "pe_ratio": 4.73505,
+      "revenue_growth": 3.716,
+      "debt_to_equity": 1.277,
+      "social_sentiment": 0.106,
+      "social_voters": 76,
+      "news_sentiment": -0.015,
+      "news_articles": 50,
+      "bullish_pct": 35.0,
+      "bearish_pct": 25.0,
+      "neutral_pct": 40.0,
+      "sarcasm_hints": 2,
+      "raw_sentiment": 0.058,
+      "confidence": 0.93,
+      "net_sentiment": 0.054,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "source": "SeekingAlpha",
+          "title": "Sandisk Q1 Preview: Here's What Is Coming On October 29",
+          "url": "https://finnhub.io/api/news?id=cc5a94bbbc053145ebdcf379c1305d644bd7ad4ff676e11a9b395e381edc7362"
+        },
+        {
+          "date": "2026-10-19",
+          "source": "Zacks",
+          "title": "Sandisk Corporation (SNDK) Upgraded to Strong Buy: Here's What You Should Know",
+          "url": "https://www.nasdaq.com/articles/sandisk-corporation-sndk-upgraded-strong-buy-heres-what-you-should-know"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "guidance_or_analyst",
+      "catalyst_summary": "SNDK is approaching its scheduled Q1 earnings report on October 29, while Zacks upgraded the stock to Strong Buy on October 19; no new company results or guidance are listed.",
+      "evidence_headlines": [
+        7,
+        9
+      ],
+      "catalyst_is_genuine": false,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.81,
+      "catalyst_direction": "positive",
+      "materiality": "low",
+      "notes": "downgraded: real event but low materiality",
+      "final_sentiment": 0.048,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (guidance_or_analyst; downgraded: real event but low materiality)"
+    },
+    {
+      "ticker": "TGT",
+      "market_cap": 71828856832.0,
+      "chatter_score": 5,
+      "social_mentions": 5,
+      "unbiased_news": 0,
+      "z_score": 1.57,
+      "z_method": "history",
+      "volume_ratio": 0.94,
+      "unique_author_ratio": 1.0,
+      "pe_ratio": 16.56426,
+      "revenue_growth": 0.053,
+      "debt_to_equity": 107.583,
+      "social_sentiment": 0.13,
+      "social_voters": 5,
+      "news_sentiment": 0.078,
+      "news_articles": 1,
+      "bullish_pct": 17.0,
+      "bearish_pct": 0.0,
+      "neutral_pct": 83.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": 0.109,
+      "confidence": 0.38,
+      "net_sentiment": 0.041,
+      "sentiment_label": "Neutral",
+      "headlines_used": 1,
+      "evidence": [],
+      "earnings_in_window": false,
+      "sarcasm_fixes": 1,
+      "status": "OK",
+      "catalyst_type": "no_clear_catalyst",
+      "catalyst_summary": "No specific market-moving event is supported; the sole headline discusses Target's sales-growth investment story without identifying a new catalyst.",
+      "evidence_headlines": [],
+      "catalyst_is_genuine": false,
+      "hype_risk": "low",
+      "hype_signals": [
+        "no_news_support"
+      ],
+      "catalyst_confidence": 0.89,
+      "catalyst_direction": "mixed",
+      "materiality": "low",
+      "notes": "",
+      "final_sentiment": 0.014,
+      "final_label": "Neutral",
+      "eligibility": "no genuine catalyst (no_clear_catalyst)"
+    },
+    {
+      "ticker": "AAL",
+      "market_cap": 8340820992.0,
+      "chatter_score": 52,
+      "social_mentions": 51,
+      "unbiased_news": 1,
+      "z_score": 1.34,
+      "z_method": "history",
+      "volume_ratio": 1.21,
+      "unique_author_ratio": 0.71,
+      "pe_ratio": 9.532384,
+      "revenue_growth": 0.163,
+      "debt_to_equity": null,
+      "social_sentiment": 0.014,
+      "social_voters": 36,
+      "news_sentiment": -0.135,
+      "news_articles": 23,
+      "bullish_pct": 32.0,
+      "bearish_pct": 39.0,
+      "neutral_pct": 29.0,
+      "sarcasm_hints": 0,
+      "raw_sentiment": -0.045,
+      "confidence": 0.86,
+      "net_sentiment": -0.039,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "source": "Yahoo",
+          "title": "American Airlines Group Inc. Q3 2026 Earnings Call Summary",
+          "url": "https://finnhub.io/api/news?id=58fc5470b28b8dd8dc8aa31f3deb244a0c37ba97a83f011933461c54e74c1c89"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "CNBC",
+          "title": "American Airlines forecasts bigger loss in 2026 on fuel spike, plans to slow growth next year",
+          "url": "https://www.cnbc.com/2026/10/22/american-airlines-aal-q3-2026-earnings.html"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Yahoo",
+          "title": "American Airlines forecasts deeper loss as fuel costs climb 67%",
+          "url": "https://finnhub.io/api/news?id=cb3161a258ba34afd0f1fabac430b2992f7882f21b55bfffc809e69a0aa24a49"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Yahoo",
+          "title": "American Airlines Sinks 4% as Fuel Costs Push Outlook to Full-Year Loss; Delta and United Airlines Drop 3%",
+          "url": "https://finnhub.io/api/news?id=6b0d5f1142137a6b187eba98f3f6eefa16e0204950d5570db20d0325fe907b8c"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Zacks",
+          "title": "American Airlines (AAL) Reports Q3 Loss, Tops Revenue Estimates",
+          "url": "https://www.nasdaq.com/articles/american-airlines-aal-reports-q3-loss-tops-revenue-estimates"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "RTTNews",
+          "title": "American Airlines Group Inc Q3 Loss Widens",
+          "url": "https://www.nasdaq.com/articles/american-airlines-group-inc-q3-loss-widens"
+        },
+        {
+          "date": "2026-10-22",
+          "source": "Benzinga",
+          "title": "American Airlines Group Sees Q4 Adj EPS $(1.10)-$(0.50) vs $(0.51) Est; Sees Sales $16.729B-$17.149B vs $16.618B Est",
+          "url": "https://finnhub.io/api/news?id=9a7c13db1f255d87af36b1ea632a425d6f4fa588c79df62393138c582b9ca085"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 2,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "On October 22, 2026, American Airlines reported a Q3 loss and forecast a larger full-year 2026 loss as fuel costs surged, while giving weaker Q4 earnings guidance.",
+      "evidence_headlines": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        9
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.97,
+      "catalyst_direction": "negative",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": -0.018,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (earnings: On October 22, 2026, American Airlines reported a Q3 loss an)"
+    },
+    {
+      "ticker": "NFLX",
+      "market_cap": 279192174592.0,
+      "chatter_score": 186,
+      "social_mentions": 177,
+      "unbiased_news": 9,
+      "z_score": 2.13,
+      "z_method": "history",
+      "volume_ratio": 2.16,
+      "unique_author_ratio": 0.77,
+      "pe_ratio": 17.788921,
+      "revenue_growth": 0.118,
+      "debt_to_equity": 51.671,
+      "social_sentiment": -0.009,
+      "social_voters": 137,
+      "news_sentiment": -0.128,
+      "news_articles": 202,
+      "bullish_pct": 29.0,
+      "bearish_pct": 40.0,
+      "neutral_pct": 32.0,
+      "sarcasm_hints": 6,
+      "raw_sentiment": -0.056,
+      "confidence": 0.97,
+      "net_sentiment": -0.055,
+      "sentiment_label": "Neutral",
+      "headlines_used": 12,
+      "evidence": [
+        {
+          "date": "2026-10-21",
+          "source": "The Motley Fool",
+          "title": "Netflix Is Down 38% Since Completing Its 10-For-1 Stock Split. Here's Why the Sell-Off Is Worsening After Its Latest Earnings.",
+          "url": "https://www.nasdaq.com/articles/netflix-down-38-completing-its-10-1-stock-split-heres-why-sell-worsening-after-its-latest"
+        },
+        {
+          "date": "2026-10-21",
+          "source": "CNBC",
+          "title": "Netflix is sliding after earnings. Analysts say buy the dip",
+          "url": "https://www.cnbc.com/2026/10/21/netflix-is-sliding-after-earnings-analysts-say-buy-the-dip.html"
+        },
+        {
+          "date": "2026-10-21",
+          "source": "Zacks",
+          "title": "Netflix Q3 Earnings Beat Estimates, Ad Revenue View Trimmed",
+          "url": "https://www.nasdaq.com/articles/netflix-q3-earnings-beat-estimates-ad-revenue-view-trimmed"
+        }
+      ],
+      "earnings_in_window": true,
+      "sarcasm_fixes": 10,
+      "status": "OK",
+      "catalyst_type": "earnings",
+      "catalyst_summary": "Netflix reported Q3 earnings on October 20, 2026, beating EPS estimates but missing revenue estimates, while its ad-revenue outlook was trimmed and shares fell after the results.",
+      "evidence_headlines": [
+        4,
+        9,
+        11
+      ],
+      "catalyst_is_genuine": true,
+      "hype_risk": "low",
+      "hype_signals": [],
+      "catalyst_confidence": 0.92,
+      "catalyst_direction": "negative",
+      "materiality": "high",
+      "notes": "",
+      "final_sentiment": -0.07,
+      "final_label": "Neutral",
+      "eligibility": "catalyst is negative for the stock (earnings: Netflix reported Q3 earnings on October 20, 2026, beating EP)"
+    }
+  ],
+  "sarcasm_corrections": {
+    "RTX": [
+      {
+        "post_id": "st_666864973",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Explicitly describes a strikingly neutral theme and barely bullish readings.",
+        "text": "Sentiment glimpse ahead of earnings this afternoon and tomorrow morning illustrates the pensive mood ahead of so many ea"
+      },
+      {
+        "post_id": "st_666825493",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Lists tickers alongside business information without a clear opinion.",
+        "text": "$MONI\n\n$LMT $RTX $NOC \n\nOperationally, Shieldcom will maintain its dedicated focus on capturing and securing edge AI com"
+      }
+    ],
+    "NOC": [
+      {
+        "post_id": "st_666896612",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Ticker mention only; no sentiment expressed.",
+        "text": "$NOC"
+      },
+      {
+        "post_id": "st_666825493",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Mentions defense-related business focus without expressing a view on NOC.",
+        "text": "$MONI\n\n$LMT $RTX $NOC \n\nOperationally, Shieldcom will maintain its dedicated focus on capturing and securing edge AI com"
+      }
+    ],
+    "AVAV": [
+      {
+        "post_id": "st_667180934",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Only states a price with no expressed opinion.",
+        "text": "$AVAV $91"
+      },
+      {
+        "post_id": "st_667101740",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Mentions AVAV alongside a healthy sector without a clear personal stance.",
+        "text": "$KTOS sector is healthy....$AVAV  \n \nhttps://x.com/TrendSpider/status/2113217315961774475?s=20"
+      }
+    ],
+    "AMKR": [
+      {
+        "post_id": "st_667154581",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Concerned that the stock has fallen below $40.",
+        "text": "$AMKR well everyone we are sub 40s now... Insanity."
+      },
+      {
+        "post_id": "st_667156053",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Expects or hopes to buy only if it falls to $30.",
+        "text": "$AMKR next buy is 30"
+      },
+      {
+        "post_id": "st_667085293",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Complains that recent gains have disappeared.",
+        "text": "$AMKR from up 10 percent  yesterday and gone today"
+      }
+    ],
+    "LLY": [
+      {
+        "post_id": "st_666914007",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Calls the sharp market-cap rise on a modest deal a pump.",
+        "text": "$LLY looks only this is Durg company in US up 5% with 1.1bl deal adding market cap of 50BL all time high  when all AI st"
+      },
+      {
+        "post_id": "st_666912181",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocks the valuation surge and compares it unfavorably with chipmakers.",
+        "text": "$LLY is this new AI chip manufacturers just of 1.1bl deal with 300k volume 50BL market cap got added what a pump compare"
+      }
+    ],
+    "PFE": [
+      {
+        "post_id": "st_666909589",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Vague statement without a clear positive or negative opinion.",
+        "text": "$PFE that was it."
+      },
+      {
+        "post_id": "st_666934323",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Congratulates bulls but says they exited earlier.",
+        "text": "$PFE Congrats bulls! Been out for a while."
+      },
+      {
+        "post_id": "st_666976890",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Discusses Sellas lease filings without expressing a view on Pfizer.",
+        "text": "$AZN $BMY $JNJ $PFE $SLS I wrote Extensively about the fact that Sellas Headquarters Lease wasn\u2019t Renewed during early O"
+      },
+      {
+        "post_id": "st_666897392",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Lists anticipated conference updates without stating a clear position.",
+        "text": "$PFE There is going to be a lot of noise coming out of the ESMO conference later this week.  Looking for  \n\u2022 Marketed Me"
+      }
+    ],
+    "UPS": [
+      {
+        "post_id": "st_666980871",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Only states the ticker's price; no opinion is expressed.",
+        "text": "$UPS 112.37"
+      },
+      {
+        "post_id": "st_666750136",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Mentions UPS without expressing a view.",
+        "text": "$UPS"
+      }
+    ],
+    "GLW": [
+      {
+        "post_id": "st_666766967",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Prefers holding GLW shares as a reassuring long-term investment.",
+        "text": "@JDC1616 all the speculation in options and margin getting fleeced. Holding real shares on companies like $VZ $T $GLW an"
+      },
+      {
+        "post_id": "st_666903174",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Reports a gap down without expressing a directional opinion.",
+        "text": "$AAPL $GLW $MRVL - Gapping down \n\nFOLLOW US FOR MORE LEVELS & ALERTS \ud83d\udea8"
+      }
+    ],
+    "IBM": [
+      {
+        "post_id": "st_667047043",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Bought puts and explicitly says they do not trust the stock.",
+        "text": "$IBM uhm it doesn\u2019t scare anyone but me that it\u2019s trading at the price target level \ud83d\ude02 $QQQ $SPY I bought a put I don\u2019t t"
+      },
+      {
+        "post_id": "st_667052237",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Ticker only; no expressed opinion.",
+        "text": "$IBM"
+      },
+      {
+        "post_id": "st_667082828",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Applause emojis alone do not clearly convey an opinion.",
+        "text": "$IBM \ud83d\udc4f\ud83d\udc4f\ud83d\udc4f\ud83d\udc4f"
+      },
+      {
+        "post_id": "st_666718771",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "IBM is only listed among tickers; bullish claims concern TDC.",
+        "text": "$TDC Another huge earning beats in Horizon here, expectation is very low. I see the stock going $34 plus a share.\n\n$SPY "
+      },
+      {
+        "post_id": "st_666796695",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Mentions IBM among tickers without stating an opinion.",
+        "text": "$DVLT $GOOG $IBM $NVDA $TSLA mentioned that before \ud83d\ude09\u26a0\ufe0f\ud83e\udef6\ud83c\udffd"
+      }
+    ],
+    "SPOT": [
+      {
+        "post_id": "st_667100202",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": true,
+        "reason": "Jokingly claims personal subscription spending supports Spotify.",
+        "text": "$SPOT I bought premium your welcome."
+      },
+      {
+        "post_id": "st_667098183",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": true,
+        "reason": "Uses apocalypse humor to explain demand, without a clear stock opinion.",
+        "text": "$SPOT of course its going up, after all people have to listen to music during the apocalypse"
+      },
+      {
+        "post_id": "st_667105707",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Discusses a key support level and trading risk without clear directional judgmen",
+        "text": "Last earnings season I watched a good print pop at the open and then give the whole move back because the first level ne"
+      },
+      {
+        "post_id": "st_667108947",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Points out that Spotify missed earnings per share despite buybacks.",
+        "text": "$SPOT even with the buybacks they still missed EPS"
+      }
+    ],
+    "RKT": [
+      {
+        "post_id": "st_666906827",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Ticker only; no sentiment expressed.",
+        "text": "$RKT"
+      },
+      {
+        "post_id": "st_666954273",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Post discusses HTZ options and unrelated news, not RKT.",
+        "text": "#OPTIONACTION \n$HTZ Weekly Oct23 2.5 calls are seeing interest with the underlying stock up 6% (volume: 10.6K, open int:"
+      },
+      {
+        "post_id": "st_666990893",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Expects RKT to outperform the index relatively.",
+        "text": "$SPY if you are like me and think we will see some deflation coming, ai stocks eventually slow, real economy stocks $RKT"
+      },
+      {
+        "post_id": "st_666948161",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Complains the stock repeatedly fails to hold gains.",
+        "text": "$RKT This f\u2019n stock hasnt held daily gains since IPO, its pathetic!"
+      }
+    ],
+    "CRM": [
+      {
+        "post_id": "st_666907716",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Mentions pressure but expects recovery; acquisition comment is factual.",
+        "text": "$CRM $UNH salesforce putting pressure on Dow.   crm should recover once the market opens though. $SPY \n\ncrm buying braze"
+      },
+      {
+        "post_id": "st_666971867",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Reports the acquisition and Braze\u2019s rise without expressing a view on CRM.",
+        "text": "Braze Soars 51% as Salesforce Agrees to $5.66 Billion Buyout to Deliver That \u201cWow Moment\u201d https://finance.yahoo.com/mark"
+      },
+      {
+        "post_id": "st_666912846",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Briefly notes a turnaround without making the direction or opinion clear.",
+        "text": "$CRM cool u-turn"
+      },
+      {
+        "post_id": "st_666908424",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Describes an AI focus without indicating whether it is favorable.",
+        "text": "$CRM  full AI mode"
+      },
+      {
+        "post_id": "st_666984285",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Ticker only; no sentiment expressed.",
+        "text": "$CRM"
+      },
+      {
+        "post_id": "st_666944063",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Argues the deal exposes crowded software short positions to upside.",
+        "text": "Salesforce paying a 58% cash premium for Braze flips the software trade: three years of shorting software as an AI loser"
+      },
+      {
+        "post_id": "st_666931504",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Provides acquisition details without stating an opinion on CRM.",
+        "text": "$CRM agreed on Tuesday Oct 20 to acquire Braze, a marketing software company, for $47.50 a share in cash, about $5.66B i"
+      }
+    ],
+    "HONA": [
+      {
+        "post_id": "st_666729279",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Says HONA is participating in a sector rally.",
+        "text": "$KRMN aerospace/defense sector ok today, $DFEN , $HONA but $FLY lagging"
+      },
+      {
+        "post_id": "st_666904265",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Calls sector news good and associates HONA with it.",
+        "text": "$KRMN Beat earnings/revenue estimates and increased FY2027 guidance (by a lot!) over at Raytheon $RTX this morning.  Goo"
+      }
+    ],
+    "CLF": [
+      {
+        "post_id": "st_666844642",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": true,
+        "reason": "Likely ironic comment about a precisely timed move; sentiment is unclear.",
+        "text": "$CLF nailed that, to the second!"
+      },
+      {
+        "post_id": "st_666837440",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Claims boomer stocks including CLF are outperforming Bitcoin.",
+        "text": "@speenleroo boomer stocks are destroying buttcoin $AMZN $CLF $MU"
+      }
+    ],
+    "META": [
+      {
+        "post_id": "st_667074408",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "META is only listed; the short-squeeze claim concerns SDEV.",
+        "text": "$BABA $TSLA $META  \n \nShort Squeeze in the works for SDEV  \n \nhttps://www.reddit.com/r/Shortsqueeze/s/rwSaTRWWZE"
+      },
+      {
+        "post_id": "st_667054015",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": true,
+        "reason": "Jokes that crowded bearish bets will drive META higher.",
+        "text": "$META everyone betting on this to drop. Watch it go to $750 \ud83d\ude02"
+      },
+      {
+        "post_id": "st_667089364",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Considers buying META for a swing and asks for an entry.",
+        "text": "$META thinking of tossing a few dollars into this Zuck trash for a swing, what\u2019s good entry? 675? 650? Legit curious don"
+      },
+      {
+        "post_id": "st_667161078",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": true,
+        "reason": "The ironic \u201cReal News\u201d provides no clear directional view on META.",
+        "text": "$META $TSLA $SPCX \nReal News \ud83d\ude06"
+      }
+    ],
+    "CVX": [
+      {
+        "post_id": "st_666852662",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Says Chevron is among the oil companies holding up best.",
+        "text": "$SPY You do understand that every single US oil company other than $XOM and $CVX is at historic (not 52 week) all time l"
+      },
+      {
+        "post_id": "st_666823813",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Only mentions CVX and TPL without expressing an opinion.",
+        "text": "$CVX TPL"
+      },
+      {
+        "post_id": "st_666801945",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Includes a bullish CVX call trade targeting a rise.",
+        "text": "$SPX TWI Watchlist 10/18/26 \ud83d\udd25 Who's ready to make money together this week? \ud83d\udcc8 $AAPL 10/23 350C over 348.15 \ud83c\udfaf 354.00 \ud83d\uded1 34"
+      }
+    ],
+    "BRZE": [
+      {
+        "post_id": "st_666907074",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Reports Salesforce's acquisition; the stated share-price fall concerns CRM.",
+        "text": "CRM Stock Falls: Salesforce Strikes $5.66B Braze Deal To Strengthen AI Marketing Push\n\n$CRM $BRZE\n\nhttps://stocktwits.co"
+      },
+      {
+        "post_id": "st_666944063",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Views the acquisition as evidence software is valuable and shorts are vulnerable",
+        "text": "Salesforce paying a 58% cash premium for Braze flips the software trade: three years of shorting software as an AI loser"
+      },
+      {
+        "post_id": "st_666962891",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "States deal terms and analyst concerns without expressing a clear view.",
+        "text": "$CRM $BRZE \n\nThe all-cash deal values Braze at $47.50 per share, a 58% premium over Monday's close. Some analysts questi"
+      },
+      {
+        "post_id": "st_666930352",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Frames the acquisition as a shareholder win and valuation boost despite downgrad",
+        "text": "BRZE Stock Gets Multiple Downgrades After $5.66B Salesforce Deal \u2014 Analysts See Shareholder Win, Potential Boost For Sof"
+      }
+    ],
+    "DECK": [
+      {
+        "post_id": "st_667177141",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Reports gains wiped out; \u201cWhew\u201d signals relief or frustration, not optimism.",
+        "text": "$DECK 3 weeks of gains wiped out.   Whew"
+      },
+      {
+        "post_id": "st_667183329",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocks the leader\u2019s supposed loyalty to LULU after DECK falls sharply.",
+        "text": "$LULU  decker down 10% after hours  im sure our fearless leader will be back to LULU tomorrow \ud83d\udd25\u2764\ufe0f\ud83d\udd25 $DECK"
+      }
+    ],
+    "TXN": [
+      {
+        "post_id": "st_666663645",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Praises a portfolio bounce, but does not express a view on TXN.",
+        "text": "\ud83c\uddfa\ud83c\uddf8\ud83d\udcb5 Trump\u2019s portfolio needs its own Discord \ud83d\ude02\n\nDisclosed $META buy Aug. 21: $5M\u2013$25M / $549.90 \u2192 $737.50 is a 34% move i"
+      },
+      {
+        "post_id": "st_667002366",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Lists TXN among implied earnings moves and cautions against short-dated options.",
+        "text": "$META $LRCX $TSLA $IBM $TXN \n\nthis afternoons implied earnings moves \n\nMaybe don\u2019t trade short dated options on them \ud83e\udd37\u200d\u2642"
+      },
+      {
+        "post_id": "st_667168806",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "TXN is listed among stocks receiving positive analyst comments.",
+        "text": "RECAP 10/22 +Pos Comments: \n$KSS + Gordon Haskett \n$KMI + Freedom Broker \n$TXN + Freedom Broker \n \nRECAP 10/22 -Neg Comm"
+      },
+      {
+        "post_id": "st_667186303",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "TXN is listed among stocks receiving positive analyst comments.",
+        "text": "RECAP 10/22 +Pos Comments: \n$KSS + Gordon Haskett \n$KMI + Freedom Broker \n$TXN + Freedom Broker \n \nRECAP 10/22 -Neg Comm"
+      },
+      {
+        "post_id": "st_667054044",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Lists alternative TXN price outcomes without favoring either.",
+        "text": "Earnings After Bell so Place ur Bets:\n\n$META 666.66\ud83e\udd2d or 750 (766.6?\ud83d\ude05)\n$TSLA $350-$360 or 420\ud83e\udd2d\n$IBM (226.66) 230 or 266.6"
+      },
+      {
+        "post_id": "st_667044402",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Lists TXN in an implied-moves post without expressing a view.",
+        "text": "$IBM $LRCX $META $TSLA $TXN \nImplied moves"
+      }
+    ],
+    "LOW": [
+      {
+        "post_id": "st_666926814",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Expects a construction boom that could benefit Lowe\u2019s.",
+        "text": "If true that an Iran deal is coming look for a big drop in  oil prices and a drop in interest rates as a result \n\nIn suc"
+      },
+      {
+        "post_id": "st_666742516",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Reports relative share and bond ETF moves without clear opinion.",
+        "text": "$TNX Was up only 0.9 bp for today at 5.098% last check, so $ITB was down just 0.38% while $LOW  was 0.83%.  $IEF +0.08%."
+      },
+      {
+        "post_id": "st_667109427",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Calls the rotation into value attractive, including LOW.",
+        "text": "$LOW wonderful rotation out of tech. Lots of value to be had here $SBUX $HTZ"
+      }
+    ],
+    "TM": [
+      {
+        "post_id": "st_666732392",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Supply constraints raise a bubble question; Toyota is not discussed.",
+        "text": "$IREN my wife works in logistics for the semiconductor industry. Does business with $SMCI $SPCX $TSM etc.  They are supp"
+      },
+      {
+        "post_id": "st_666663123",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Lists automakers without expressing an opinion about Toyota.",
+        "text": "Car companies tomorrow\u2026\n\n$GM $F $STLA $TM $TSLA"
+      },
+      {
+        "post_id": "st_667017309",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Toyota recall over a fire risk is negative news.",
+        "text": "$CMG gonna recover? \nhttps://www.investing.com/news/stock-market-news/toyota-to-recall-about-105800-us-vehicles-over-fir"
+      }
+    ],
+    "AMAT": [
+      {
+        "post_id": "st_666707476",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Blames AMAT's lack of guidance for dragging down the sector.",
+        "text": "$AMAT $ASML $KLAC $LRCX I still blame Amat for bringing the sector down at this investor breakfast presentation for not "
+      },
+      {
+        "post_id": "st_666884736",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Describes mixed semiconductor fundamentals without a clear AMAT direction.",
+        "text": "A neutral score can hide a sharp split. \n \nKorea exports and Taiwan revenue momentum are weak, while DRAM and GPU rental"
+      }
+    ],
+    "T": [
+      {
+        "post_id": "st_667007527",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "No opinion or supporting context is provided.",
+        "text": "$T"
+      },
+      {
+        "post_id": "st_667188128",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Speculates about Elon Musk and telecom ownership without a clear view on AT&T.",
+        "text": "Elon controls $TSLA the data they have is incredible on drivers. He will own telecommunications. $TMUS $T then he owns $"
+      },
+      {
+        "post_id": "st_666787878",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Reports restrictions on SpaceX's satellite service; no clear view on AT&T.",
+        "text": "$T $VZ $SPCX $XE  \nUkrainian President Volodymyr Zelensky said Ukraine's use of the Elon Musk-owned SpaceX satellite sys"
+      },
+      {
+        "post_id": "st_666766967",
+        "was": "Neutral",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "Says holding AT&T shares brings peace of mind.",
+        "text": "@JDC1616 all the speculation in options and margin getting fleeced. Holding real shares on companies like $VZ $T $GLW an"
+      },
+      {
+        "post_id": "st_667015975",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": true,
+        "reason": "Calls the bearish inference from AT&T's numbers a scam.",
+        "text": "$CMCSA So $T has disappointing numbers, therefore Charter and Comcast must go down also?  Scam. \n \n\"AT&T Executive Says "
+      },
+      {
+        "post_id": "st_667164331",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Discusses Nokia's transformation; does not express a view on AT&T.",
+        "text": "$NOK While many people remember Nokia for the historic downfall of its mobile phone division over a decade ago, the mode"
+      }
+    ],
+    "SNDK": [
+      {
+        "post_id": "st_667015638",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Shares a geopolitical news item without expressing a view on SNDK.",
+        "text": "$MU $SNDK \nKremlin: A new round of trilateral talks between Russia, the United States, and Ukraine may take place in Abu"
+      },
+      {
+        "post_id": "st_666991178",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Says someone missed a memo but gives no clear SNDK sentiment.",
+        "text": "$CIFR $NBIS $SKHY $SNDK I guess this foo missed the memo."
+      }
+    ],
+    "TGT": [
+      {
+        "post_id": "st_666835582",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Down arrow alongside TGT signals a negative outlook.",
+        "text": "\u2b07\ufe0f. $AMZN $TGT $WMT"
+      }
+    ],
+    "AAL": [
+      {
+        "post_id": "st_666656945",
+        "was": "Bearish",
+        "now": "Bullish",
+        "sarcastic": false,
+        "reason": "States a specific entry price, suggesting interest in buying.",
+        "text": "$AAL my entry point $8.50"
+      },
+      {
+        "post_id": "st_667101820",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Discusses other companies and market weakness; no clear AAL view.",
+        "text": "Record sales, and the stock is still down 8%. That's the mood this morning. \n \n$LRCX posted its best quarter ever but on"
+      }
+    ],
+    "NFLX": [
+      {
+        "post_id": "st_666990661",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocks Netflix\u2019s valuation and ads, favoring Disney\u2019s business advantages.",
+        "text": "$NFLX not cheap when compared to $DIS. Stop crying as this company is worth like $30 at fair value. Ads have turned Netf"
+      },
+      {
+        "post_id": "st_666991287",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Sarcastically derides the analysis and the discussion around Netflix.",
+        "text": "$NFLX \ud83d\ude02\ud83d\ude02\ud83d\ude02 thank you for that extremely analytical analysis based on statistical data and price movement. Pure comedy thi"
+      },
+      {
+        "post_id": "st_666953688",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": true,
+        "reason": "A joking reference to a hammer move; direction is unclear.",
+        "text": "$NFLX Hammer time after hours \ud83d\ude02"
+      },
+      {
+        "post_id": "st_666990973",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": true,
+        "reason": "Laughter alone gives no clear view on the ticker.",
+        "text": "$NFLX hahahaha \ud83e\udd23"
+      },
+      {
+        "post_id": "st_666978155",
+        "was": "Neutral",
+        "now": "Bearish",
+        "sarcastic": true,
+        "reason": "Mocks people holding Netflix and calls the stock trash.",
+        "text": "$NFLX No way people bagholding this trash \ud83d\ude02"
+      },
+      {
+        "post_id": "st_666991342",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Asks whether Netflix is legitimate without stating a clear opinion.",
+        "text": "$NFLX legit company?"
+      },
+      {
+        "post_id": "st_666944868",
+        "was": "Bullish",
+        "now": "Bearish",
+        "sarcastic": false,
+        "reason": "Recommends HIMS instead of Netflix.",
+        "text": "$NFLX better buy $HIMS netflix of health"
+      },
+      {
+        "post_id": "st_667050605",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Shares a news link mentioning Netflix without expressing a view.",
+        "text": "$SMCI https://www.benzinga.com/markets/equities/26/10/62485513/spacex-netflix-super-micro-computer-tesla-and-meta-why-th"
+      },
+      {
+        "post_id": "st_666978303",
+        "was": "Bearish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Fragment provides no explicit sentiment or context.",
+        "text": "$NFLX investors right now"
+      },
+      {
+        "post_id": "st_666896672",
+        "was": "Bullish",
+        "now": "Neutral",
+        "sarcastic": false,
+        "reason": "Lists companies reporting earnings without expressing an opinion.",
+        "text": "Big names reporting their earnings today \ud83d\udc47\ud83c\udffc\n\n$SPCX \n$NFLX \n$CB \n$ISRG"
+      }
+    ]
+  }
+}
